@@ -1,0 +1,8 @@
+Origin: raspbian-addons
+Label: apt repository
+Codename: zeus
+Architectures: armhf
+Components: main
+Description: Addon packages not found in the RPi repos
+SignWith: yes
+Pull: zeus

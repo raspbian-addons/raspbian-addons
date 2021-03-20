@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: raspbian-addons
+Label: apt repository
+Codename: zeus
+Date: Sat, 20 Mar 2021 21:25:14 UTC
+Architectures: armhf
+Components: main
+Description: Addon packages not found in the RPi repos
+MD5Sum:
+ 11a9e0747328ad29d751308ca3b9f230 1583 main/binary-armhf/Packages
+ 5ae18a066d50788d456a572abd32d8dd 864 main/binary-armhf/Packages.gz
+ 0afc04b611ab511c50c8d5c71bf709bd 137 main/binary-armhf/Release
+SHA1:
+ 037c8aa8ca00e354ea6a62151e1ef1db2cf3bc1a 1583 main/binary-armhf/Packages
+ 9e80704c4a430e8e5a98fffd702db571af88be42 864 main/binary-armhf/Packages.gz
+ 549920d7ff913612edc21896074314131b9b7424 137 main/binary-armhf/Release
+SHA256:
+ 0cd91bfcce9ad3528291e6c4d64514d6f6c43ed62d723d7f58e3a69e4fe1fe1c 1583 main/binary-armhf/Packages
+ 0b57cad660bba16357794f6fbcebac04a8c9e43038d00cc05973a6d62ed87863 864 main/binary-armhf/Packages.gz
+ 90be94b0d5bb827232e866e56e58f89957a49e7a8a46322ff57706f8c7e7f10a 137 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEIy5vKXer1I5an60DmstOcNhL/SQFAmBWaDoACgkQmstOcNhL
+/SQUQBAAnLOBHHn9T5zQlQLpbkCBtgWplqwkw1uRSkRMy6M22w8pScSY+zJ4spli
+i1bmmGrhYBLxLER1Uhglq+iDzdFwO37CguOSdpitD+korqjkIYwGsTKVpGGQ761J
+Q+TctfNIAPTyhhXszrgPd99RZvF+JOmpcdXjf8zVog2PPeHAF1nDk3gztaA8tPK/
+8EP9Txq+KDn/GtsXuNU7OMYBtUgJ+25P3c36p5fWOC3JSWIMx4+Kjc1LE3FV3M0Z
+ru3XMDjGbrxI0khUuqToV5RRvkERfZ1q8nRnlQPQZKo1xkZA0WTrx0Bmkw0dqOJe
+qXtnHCGP2XqkNqr4dn9H3+kbo2kYkZvaA1tyjR/hNonshSKsaL8j+kfjXHJyT6LM
+IWaAQ7/Ofj50Xx8wsea//mS29cMBYnt+qtbjxBPQQBGGE6ag5iQ9S55HhTy58mHK
+YVhdUWOm9RUk7zGyS0lsHHACPAgsBXnDA0qmZunj4QTzySGmzuZ1P/bztdKIWhF+
+PB1stvo0r1WPpD+zF5lFLbZ0FqYZCq56hrm8WvT63fcxPwgGy2thT/ewAJNsRaiL
+MTLbZfA1STcNoc/5jSVJbpaU1w77eqae7CIGdbVlcB/70eeN+mAxIJCA5ZlLT/y6
+JuHWW3UCwLiZn9XsfZvp3sTVNkK/o/eGtIMY5P5FUNhJyTsP488=
+=2M2d
+-----END PGP SIGNATURE-----
