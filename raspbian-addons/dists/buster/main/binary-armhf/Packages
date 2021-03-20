@@ -1,3 +1,144 @@
+Package: balena-etcher-electron
+Version: 1.5.116+37769efb
+License: Apache-2.0
+Vendor: Balena Inc. <hello@etcher.io>
+Architecture: armhf
+Maintainer: Balena Inc. <hello@etcher.io>
+Installed-Size: 160549
+Depends: gconf2, gconf-service, libasound2, libatk1.0-0, libc6, libcairo2, libcups2, libdbus-1-3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgconf-2-4, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, liblzma5, libnotify4, libnspr4, libnss3, libpango1.0-0 | libpango-1.0-0, libstdc++6, libx11-6, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrandr2, libxrender1, libxss1, libxtst6, polkit-1-auth-agent | policykit-1-gnome | polkit-kde-1
+Homepage: https://github.com/balena-io/etcher
+Priority: optional
+Section: utils
+Filename: pool/main/b/balena-etcher-electron/balena-etcher-electron_1.5.116+37769efb_armhf.deb
+Size: 74744104
+SHA256: 5eed63ad425e57a801c9d46c71b9b6e4d99e046048d2f64741ec00d586d713dc
+SHA1: dd800b782d82edbbd94344420701373821ea8a73
+MD5sum: 752671865ae0ac5c06613828d2206071
+Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
+  Flash OS images to SD cards and USB drives, safely and easily.
+
+Package: bleachbit
+Version: 4.2.0-0
+Architecture: all
+Maintainer: Andrew Ziem <andrew@bleachbit.org>
+Installed-Size: 2426
+Depends: gir1.2-gtk-3.0, gir1.2-notify-0.7, libgtk-3-0, python3, python3-chardet, python3-gi
+Recommends: python3-notify, python3-scandir
+Homepage: https://www.bleachbit.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bleachbit/bleachbit_4.2.0-0_all.deb
+Size: 416748
+SHA256: 88b44da2bd2414460a30b5a26e3594e66a1c4d6703ffe035be07a7373004e481
+SHA1: ca26ff8cb4e0e665c70ec7127029d4d6a016e872
+MD5sum: b839737fc3491e811463930a0bca060c
+Description: Removes unnecessary files
+ Delete traces of your activities and other junk files to free disk
+ space and maintain privacy.  BleachBit identifies and erases
+ broken menu entries, cache, cookies, localizations, recent document
+ lists, and temporary files in Firefox, Google Chrome, Flash, and 60
+ other applications. Shred files to prevent recovery, and wipe free
+ disk space to hide previously deleted files.
+
+Package: browsh
+Version: 1.6.4
+Architecture: armhf
+Maintainer: Thomas Buckley-Houston <tom@tombh.co.uk>
+Vendor: Browsh
+Installed-Size: 7614
+Depends: firefox | firefox-esr
+Homepage: https://www.brow.sh
+Priority: 
+Section: 
+Filename: pool/main/b/browsh/browsh_1.6.4_armhf.deb
+Size: 3441278
+SHA256: b12184639ce4ebcd04ac319d3e1ab3af9075a1074b35135999f1eafac59af945
+SHA1: 9885cfbfd35695aabc46b5ca7a709d750430ddff
+MD5sum: 8bf394e15dab5ff85fb74d2cf79d4d10
+Description: The modern, text-based browser
+
+Package: cbonsai
+Installed-Size: 96
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 20210310-1
+Depends: libncurses-dev
+Provides: cbonsai
+Priority: extra
+Section: checkinstall
+Filename: pool/main/c/cbonsai/cbonsai_20210310-1_armhf.deb
+Size: 20808
+SHA256: 24a6be1446d8ba465c3bb904ba400da8352ae6f9c2ebe0b747b57c60f9328fee
+SHA1: 3041df4c5712d88b117db74e98a524660b609e7c
+MD5sum: 85a389cc6defce6f73b0830f1ee01f04
+Description: Package created with checkinstall 1.6.3
+
+Package: cfetch
+Installed-Size: 120
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 20210127-1
+Provides: cfetch
+Priority: extra
+Section: checkinstall
+Filename: pool/main/c/cfetch/cfetch_20210127-1_armhf.deb
+Size: 23084
+SHA256: d97360c059f90e2d0782afc439487abba815bd2c877e781ca744d02ea916f25b
+SHA1: c66ffbafab0da223b3483d6f52fc136ad3bbff62
+MD5sum: 681b3a17ac97cf007310ec3ed78294bf
+Description: A simple system information tool for linux.
+
+Package: clamtk
+Version: 6.07-1
+Architecture: all
+Maintainer: Dave M <dave.nerd@gmail.com>
+Installed-Size: 946
+Depends: perl:any, clamav (>= 0.95), clamav-freshclam (>= 0.95), libgtk3-perl, libtext-csv-perl, libwww-perl, libjson-perl, liblocale-gettext-perl, liblwp-protocol-https-perl, gnome-icon-theme, cron
+Suggests: cabextract
+Homepage: https://gitlab.com/dave_m/clamtk/wikis/Home
+Priority: optional
+Section: utils
+Filename: pool/main/c/clamtk/clamtk_6.07-1_all.deb
+Size: 174774
+SHA256: b8d6619286c5990a062cc3f5f9773842ae9524e311017a0438c2334893a1a25f
+SHA1: 7135988620c32c66ec3087ef090672842332fc94
+MD5sum: 48e9a86adc9d17f1938736ae63bf9b82
+Description: graphical front-end for ClamAV
+ ClamTk is an easy to use graphical front-end for Clam Antivirus.
+
+Package: conky-manager
+Version: 2.4~136~ubuntu16.04.1
+Architecture: armhf
+Maintainer: Tony George <tony.george.kol@gmail.com>
+Installed-Size: 1063
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libjson-glib-1.0-0 (>= 0.13.2), realpath, conky, p7zip-full, rsync, imagemagick
+Homepage: http://teejeetech.blogspot.in/
+Priority: extra
+Section: utils
+Filename: pool/main/c/conky-manager/conky-manager_2.4~136~ubuntu16.04.1_armhf.deb
+Size: 772134
+SHA256: 40d7bfd5c87e887a8f9a50cd1bda5cc21c7e561e309d2c644164cb58ea40e2d3
+SHA1: f0a55c29ba01496c09d1dea56a99da9b41c48a8d
+MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
+Description: Utility for managing Conky configuration files
+ Utility for managing Conky configuration files
+
+Package: duf
+Version: 0.6.0
+Architecture: armhf
+Maintainer: Christian Muehlhaeuser <muesli@gmail.com>
+Vendor: muesli
+Installed-Size: 2176
+Homepage: https://fribbledom.com/
+Priority: 
+Section: 
+Filename: pool/main/d/duf/duf_0.6.0_armhf.deb
+Size: 970606
+SHA256: 54d155e2c6bd141f9da91bfa280d754c460b4347a3f9ca45b4dbb3bb9074f419
+SHA1: c08bdf906ba6818b6ce8eeffc5976380825077de
+MD5sum: ef64765fae8a118a37b3d70491097bd4
+Description: Disk Usage/Free Utility
+
 Package: electron-discord-webapp
 Version: 1.2.1
 Architecture: armhf
@@ -16,4 +157,325 @@ SHA1: fb098da6df8715e5dc202b1ae0cd97530912386d
 MD5sum: 2af11c5ae896353e3572243df114fd83
 Description: A Discord Web App made with the Electron API.
  A Discord Web App made with the Electron API.
+
+Package: fonts-inter
+Version: 3.15+ds-2
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 5009
+Multi-Arch: foreign
+Homepage: https://rsms.me/inter/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-inter/fonts-inter_3.15+ds-2_all.deb
+Size: 1529848
+SHA256: ab5f80dcfb74d922254c154fe82a1b90e10de72f33bcb0ba403ca9673b178cf1
+SHA1: 4189f2b178adb18d2bb8adc75b28e178d70990c1
+MD5sum: ae52e66513dfe2f339ec9e38ed9ff31b
+Description: Inter font family
+ This is a typeface specially designed for user interfaces with focus
+ on high legibility of small-to-medium sized text on computer screens.
+ .
+ The family features a tall x-height to aid in readability of
+ mixed-case and lower-case text. Several OpenType features are
+ provided as well, like contextual alternates that adjusts punctuation
+ depending on the shape of surrounding glyphs, slashed zero for when
+ you need to disambiguate "0" from "o", tabular numbers, etc.
+
+Package: freetube
+Version: 0.11.3
+License: AGPL-3.0-or-later
+Vendor: PrestonN <FreeTubeApp@protonmail.com>
+Architecture: armhf
+Maintainer: PrestonN <FreeTubeApp@protonmail.com>
+Installed-Size: 246782
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Priority: extra
+Section: default
+Filename: pool/main/f/freetube/freetube_0.11.3_armhf.deb
+Size: 67215588
+SHA256: 99ac3b4725ba04b15624aebd3cb5ff8523b7e6c061c2c41c1ffe91934dbee9d8
+SHA1: e88c373c56622f42144e6b1ea9b0599270354e82
+MD5sum: fd0f9567c9a061424772c6d755db101b
+Description: 
+  A private YouTube client
+
+Package: ipscan
+Version: 3.7.6
+Architecture: all
+Installed-Size: 1940
+Depends: libswt-gtk-4-java, libswt-cairo-gtk-4-jni, java8-runtime
+Maintainer: Anton Keks <anton@azib.net>
+Priority: optional
+Section: net
+Filename: pool/main/i/ipscan/ipscan_3.7.6_all.deb
+Size: 793468
+SHA256: 2236ee082c1c00e9423365db339a811a36869fcc4d3438e8c89982ccfe4917f4
+SHA1: 875f651fbfaf4e047492bd2ae5767cafc04841b0
+MD5sum: 115e08729b91835473c9612373e890c6
+Description: Angry IP Scanner - fast and friendly IP Scanner
+ Angry IP Scanner is a cross-platform network scanner written in Java.
+ It can scan IP-based networks in any range, scan ports, and resolve
+ other information.
+ The program provides an easy to use GUI interface and is very extensible,
+ see https://angryip.org/ for more information.
+
+Package: keepassx
+Installed-Size: 2640
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 2.0.3-1
+Depends: build-essential,cmake,qtbase5-dev,libqt5x11extras5-dev,qttools5-dev,qttools5-dev-tools,libgcrypt20-dev,zlib1g-dev,libxi-dev,libxtst-dev
+Provides: keepassx
+Priority: extra
+Section: checkinstall
+Filename: pool/main/k/keepassx/keepassx_2.0.3-1_armhf.deb
+Size: 526992
+SHA256: d82188e4958ae3033f59c3954c39ea168de2da874167662579da9ee1ae7ed4cf
+SHA1: 9962be0ac73e0fd20eb0dc8243e2ba5eba6f3cb6
+MD5sum: 5899f8f933c05727a3275bccd3161e27
+Description: Package created with checkinstall 1.6.3
+
+Package: libfdk-aac-dev
+Source: fdk-aac
+Version: 2.0.1-1
+Architecture: armhf
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1575
+Depends: libfdk-aac2 (= 2.0.1-1), pkg-config
+Multi-Arch: same
+Homepage: https://github.com/mstorsjo/fdk-aac
+Priority: optional
+Section: non-free/libdevel
+Filename: pool/main/f/fdk-aac/libfdk-aac-dev_2.0.1-1_armhf.deb
+Size: 643436
+SHA256: 674fe5eec2ef83c6f49487448229420a97a85de275a5459872de723f768ff542
+SHA1: 71d05d36bd50f2f8348c27668334db01d702cd7d
+MD5sum: 33ad197acc863ea2a0b4484b0fde6f85
+Description: Fraunhofer FDK AAC Codec Library - development files
+ The FDK AAC Codec Library For Android contains an encoder implementation
+ of the Advanced Audio Coding (AAC) audio codec.
+ .
+ This package contains the files needed to compile and statically link
+ against the Fraunhofer FDK AAC Codec Library.
+
+Package: libfdk-aac2
+Source: fdk-aac
+Version: 2.0.1-1
+Architecture: armhf
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 832
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Homepage: https://github.com/mstorsjo/fdk-aac
+Priority: optional
+Section: non-free/libs
+Filename: pool/main/f/fdk-aac/libfdk-aac2_2.0.1-1_armhf.deb
+Size: 524160
+SHA256: 4e412ba9a264afb4c41f4d329b64a4b8f772f4b71dfef971404bed8dfeb6a1c3
+SHA1: 7d4365d58c417568f3ab0cfa5b5b50e201b608b9
+MD5sum: 83c149ffb134cdd469fad655a7309839
+Description: Fraunhofer FDK AAC Codec Library - runtime files
+ The FDK AAC Codec Library For Android contains an encoder implementation
+ of the Advanced Audio Coding (AAC) audio codec.
+ .
+ This package contains the files needed to run a program compiled using
+ The Fraunhofer FDK AAC Codec Library.
+
+Package: lightpad
+Source: com.github.libredeb.lightpad
+Version: 0.0.8~rev1
+Architecture: armhf
+Maintainer: Juan Pablo Lozano <libredeb@gmail.com>
+Installed-Size: 209
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.18.0), libglib2.0-0 (>= 2.50.0), libgnome-menu-3-0 (>= 3.13.0), libgtk-3-0 (>= 3.22.0), gnome-menus (>= 3.13.0), libwnck-3-0 (>= 3.20.0), xterm
+Priority: optional
+Section: x11
+Filename: pool/main/c/com.github.libredeb.lightpad/lightpad_0.0.8~rev1_armhf.deb
+Size: 28232
+SHA256: 0b8e93341ca49a64a9c775d0cc136fe8cac5d1b60423a3d33463c0cebb093617
+SHA1: b67beed8b554e1ad983478489a24b43f78ff012d
+MD5sum: f9caf5162d5f425bc9e9d06fc01ac6b4
+Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
+
+Package: qemu2deb
+Version: 0.6.0
+Architecture: all
+Essential: no
+Installed-Size: 71658
+Maintainer: Itai Nelken <https://github.com/Itai-Nelken/>
+Priority: optional
+Section: custom
+Filename: pool/main/q/qemu2deb/qemu2deb_0.6.0_all.deb
+Size: 20480
+SHA256: 3aba25abefc26905904d655903c27540ee69fa2380034460bdc1002da0c9fcb4
+SHA1: c745caf6ca424d6ffabfafd24a038e7cd6282693
+MD5sum: 3b15a992a2f8f6fd71ba9bb7cad52941
+Description: compiling/packaging/installing qemu made easier than ever.
+
+Package: realpath
+Source: coreutils
+Version: 8.25-2ubuntu3~16.04
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 25
+Depends: coreutils (>= 8.23-1~)
+Priority: extra
+Section: oldlibs
+Filename: pool/main/c/coreutils/realpath_8.25-2ubuntu3~16.04_all.deb
+Size: 1096
+SHA256: f819b729f097347d398b4dd4b737f2a640e907816662dbce78e8bac04d39bc47
+SHA1: f334240a61d9fb2052607f4ef15093ab952fa5b4
+MD5sum: 72a1d860446630bea18bcfb09f52c82b
+Description: coreutils realpath transitional package
+ Empty package to facilitate upgrades, can be safely removed.
+Original-Maintainer: Michael Stone <mstone@debian.org>
+
+Package: remarkable
+Version: 1.87
+Architecture: all
+Maintainer: Jamie McGowan <jamiemcgowan.dev@gmail.com>
+Installed-Size: 388
+Depends: python3 | python, dconf-gsettings-backend | gsettings-backend, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-gtksource-3.0, python3-markdown, python3-bs4, gir1.2-webkit-3.0, yelp, wkhtmltopdf, python3-gi
+Priority: extra
+Section: python
+Filename: pool/main/r/remarkable/remarkable_1.87_all.deb
+Size: 76486
+SHA256: d34c7925498053362b56c25ae92268bf9fa9810f283b097f987d2ef05f8efb2d
+SHA1: 95f45865faecc86cc0f7d84d78b0c87c834bf405
+MD5sum: b14b7bf5b4d4cbf2acb9559220bba982
+Description: A free fully featured markdown editor.
+ Remarkable is a free fully featured markdown editor. It has a syntax
+ like Github flavoured markdown. With it you can write markdown and view
+ the changes as you make them in the live preview window. You can export
+ your files to a variety of formats. There are multiple styles available
+ along with extensive configuration options so you can set it up exactly
+ how you like.
+
+Package: rpiplay
+Installed-Size: 1424
+Maintainer: root@twister-desktop
+Architecture: armhf
+Version: 20210320-1
+Depends: libavahi-compat-libdnssd-dev,libplist-dev,libssl-dev
+Provides: rpiplay
+Priority: extra
+Section: checkinstall
+Filename: pool/main/r/rpiplay/rpiplay_20210320-1_armhf.deb
+Size: 635120
+SHA256: 581a0a3cedc3aaa6a2ad4c28fd4358b71e1c4f3bcee26888532cee2bd595cc2f
+SHA1: 386bc4a82cad80c51de03bbe568bafc0e437da1b
+MD5sum: 76a21395ca6c0b39b0cc9d9cb4b71593
+Description: Package created with checkinstall 1.6.3
+
+Package: simplenote
+Version: 2.7.1-22379
+License: GPL-2.0
+Vendor: Automattic, Inc.
+Architecture: armhf
+Maintainer: Automattic, Inc. <support@simplenote.com>
+Installed-Size: 269181
+Depends: gconf2
+Homepage: https://simplenote.com
+Priority: extra
+Section: default
+Filename: pool/main/s/simplenote/simplenote_2.7.1-22379_armhf.deb
+Size: 92346360
+SHA256: 3659901cf532fba92fed2b5cb9dd69a9df2965962a5a291d35e103e648b8fe7b
+SHA1: 165c855a38074521ab5b3b7639988937986a8766
+MD5sum: 37008da9eb395a02974ea5ab0d666ab4
+Description: The simplest way to keep notes
+  Simplenote is an easy way to keep notes, lists, ideas and more. Your notes stay in sync with all your devices for free.
+
+Package: sonic-pi
+Version: 4:3.2.2
+Architecture: armhf
+3Essential: no
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgles2, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5.2), alsa-utils, libaubio5 (>= 0.4.6), ruby, jackd2, supercollider-server, sc3-plugins-server, erlang-base
+Recommends: compton
+Installed-Size: 202652
+Maintainer: Robin Newman <rbnpiman@gmail.com>
+Priority: optional
+Section: unknown
+Filename: pool/main/s/sonic-pi/sonic-pi_3.2.2_armhf.deb
+Size: 66495964
+SHA256: 76086decc9378790397982ed39bfac65d1ff60d6c9f63b1cbcec398ddff6e425
+SHA1: 9f546adf547f0ca7cf7508457002552b4365bc35
+MD5sum: 8df8e49f2ed43bf52a30f69e115d094d
+Description: Sonic Pi - The Live Coding Music Synth for Everyone.
+Homepage: http://sonic-pi.net
+
+Package: stacer
+Version: 1.1.0-3
+Architecture: armhf
+Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
+Installed-Size: 1581
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 4.3.0), fonts-inter
+Homepage: https://github.com/oguzhaninan/Stacer/
+Priority: optional
+Section: utils
+Filename: pool/main/s/stacer/stacer_1.1.0-3_armhf.deb
+Size: 676472
+SHA256: 8d71a49483953a4da61fe4cf22ada8863a8821bfbb1004fb397e4e7965c28ddd
+SHA1: 33446ee7218eaecb7837d3ffe39470ad8b387a9d
+MD5sum: 92ef7dd1a4d4988e5aefbe5118d92fe3
+Description: Linux system optimizer and monitoring
+ Monitor your system (CPU, memory, disk) in a graphical application (qt).
+ Change and monitor your services. Summarizes basic system information and
+ can show network download/upload speeds/totals.
+
+Package: thunar-sendto-clamtk
+Version: 0.06-1
+Architecture: all
+Maintainer: Dave Mauroni <dave.nerd@gmail.com>
+Installed-Size: 17
+Depends: thunar, clamtk
+Homepage: https://dave-theunsub.github.io/clamtk/
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar-sendto-clamtk/thunar-sendto-clamtk_0.06-1_all.deb
+Size: 5530
+SHA256: e65b97e326ea545f15122a70ee7e6747c26b5a70ce79bec1dbe6994a0b51e8ff
+SHA1: 7db3c6c11ab9e47fda79d43308b90d00645ba1e9
+MD5sum: dd97ad2b8e0898c9f5895f8c2afba8c6
+Description: Simple virus scanning plugin for Thunar file manager
+ A simple plugin to allow right-click virus scanning within Thunar
+
+Package: timeshift
+Version: 20.11.1
+Architecture: armhf
+Maintainer: Tony George <teejeetech@gmail.com>
+Installed-Size: 2733
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.13.2), libvte-2.91-0, rsync, btrfs-progs | btrfs-tools
+Replaces: timeshift-btrfs
+Homepage: https://teejeetech.in/
+Priority: extra
+Section: utils
+Filename: pool/main/t/timeshift/timeshift_20.11.1_armhf.deb
+Size: 592638
+SHA256: 6ac692eceb94949a77554c84effe961cb0b266dbe40eaf51c2bb68089e164f2f
+SHA1: 8d5987cd73894d96f2dba4258c1734f79dce83d6
+MD5sum: f0a77c290f80ab4b4e0cbceff5d3db78
+Description: System restore utility
+ Timeshift is a system restore utility which takes snapshots
+ of the system at regular intervals. These snapshots can be restored
+ at a later date to undo system changes. Creates incremental snapshots
+ using rsync or BTRFS snapshots using BTRFS tools.
+
+Package: veracrypt
+Architecture: armhf
+Conflicts: veracrypt-console
+Depends: libwxgtk3.0-gtk3-0v5, libfuse2, dmsetup, sudo
+Priority: optional
+Section: libs
+Filename: pool/main/v/veracrypt/veracrypt_1.24.23-1_armhf.deb
+Size: 3205710
+SHA256: 44ffbdd42de9953b58e30bcb1ce63db963fb05151423894ea072c3332f67768e
+SHA1: f70d251e88cb2615a6fa6d57c577b6712a22c78f
+MD5sum: da4e3b6e583ad5bd2602aacd65713225
+Description: Disk encryption with strong security based on TrueCrypt.
+Maintainer: VeraCrypt Team <veracrypt@idrix.fr>
+Version: 1.24.23-1
+Installed-Size: 6171
 
