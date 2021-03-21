@@ -1,5 +1,5 @@
-# Raspbian Addons
-This repository hosts extra software for Raspberry Pi. It supports armhf (32-bit) architectures.
+# [Raspbian Addons](http://chunky-milk.github.io/raspbian-addons/)
+This repository hosts extra software for Raspberry Pi. It supports armhf (32-bit) architectures. Planning 64-bit support in the near future.
 
 For example, this Debian repository includes:
 - SpacingBat3's [Electron Discord Webapp](https://github.com/SpacingBat3/electron-discord-webapp) 
@@ -17,6 +17,22 @@ For example, this Debian repository includes:
 
 And more!
 
+### To install:
+```
+sudo wget https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list
+
+wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add -
+
+sudo apt update
+```
+### To remove:
+#### WARNING: first uninstall all the apps from the repo before removing it, otherwise you might break `apt`!
+```
+sudo rm /etc/apt/sources.list.d/rpirepo.list
+sudo apt-key remove "232E 6F29 77AB D48E 5A9F  AD03 9ACB 4E70 D84B FD24"
+sudo apt update
+```
+
 ### Having issues?
 If you're having issues with this repository, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
 
@@ -25,18 +41,3 @@ The Raspberry Pi is a great and capable little computer. But what frustrates me 
 
 ### Would you like to help?
 If you'd like to help me with this, **please** do! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you. Just make sure the software is installable on at least 32-bit, and works on the Raspberry Pi 4.
-
-### To install.
-```
-sudo wget https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list
-
-wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add -
-
-sudo apt update
-```
-### To remove.
-#### WARNING: first uninstall all the apps from the repo before removing it, otherwise you might break `apt`!
-```
-sudo rm /etc/apt/sources.list.d/rpirepo.list
-sudo apt-key remove "232E 6F29 77AB D48E 5A9F  AD03 9ACB 4E70 D84B FD24"
-sudo apt update

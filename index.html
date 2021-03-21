@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+ <head>
+  <title>Raspbian Addons</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  /*code*/
+  .code {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #f4f6f9;
+    font-size: 13px;
+    opacity: .9;
+    width: auto;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    line-height: 1.5em;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  /*body*/
+  .body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1;
+    line-height: 1.6;
+    background-color: rgba(5, 91, 219, 0.5);
+  }
+  .yellow {
+    color: #f5c842;
+   }
+  p.yellothick:hover {
+  font-weight: 900;
+  color: #f5c842;
+  }
+  </style>
+ </head>
+ <body class="body">
+  
+  <h4>To add this repository to your system, run:</h4>
+  
+  <kbd><dd><span class="code">sudo wget https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list</span></dd></kbd>
+  <kbd><dd><span class="code">wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add -</span></dd></kbd>
+  <p><h4>Now you can install applications by running <span class="code">sudo apt install <package></span>.
+ 
+ </body>
+</html>
