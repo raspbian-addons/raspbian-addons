@@ -4,35 +4,44 @@ Hash: SHA256
 Origin: raspbian-addons
 Label: apt repository
 Codename: buster
-Date: Sun, 21 Mar 2021 19:09:30 UTC
-Architectures: armhf
+Date: Sun, 21 Mar 2021 20:12:17 UTC
+Architectures: armhf arm64
 Components: main
 Description: Addon packages not found in the RPi repos
 MD5Sum:
- e6d3e0fdb4125c99266c134bbe3bbf3e 20807 main/binary-armhf/Packages
- 517774311debf34fc067203196da26e7 8445 main/binary-armhf/Packages.gz
+ 829c3f797e14cf29cb17a5f207b8043b 20354 main/binary-armhf/Packages
+ f423e1c3dc22f6bffc0da324dcc03527 8287 main/binary-armhf/Packages.gz
  0afc04b611ab511c50c8d5c71bf709bd 137 main/binary-armhf/Release
+ 674e8e6b51bdceb8dbada1c67f2530d7 1829 main/binary-arm64/Packages
+ 7968f2b728ead7bd3c0cbf55ecd369be 996 main/binary-arm64/Packages.gz
+ 77cbc0641f7d1ddf10f0e0361b185d06 137 main/binary-arm64/Release
 SHA1:
- 3b2c7ab89cb27a0d8c30f49122de5e50e8d00d56 20807 main/binary-armhf/Packages
- f7e427ce2637448ad523ea15bcd7dedb1a575860 8445 main/binary-armhf/Packages.gz
+ 64622230d452360d368d61b697d40b71d095fc17 20354 main/binary-armhf/Packages
+ 0859f134a01b107bacd1b92b9b42a0ce8757a7f9 8287 main/binary-armhf/Packages.gz
  549920d7ff913612edc21896074314131b9b7424 137 main/binary-armhf/Release
+ 9a372da46b9817af92f6e55f0894e17604c42be7 1829 main/binary-arm64/Packages
+ 63b5138207bba46c36e4b56f471237b083024fe1 996 main/binary-arm64/Packages.gz
+ 063b283db3653f575cee84bdeb623a1a327e2639 137 main/binary-arm64/Release
 SHA256:
- 5da53e0afdae04e699a4e75cd2184000a2c05fab217c77bfb4466895ee4de065 20807 main/binary-armhf/Packages
- a747d156cf4d1fba4128c959e3e034be41b390e15fc33dd056453efd1ba21d16 8445 main/binary-armhf/Packages.gz
+ 6a02e0380a8bb7c29a52fc7138009a2b2b5dc31714d9e9a6bdb05c758c0a7fab 20354 main/binary-armhf/Packages
+ 771fa72d11aae81f63d7f07b609388be9ed2e7abae351337d3cf6b2d10eef94c 8287 main/binary-armhf/Packages.gz
  90be94b0d5bb827232e866e56e58f89957a49e7a8a46322ff57706f8c7e7f10a 137 main/binary-armhf/Release
+ fe151d06cbe872a407322cd6d97ae3ffa8d7d75c7d4893ed1d04539ea7e648c5 1829 main/binary-arm64/Packages
+ 05f0146281c87bb0f1ab6cdee3c539854d224daa57a2c2ddec1d67710a4372b4 996 main/binary-arm64/Packages.gz
+ 8f7374ad1d86b245ec5c863d01f2a13d75f1b5c6e8d68322b750c0051058485c 137 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEIy5vKXer1I5an60DmstOcNhL/SQFAmBXmeoACgkQmstOcNhL
-/SSb8hAAnAcqACOpGxl4nliUPLUpo7s6JAHPHp+UAXlmf3KAfbHWu5u18VhtyNEZ
-3C7axOlXGn3bdOxTKYy0VTkZ3nvMWwvTNLv8wCcOK71Bre2LJlblsDSLvUWdwzWV
-UDXxBVfGU/1mU1RTC9k9hmM4FPYL/hvIVLESFkMI3tbWJ+w6yr1nuqd0fsWmaWD6
-e8plDT1Tj1fhBqmxQfDzJoFzH40hcJabV8DC7yM7fzZd9tJZf92TmpDMRtlMKPuf
-dHhiZBRk3vbXJjhQKbbyTBK+m5A/AtBq+RV83vUx3AH85jePNvhyvWO5YA7239FV
-XHJli87V/mCCxWHcr3rapTl2NIO/6fuQMbzyfujGWkvcEhcdWandWVwXdgsgrZFD
-RvW2jSUU4YxBsrqqlMteQX1ILhptn//8UasRTETRp+a5grFUSwfw21nKh5vhdqay
-GO+GvVTqDotwfaVewij5ZyggLBFrgounUztWpU2wl01yYYNqhdsoPYIhT5shDcx7
-H0aYHLkwtd1LPw5mUVsTRMQeo2g5+s+C/MuA2vJdFgA2RYaf9W2K6GVAIR1RLmyJ
-OSNbmYsMp/GKaGfjYSEmfaqcG93E/Zd04fUu5hr3ch4abp+JBlg7Pt2tGTulbND0
-h99X7hwRMEUkVj0We7uMjg3DvAhAtx/VdvgdzdL9gJgfY+tB2tA=
-=um2t
+iQIzBAEBCAAdFiEEIy5vKXer1I5an60DmstOcNhL/SQFAmBXqKEACgkQmstOcNhL
+/SSVEQ//dWtRq3FbHd0K89EGRnpxRLkotKSgdaqR6wA+BLSMHtDZXaj5FenNDyyj
+5yBypgycjBa2xJSIGBoo9dQLOlgd5ZIvTSdaptDcgBDN0SPsNHUkQoVN2J85fCW0
+u0QiunfOxyABDugSYWzvkDlWsVbzWPrubZDc1rfiY28rNm4yZKBSsb/eslC3mtIF
+twYfOKJzEB/FXWfbDkLFD9r/9rX4VpvJDD5ZTQiCYmQ8HTrE9pFk661IFT68VD/a
+6BrvCab66kFf3ON7WadmkwuqCVyYZIOg4+ItJH3uXe1sf/BlZsoB6MutglLwVdwD
+SkgM/fNSm/s9d5cCPYKQ/zEYPX4iCCCAoy7gPG0yJxVI0ImoF6weGg+3vTrdTQK7
+02NoNzSHT4Egoa3tFI3MPABIt9MK1f4nDRx3B+PvxpxQVYovzW63+bVTpa7WnDtw
+2UjM9e9yfGvoLVAQ8mFzAZPC6y97Wd7f1WSoiSUIaI0i6+KKjvIeJ0ktf/wbkpbn
+UGRswYMXtgGWF/uz5xbTrV6G7YBtAsWANIN8pOqkflo3NYR7LpChngsMthdLoZhe
+wAafCFLtQDvxIitI1BYE2cVxGh5ZoR9n5vtsZBxYG+wlNmySlhtM/6+1GfrRtBCu
+axG9ye0O2L6imrPEykEdYZw1k1bFAmD/4wO/7NI3UCr71FitUEU=
+=JXg/
 -----END PGP SIGNATURE-----

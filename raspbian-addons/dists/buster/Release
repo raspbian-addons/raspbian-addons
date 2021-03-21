@@ -1,19 +1,28 @@
 Origin: raspbian-addons
 Label: apt repository
 Codename: buster
-Date: Sun, 21 Mar 2021 19:09:30 UTC
-Architectures: armhf
+Date: Sun, 21 Mar 2021 20:12:17 UTC
+Architectures: armhf arm64
 Components: main
 Description: Addon packages not found in the RPi repos
 MD5Sum:
- e6d3e0fdb4125c99266c134bbe3bbf3e 20807 main/binary-armhf/Packages
- 517774311debf34fc067203196da26e7 8445 main/binary-armhf/Packages.gz
+ 829c3f797e14cf29cb17a5f207b8043b 20354 main/binary-armhf/Packages
+ f423e1c3dc22f6bffc0da324dcc03527 8287 main/binary-armhf/Packages.gz
  0afc04b611ab511c50c8d5c71bf709bd 137 main/binary-armhf/Release
+ 674e8e6b51bdceb8dbada1c67f2530d7 1829 main/binary-arm64/Packages
+ 7968f2b728ead7bd3c0cbf55ecd369be 996 main/binary-arm64/Packages.gz
+ 77cbc0641f7d1ddf10f0e0361b185d06 137 main/binary-arm64/Release
 SHA1:
- 3b2c7ab89cb27a0d8c30f49122de5e50e8d00d56 20807 main/binary-armhf/Packages
- f7e427ce2637448ad523ea15bcd7dedb1a575860 8445 main/binary-armhf/Packages.gz
+ 64622230d452360d368d61b697d40b71d095fc17 20354 main/binary-armhf/Packages
+ 0859f134a01b107bacd1b92b9b42a0ce8757a7f9 8287 main/binary-armhf/Packages.gz
  549920d7ff913612edc21896074314131b9b7424 137 main/binary-armhf/Release
+ 9a372da46b9817af92f6e55f0894e17604c42be7 1829 main/binary-arm64/Packages
+ 63b5138207bba46c36e4b56f471237b083024fe1 996 main/binary-arm64/Packages.gz
+ 063b283db3653f575cee84bdeb623a1a327e2639 137 main/binary-arm64/Release
 SHA256:
- 5da53e0afdae04e699a4e75cd2184000a2c05fab217c77bfb4466895ee4de065 20807 main/binary-armhf/Packages
- a747d156cf4d1fba4128c959e3e034be41b390e15fc33dd056453efd1ba21d16 8445 main/binary-armhf/Packages.gz
+ 6a02e0380a8bb7c29a52fc7138009a2b2b5dc31714d9e9a6bdb05c758c0a7fab 20354 main/binary-armhf/Packages
+ 771fa72d11aae81f63d7f07b609388be9ed2e7abae351337d3cf6b2d10eef94c 8287 main/binary-armhf/Packages.gz
  90be94b0d5bb827232e866e56e58f89957a49e7a8a46322ff57706f8c7e7f10a 137 main/binary-armhf/Release
+ fe151d06cbe872a407322cd6d97ae3ffa8d7d75c7d4893ed1d04539ea7e648c5 1829 main/binary-arm64/Packages
+ 05f0146281c87bb0f1ab6cdee3c539854d224daa57a2c2ddec1d67710a4372b4 996 main/binary-arm64/Packages.gz
+ 8f7374ad1d86b245ec5c863d01f2a13d75f1b5c6e8d68322b750c0051058485c 137 main/binary-arm64/Release

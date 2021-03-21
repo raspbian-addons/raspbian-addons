@@ -1,8 +1,7 @@
 # [Raspbian Addons](http://chunky-milk.github.io/raspbian-addons/)
-This repository hosts extra software for Raspberry Pi. It supports armhf (32-bit) architectures. Planning 64-bit support in the near future.
+This repository hosts extra software for Raspberry Pi. It supports armhf (32-bit) and arm64 (64-bit) architectures. However, there is currently *more 32-bit software* than 64-bit software.
 
-For example, this Debian repository includes:
-- SpacingBat3's [Electron Discord Webapp](https://github.com/SpacingBat3/electron-discord-webapp) 
+Here are some examples of what this repository includes:
 - BalenaEtcher [compiled by Itai Nelken](http://github.com/Itai-Nelken/Etcher-arm-32-64)
 - Conky Manager (to manage your Conky themes)
 - Stacer
@@ -41,3 +40,14 @@ The Raspberry Pi is a great and capable little computer. But what frustrates me 
 
 ### Would you like to help?
 If you'd like to help me with this, **please** do! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you. Just make sure the software is installable on at least 32-bit, and works on the Raspberry Pi 4.
+
+Current Maintainers: @chunky-milk @Itai-Nelken
+
+### Changelog
+Please note that not *all* changes will be documented here. Only major changes will be documented.
+
+**03/21/21**
+- Added Changelog
+- Added arm64 support
+- Remove electron-discord-webapp, as it is now available [here](https://itai-nelken.github.io/electron-discord-webapp_debian-repo/index.html)
+- Added cursor themes package (installable with `sudo apt-get update && sudo apt-get install fancy-cursor-themes`)

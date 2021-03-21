@@ -10,10 +10,10 @@ Homepage: https://github.com/balena-io/etcher
 Priority: optional
 Section: utils
 Filename: pool/main/b/balena-etcher-electron/balena-etcher-electron_1.5.116+37769efb_armhf.deb
-Size: 74744104
-SHA256: 5eed63ad425e57a801c9d46c71b9b6e4d99e046048d2f64741ec00d586d713dc
-SHA1: dd800b782d82edbbd94344420701373821ea8a73
-MD5sum: 752671865ae0ac5c06613828d2206071
+Size: 74744006
+SHA256: 46874ce3e040061e7351fd342ccc32e14070dc0c3c6b92309c43258cb4b07b45
+SHA1: 3af466e893b5cb4909ed057fd6beb7c861d401e9
+MD5sum: 1256a53e14493dbb78d7672ca4628c3d
 Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
   Flash OS images to SD cards and USB drives, safely and easily.
 
@@ -139,24 +139,19 @@ SHA1: c08bdf906ba6818b6ce8eeffc5976380825077de
 MD5sum: ef64765fae8a118a37b3d70491097bd4
 Description: Disk Usage/Free Utility
 
-Package: electron-discord-webapp
-Version: 1.2.1
-Architecture: armhf
-Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
-Recommends: pulseaudio | libasound2
-Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 132106
-Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
-Homepage: https://github.com/SpacingBat3/electron-discord-webapp#readme
+Package: fancy-cursor-themes
+Version: 1.2
+Architecture: all
+Maintainer: chunkymilk0309
+Depends: xcursor-themes
 Priority: optional
-Section: web
-Filename: pool/main/e/electron-discord-webapp/electron-discord-webapp_1.2.1_armhf.deb
-Size: 52381380
-SHA256: 466cc30e26806f6816fa6ea98cd16a344edd4dc64eb5b3ded093601ec2edfd71
-SHA1: fb098da6df8715e5dc202b1ae0cd97530912386d
-MD5sum: 2af11c5ae896353e3572243df114fd83
-Description: A Discord Web App made with the Electron API.
- A Discord Web App made with the Electron API.
+Section: unknown
+Filename: pool/main/f/fancy-cursor-themes/fancy-cursor-themes_1.2_all.deb
+Size: 2284864
+SHA256: 83a17a9ef701f9e9170f5b4d07bb619c265aa60afccd433ae939488a38179e76
+SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
+MD5sum: 84611c8723046d395ea6eaee3e002e79
+Description: Extra cursor themes for your distro.
 
 Package: fonts-inter
 Version: 3.15+ds-2
