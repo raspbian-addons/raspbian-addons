@@ -201,6 +201,23 @@ MD5sum: fd0f9567c9a061424772c6d755db101b
 Description: 
   A private YouTube client
 
+Package: glmark2
+Source: glmark2
+Build-Depends: debhelper
+Maintainer: Don Novaspirit <novaspirit.com>
+Version: 2020.04
+Architecture: armhf
+Depends: libpng-dev,libgl1-mesa-dev,libgl1-mesa-dev,libjpeg-dev,libdrm-dev,libgbm1,libudev1
+Homepage: https://novaspirit.com
+Priority: optional
+Section: base
+Filename: pool/main/g/glmark2/glmark2_2020.04_armhf.deb
+Size: 15174584
+SHA256: c663aa161132500169f277f1363040fc2958944ec17f68cd594e228c1c774ff6
+SHA1: 4ccd1766fe1534858960e36997f5124f3755b923
+MD5sum: 9054dad02de8c31d56ca1d4125618cae
+Description: glmark2 glmark-es2 compiled for raspberry pi 4 with x11-gl
+
 Package: ipscan
 Version: 3.7.6
 Architecture: all
@@ -478,4 +495,21 @@ Description: Disk encryption with strong security based on TrueCrypt.
 Maintainer: VeraCrypt Team <veracrypt@idrix.fr>
 Version: 1.24.23-1
 Installed-Size: 6171
+
+Package: vkmark
+Source: vkmark
+Build-Depends: debhelper
+Maintainer: Don Novaspirit <novaspirit.com>
+Version: 2020.04
+Architecture: armhf
+Depends: libpng-dev,libgl1-mesa-dev,libgl1-mesa-dev,libjpeg-dev,libdrm-dev,libgbm1,libudev1
+Homepage: https://novaspirit.com
+Priority: optional
+Section: base
+Filename: pool/main/v/vkmark/vkmark_2020.04_armhf.deb
+Size: 3039660
+SHA256: 8999b1ebf59765f8292a65a85d9555edb34b01bfd7264b2d0cf74d9001b2cbee
+SHA1: c8bc800bdbebd2738afd4170fb21f49c3f8b2e7e
+MD5sum: 2651bb4fbe46013c78b83158d1f33f3d
+Description: vkglmark compiled for raspberry pi 4
 
