@@ -38,12 +38,15 @@
  </head>
  <body class="body">
   
-  <h4>To add this repository to your system, run:</h4>
-  
+  <h1>Raspbian addons</h1>
+  <hr>
+  <h4>To add this repository to your system, run:</h3>
+  <!--instructions to add to your system-->
   <kbd><dd><span class="code">sudo wget https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list</span></dd></kbd>
-
+  <br>
   <kbd><dd><span class="code">wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add -</span></dd></kbd>
-  <p><h4>Now you can install applications by running <span class="code">sudo apt install packagename</span>.
+  <kbd><dd>then run <span class="code">sudo apt update</span> to refresh apt</dd></kbd>
+  <p><h4>Now you can install applications by running <span class="code">sudo apt install packagename</span></h43
  
  </body>
 </html>
