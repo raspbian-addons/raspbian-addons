@@ -17,6 +17,39 @@ MD5sum: d80165ceea1f77a07021548eaf2377a1
 Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
   Flash OS images to SD cards and USB drives, safely and easily.
 
+Package: browsh
+Version: 1.6.4
+Architecture: arm64
+Maintainer: Thomas Buckley-Houston <tom@tombh.co.uk>
+Vendor: Browsh
+Installed-Size: 8293
+Depends: firefox | firefox-esr
+Homepage: https://www.brow.sh
+Priority: 
+Section: 
+Filename: pool/main/b/browsh/browsh_1.6.4_arm64.deb
+Size: 3380606
+SHA256: 931c8c6cc7f4cebd92b6fc9ca7ceee17fc5edee79896f3b869e35a05f7fc0405
+SHA1: 21f8521c6457923297d4f332bdd5e296a2be3e2c
+MD5sum: cc846e692386dbc04b4ca505dde8c66f
+Description: The modern, text-based browser
+
+Package: duf
+Version: 0.6.0
+Architecture: arm64
+Maintainer: Christian Muehlhaeuser <muesli@gmail.com>
+Vendor: muesli
+Installed-Size: 2304
+Homepage: https://fribbledom.com/
+Priority: 
+Section: 
+Filename: pool/main/d/duf/duf_0.6.0_arm64.deb
+Size: 947682
+SHA256: 36780f8be31b7d3bd8daa6c44100f01cb436b9cef0ab7abfdbdab63d45c72d82
+SHA1: d4c6956a1838722d5a868a3acc8f873515a42940
+MD5sum: 3e308614325d24257eac383565d55177
+Description: Disk Usage/Free Utility
+
 Package: fancy-cursor-themes
 Version: 1.2
 Architecture: all
@@ -30,4 +63,75 @@ SHA256: 83a17a9ef701f9e9170f5b4d07bb619c265aa60afccd433ae939488a38179e76
 SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
 MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
+
+Package: freetube
+Version: 0.12.0
+License: AGPL-3.0-or-later
+Vendor: PrestonN <FreeTubeApp@protonmail.com>
+Architecture: arm64
+Maintainer: PrestonN <FreeTubeApp@protonmail.com>
+Installed-Size: 320030
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Priority: extra
+Section: default
+Filename: pool/main/f/freetube/freetube_0.12.0_arm64.deb
+Size: 71552906
+SHA256: 4fdd3b8d205beb738da9cf3c0eec4c136101acadf1eac1736084f9faf69463f3
+SHA1: 9c621fa4860cd42fe0ea958d9320b637658e6dfb
+MD5sum: 6225daef75f523d92d836200ae35abbd
+Description: 
+  A private YouTube client
+
+Package: lightpad
+Source: com.github.libredeb.lightpad
+Version: 0.0.8~rev2+build1
+Architecture: arm64
+Maintainer: Juan Pablo Lozano <libredeb@gmail.com>
+Installed-Size: 225
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.18.0), libglib2.0-0 (>= 2.50.0), libgnome-menu-3-0 (>= 3.13.0), libgtk-3-0 (>= 3.22.0), gnome-menus (>= 3.13.0), libwnck-3-0 (>= 3.20.0), xterm
+Priority: optional
+Section: x11
+Filename: pool/main/c/com.github.libredeb.lightpad/lightpad_0.0.8~rev2+build1_arm64.deb
+Size: 30204
+SHA256: 302276c27498b4880261cc258edd238e7746210c8dddbea77277fc1a4ceaf024
+SHA1: 07f2b3f7cfd995813362d3d3ce0011fdbd39480b
+MD5sum: 7819002094b1dea094884e12b5138934
+Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
+
+Package: sysmontask
+Version: 1.1.1
+Architecture: all
+Maintainer: Neeraj Kumar <neerajjangra4u@gmail.com>
+Installed-Size: 444
+Depends: python3-cairo, python3-gi, python3-psutil, python3:any (>= 3.6~), python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-wnck-3.0
+Priority: optional
+Section: devel
+Filename: pool/main/s/sysmontask/sysmontask_1.1.1_all.deb
+Size: 36732
+SHA256: e6f2d11233fad68885d0e36d6d91ea9e5ce0e469ba0571264ccaf3113f64a72b
+SHA1: 607354aebc1c7d2b56bab37b925633aa1579635c
+MD5sum: b62ff606139e6589e58d7f453085da96
+Description: System Monitor With UI Like Windows
+
+Package: timeshift
+Version: 20.11.1
+Architecture: arm64
+Maintainer: Tony George <teejeetech@gmail.com>
+Installed-Size: 3038
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.13.2), libvte-2.91-0, rsync, btrfs-progs | btrfs-tools
+Replaces: timeshift-btrfs
+Homepage: https://teejeetech.in/
+Priority: extra
+Section: utils
+Filename: pool/main/t/timeshift/timeshift_20.11.1_arm64.deb
+Size: 590500
+SHA256: d0707c3915ce33a4f31d84166abd43db0a692aa131082f79c03f0379a37fbbda
+SHA1: cae6cd565fdea50dcfa28bab4eaaff38efc23e29
+MD5sum: 9fdc6a5d9b0ecf1bde6e5558dc0c1714
+Description: System restore utility
+ Timeshift is a system restore utility which takes snapshots
+ of the system at regular intervals. These snapshots can be restored
+ at a later date to undo system changes. Creates incremental snapshots
+ using rsync or BTRFS snapshots using BTRFS tools.
 
