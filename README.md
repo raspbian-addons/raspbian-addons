@@ -13,6 +13,7 @@ Here are some examples of what this repository includes:
 - RPiPlay (open source AirPlay mirror server)
 - Super Productivity
 - Simplenote-electron, a note-taking app
+- Alacritty Terminal (Uses the GPU for rendering!)
 
 And more!
 

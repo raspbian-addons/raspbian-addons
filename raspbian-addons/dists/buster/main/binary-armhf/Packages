@@ -1,3 +1,16 @@
+Package: alacritty
+Version: 0.6.0
+Architecture: armhf
+Maintainer: chunkymilk0309
+Priority: optional
+Section: unknown
+Filename: pool/main/a/alacritty/alacritty_0.6.0_armhf.deb
+Size: 6900500
+SHA256: c575fbe6497c83f36de516c61d52f9c4b9842cfb066892ec5865472fed90ebe3
+SHA1: 3d75671225ff5da1422f3a21830b3dac9f2708f4
+MD5sum: c539a0369fec4698f980679c3e7847d8
+Description: Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it.
+
 Package: balena-etcher-electron
 Version: 1.5.116+37769efb
 License: Apache-2.0
