@@ -136,6 +136,21 @@ MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
 
+Package: duckstation
+Version: 20210319
+Architecture: armhf
+Maintainer: chunkymilk0309
+Depends: qtbase5-dev, qtbase5-private-dev, qtbase5-dev-tools, qttools5-dev, libdrm-dev, libevdev-dev, libsdl2-dev
+Recommends: git
+Priority: optional
+Section: games
+Filename: pool/main/d/duckstation/duckstation_20210319_armhf.deb
+Size: 15929156
+SHA256: a40ea2ac94fae0bd1c54df372a749c7f66a5e72b45f03293fb2f1aa7d4764ecc
+SHA1: 313bd58a3be331e7c69611029e902c23dfe2a2fb
+MD5sum: 93b9694d8cabb5b80da1b808dce4ce1d
+Description: Fast PlayStation 1 emulator
+
 Package: duf
 Version: 0.6.0
 Architecture: armhf
@@ -324,6 +339,21 @@ SHA1: b67beed8b554e1ad983478489a24b43f78ff012d
 MD5sum: f9caf5162d5f425bc9e9d06fc01ac6b4
 Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
 
+Package: ppsspp
+Version: 1.11
+Architecture: armhf
+Maintainer: chunkymilk0309
+Depends: libgl1-mesa-dev, libsdl2-dev, libvulkan-dev
+Recommends: git
+Priority: optional
+Section: games
+Filename: pool/main/p/ppsspp/ppsspp_1.11_armhf.deb
+Size: 24252512
+SHA256: 1982f83ace74d3d054c6ba43589863f4a1cdc899249bc890e199c2822e09a3d1
+SHA1: 1f3d5beec7c4047c69652a8c5294d8e7a4c84867
+MD5sum: baedc836b3b2e1231aedeb0176a377ee
+Description: PSP emulator
+
 Package: qemu2deb
 Version: 0.6.0
 Architecture: all
@@ -476,6 +506,32 @@ Description: Linux system optimizer and monitoring
  Monitor your system (CPU, memory, disk) in a graphical application (qt).
  Change and monitor your services. Summarizes basic system information and
  can show network download/upload speeds/totals.
+
+Package: stackedit
+Version: 1.0
+Architecture: armhf
+Maintainer: chunkymilk0309
+Priority: optional
+Section: utils
+Filename: pool/main/s/stackedit/stackedit_1.0_armhf.deb
+Size: 50370244
+SHA256: 5a2b48759f0c6bc9ef6a7fee797e4803635e7764fc9bd02b16d31cf98c7f77ea
+SHA1: 4af18a65f6dea8764d27f64921260d1ff82e4ea6
+MD5sum: 4e357e55ffc647c80531d3aecbcec7b1
+Description: Fully featured, open source markdown editor
+
+Package: superproductivity
+Version: 1.0
+Architecture: armhf
+Maintainer: chunkymilk0309
+Priority: optional
+Section: utils
+Filename: pool/main/s/superproductivity/superproductivity_1.0_armhf.deb
+Size: 50210140
+SHA256: 81cc6b48313ad329c3b40329712ce96b127e43a779cef9d422f7dd49665a7bcf
+SHA1: 6a2b3d0a820b2e6812259023daaa678d1429a102
+MD5sum: 0911f7bd3b423ea1d3a7690cac452ac9
+Description: A to do list app to get your head free.
 
 Package: sysmontask
 Version: 1.1.1
