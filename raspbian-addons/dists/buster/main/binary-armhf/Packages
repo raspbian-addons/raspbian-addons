@@ -381,22 +381,49 @@ SHA1: 386bc4a82cad80c51de03bbe568bafc0e437da1b
 MD5sum: 76a21395ca6c0b39b0cc9d9cb4b71593
 Description: Package created with checkinstall 1.6.3
 
+Package: shellcheck
+Version: 20210322-0.7.1
+Architecture: armhf
+Maintainer: Itai Nelken
+Installed-Size: 19627
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.27), libffi6 (>= 3.0.4), libgmp10
+Multi-Arch: foreign
+Homepage: https://www.shellcheck.net/
+Priority: optional
+Section: devel
+Filename: pool/main/s/shellcheck/shellcheck_20210322-0.7.1_armhf.deb
+Size: 2520664
+SHA256: 933b480776988c820e77dc9fafb6f6d8e2acb4c6f322cca48ea211c27ef36c41
+SHA1: 4861401aded5be6c1016480c43b87c9eb7d12bb8
+MD5sum: 792cd5d4edb2247301e5a455da9459a1
+Description: lint tool for shell scripts
+ The goals of ShellCheck are:
+ .
+  * To point out and clarify typical beginner's syntax issues,
+    that causes a shell to give cryptic error messages.
+ .
+  * To point out and clarify typical intermediate level semantic problems,
+    that causes a shell to behave strangely and counter-intuitively.
+ .
+  * To point out subtle caveats, corner cases and pitfalls, that may cause an
+    advanced user's otherwise working script to fail under future circumstances.
+
 Package: simplenote
-Version: 2.7.1-22379
+Version: 2.8.0-22667
 License: GPL-2.0
 Vendor: Automattic, Inc.
 Architecture: armhf
 Maintainer: Automattic, Inc. <support@simplenote.com>
-Installed-Size: 269181
+Installed-Size: 268707
 Depends: gconf2
 Homepage: https://simplenote.com
 Priority: extra
 Section: default
-Filename: pool/main/s/simplenote/simplenote_2.7.1-22379_armhf.deb
-Size: 92346360
-SHA256: 3659901cf532fba92fed2b5cb9dd69a9df2965962a5a291d35e103e648b8fe7b
-SHA1: 165c855a38074521ab5b3b7639988937986a8766
-MD5sum: 37008da9eb395a02974ea5ab0d666ab4
+Filename: pool/main/s/simplenote/simplenote_2.8.0-22667_armhf.deb
+Size: 92235170
+SHA256: b0b2343c7b0d9121a75090857c334106df343652de438c6505c411d38d9d7f3e
+SHA1: 249c571a26e2502c98d3f38f6bf6a2dc42ac4ec9
+MD5sum: 732a66a55876905aded60e3ff74c5af6
 Description: The simplest way to keep notes
   Simplenote is an easy way to keep notes, lists, ideas and more. Your notes stay in sync with all your devices for free.
 
