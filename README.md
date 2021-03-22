@@ -41,7 +41,7 @@ The Raspberry Pi is a great and capable little computer. But what frustrates me 
 ### Would you like to help?
 If you'd like to help me with this, **please** do! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you. Just make sure the software is installable on at least 32-bit, and works on the Raspberry Pi 4.
 
-Current Maintainers: @chunky-milk @Itai-Nelken
+Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/)
 
 ### Changelog
 Please note that not *all* changes will be documented here. Only major changes will be documented.
