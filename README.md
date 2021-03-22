@@ -39,7 +39,7 @@ If you're having issues with this repository, be sure to open an issue report on
 The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that, or to the best of my ability.
 
 ### Would you like to help?
-If you'd like to help me with this, **please** do! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you. Just make sure the software is installable on at least 32-bit, and works on the Raspberry Pi 4.
+If you'd like to help me with this, **please** contact me! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you. Just make sure the software is installable on at least 32-bit, and works on the Raspberry Pi 4.
 
 Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/)
 
