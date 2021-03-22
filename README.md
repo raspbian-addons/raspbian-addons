@@ -15,16 +15,12 @@ Here are some examples of what this repository includes:
 - Simplenote-electron, a note-taking app
 - Alacritty Terminal (Uses the GPU for rendering!)
 
-And more!
+And more! To see a complete list, scroll down.
 
 ### To install:
-```
-sudo wget https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list
+Installation instructions [here](https://chunky-milk.github.io/raspbian-addons/index.html).
 
-wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add -
 
-sudo apt update
-```
 ### To remove:
 #### WARNING: first uninstall all the apps from the repo before removing it, otherwise you might break `apt`!
 ```
@@ -44,11 +40,30 @@ If you'd like to help me with this, **please** contact me! Maintaining a Debian 
 
 Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/)
 
-### Changelog
-Please note that not *all* changes will be documented here. Only major changes will be documented.
-
-**03/21/21**
-- Added Changelog
-- Added arm64 support
-- Remove electron-discord-webapp, as it is now available [here](https://itai-nelken.github.io/electron-discord-webapp_debian-repo/index.html)
-- Added cursor themes package (installable with `sudo apt-get update && sudo apt-get install fancy-cursor-themes`)
+### Complete list of software you can install with this repository
+- [Alacritty](https://github.com/alacritty/alacritty)
+- [balenaEtcher](https://github.com/Itai-Nelken/Etcher-arm-32-64)
+- [BleachBit](https://github.com/bleachbit/bleachbit)
+- [Browsh](https://github.com/browsh-org/browsh)
+- [cbonsai](https://gitlab.com/jallbrit/cbonsai)
+- [cfetch](https://github.com/clieg/cfetch.git)
+- [clamtk](https://github.com/dave-theunsub/clamtk)
+- [Lightpad](https://github.com/libredeb/lightpad)
+- [Conky Manager](https://github.com/teejee2008/conky-manager)
+- [duf](https://github.com/muesli/duf)
+- [Fancy Cursor Themes](https://github.com/chunky-milk/cursor-themes)
+- [FreeTube](https://github.com/FreeTubeApp/FreeTube)
+- [Stacer](https://github.com/oguzhaninan/Stacer)
+- [glmark2](https://github.com/glmark2/glmark2)
+- [Angry IP Scanner](https://github.com/angryip/ipscan)
+- [KeePassX](https://github.com/keepassx/keepassx)
+- [qemu2deb](https://github.com/Itai-Nelken/qemu2deb)
+- [Remarkable](https://github.com/jamiemcg/Remarkable)
+- [RPiPlay](https://github.com/FD-/RPiPlay)
+- [Shellcheck](https://github.com/koalaman/shellcheck)
+- [Sonic Pi](https://github.com/sonic-pi-net/sonic-pi)
+- [SysMonTask](https://github.com/KrispyCamel4u/SysMonTask)
+- [Timeshift](https://github.com/teejee2008/timeshift)
+- [thunar-sendto-clamtk](https://github.com/dave-theunsub/thunar-sendto-clamtk)
+- [vkmark](https://github.com/vkmark/vkmark)
+- [VeraCrypt](https://sourceforge.net/projects/veracrypt/)

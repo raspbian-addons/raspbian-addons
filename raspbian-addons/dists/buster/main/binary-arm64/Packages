@@ -34,6 +34,24 @@ SHA1: 21f8521c6457923297d4f332bdd5e296a2be3e2c
 MD5sum: cc846e692386dbc04b4ca505dde8c66f
 Description: The modern, text-based browser
 
+Package: clamtk
+Version: 6.10-1
+Architecture: all
+Maintainer: Dave M <dave.nerd@gmail.com>
+Installed-Size: 997
+Depends: perl:any, clamav (>= 0.95), clamav-freshclam (>= 0.95), libgtk3-perl, libtext-csv-perl, libwww-perl, libjson-perl, liblocale-gettext-perl, liblwp-protocol-https-perl, gnome-icon-theme, cron
+Suggests: cabextract
+Homepage: https://gitlab.com/dave_m/clamtk/wikis/Home
+Priority: optional
+Section: utils
+Filename: pool/main/c/clamtk/clamtk_6.10-1_all.deb
+Size: 230370
+SHA256: 264460b8cef62b061de443567428854005ec808fd92f5d844c375d37cb79fa63
+SHA1: 26c2070d56bf72c5c31265f68c155576fa599598
+MD5sum: 7f0c78c5ac7a04986e1b0666b2170bd6
+Description: graphical front-end for ClamAV
+ ClamTk is an easy to use graphical front-end for Clam Antivirus.
+
 Package: duf
 Version: 0.6.0
 Architecture: arm64
