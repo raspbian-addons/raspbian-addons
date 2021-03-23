@@ -67,3 +67,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [thunar-sendto-clamtk](https://github.com/dave-theunsub/thunar-sendto-clamtk)
 - [vkmark](https://github.com/vkmark/vkmark)
 - [VeraCrypt](https://sourceforge.net/projects/veracrypt/)
+- [DuckStation](https://github.com/stenzek/duckstation)
+- [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- [StackEdit](https://github.com/benweet/stackedit)
+- [Super Productivity](https://github.com/johannesjo/super-productivity)
