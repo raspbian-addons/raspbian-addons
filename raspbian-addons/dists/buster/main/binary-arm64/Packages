@@ -144,6 +144,42 @@ Description: Papirus Icon Theme
   - Papirus-Dark
   - Papirus-Light
 
+Package: rpi-imager
+Version: 1.6
+Architecture: arm64
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 1040
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Recommends: udisks2
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: admin
+Filename: pool/main/r/rpi-imager/rpi-imager_1.6_arm64.deb
+Size: 396032
+SHA256: 63b97b77c821fc727dff04e2fbf75d68737a28dcbac53a8f812b650c6c6a71f1
+SHA1: f3b3d78dd22bad53542be5cedfa20eac7dd9f311
+MD5sum: 92868fa59ecd520e224f2aedd40380a5
+Description: Raspberry Pi imaging utility
+ Graphical user-interface to write disk images and format SD cards.
+
+Package: rpi-imager-dbgsym
+Source: rpi-imager
+Version: 1.6
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 2838
+Depends: rpi-imager (= 1.6)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rpi-imager/rpi-imager-dbgsym_1.6_arm64.deb
+Size: 2809536
+SHA256: 64969413b0ad9535952f05a3b5067e56b889d94d5c7fb8d9b2a6cf665f6a7662
+SHA1: 200387ead9bba1ec708c619a6a642a8d37e2622b
+MD5sum: 546ecdf3b13fbc2039087cd724c79ca7
+Description: debug symbols for rpi-imager
+Build-Ids: 679a82a3f53dd7bbe94755189b7257d3df1ffe32
+
 Package: sysmontask
 Version: 1.1.1
 Architecture: all
