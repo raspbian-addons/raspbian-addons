@@ -119,6 +119,26 @@ MD5sum: 7f0c78c5ac7a04986e1b0666b2170bd6
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
+Package: codium
+Version: 1.54.3-1615854575
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Architecture: armhf
+Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
+Homepage: https://vscodium.com/
+Installed-Size: 220281
+Provides: visual-studio-codium
+Conflicts: visual-studio-codium
+Replaces: visual-studio-codium
+Priority: optional
+Section: devel
+Filename: pool/main/c/codium/codium_1.54.3-1615854575_armhf.deb
+Size: 68146356
+SHA256: 540cd9e0e5a07bdc72e3b2e06d0bb485205d79b5f4d37fd59afd82f62bfd75d8
+SHA1: 51589ab8d050c8b06bff7f7e8b1ed06df8b80cdc
+MD5sum: 5ae1250ca41d767f1c5f6d6616ca07a2
+Description: Code editing. Redefined.
+ VSCodium is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://vscodium.com/docs/setup/linux for installation instructions and FAQ.
+
 Package: conky-manager
 Version: 2.4~136~ubuntu16.04.1
 Architecture: armhf
