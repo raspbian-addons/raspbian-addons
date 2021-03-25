@@ -5,6 +5,12 @@ function error {
   exit 1
 }
 
+function ctrl_c() {
+  rm repo.sh &>/dev/null
+}
+#make the ctr_c function run if ctrl+c is pressed
+trap "ctrl_c" 2
+
 function addrepo() {
   echo "You chose to add the repository. To cancel click ctrl+c in the next 5 seconds."
   sleep 5
