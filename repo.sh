@@ -6,7 +6,7 @@ function error {
 }
 
 function ctrl_c() {
-  break &./dev/null
+  break &>/dev/null
   rm repo.sh &>/dev/null
   exit 1
 }
