@@ -12,22 +12,14 @@ Here are some examples of what this repository includes:
 - StackEdit
 - RPiPlay (open source AirPlay mirror server)
 - Super Productivity
-- Simplenote-electron, a note-taking app
+- Simplenote-electron, a note-taking application
 - Alacritty Terminal (Uses the GPU for rendering!)
 
 And more! To see a complete list, scroll down.
 
-### To install:
-Installation instructions [here](https://chunky-milk.github.io/raspbian-addons/index.html).
+### To install or remove:
+Installation and removal instructions are [here](https://chunky-milk.github.io/raspbian-repository).
 
-
-### To remove:
-#### WARNING: first uninstall all the apps from the repo before removing it, otherwise you might break `apt`!
-```
-sudo rm /etc/apt/sources.list.d/rpirepo.list
-sudo apt-key remove "232E 6F29 77AB D48E 5A9F  AD03 9ACB 4E70 D84B FD24"
-sudo apt update
-```
 
 ### Having issues?
 If you're having issues with this repository, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).

@@ -40,10 +40,9 @@
   
   <h1>Raspbian Addons</h1>
   <hr>
-  <h4>To add this repository to your system, run:</h3>
+  <h4>To add or remove this repository to your system, run:</h3>
   <!--instructions to add to your system-->
-  <h5><span class="code">sudo wget https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list</span></h5>
-  <h5><span class="code">wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add -</span></h5>
+  <h5><span class="code">wget -qO- https://raw.githubusercontent.com/chunky-milk/raspbian-addons/master/repo.sh | bash</span></h5>
   <h5>then run <span class="code">sudo apt update</span> to refresh apt</h5>
   <p><h4>Now you can install applications by running <span class="code">sudo apt install packagename</span></h4>
   <hr>
