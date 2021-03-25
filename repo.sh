@@ -29,8 +29,8 @@ function removerepo() {
 
 read -p "(i)nstall or (r)emove raspbian-addons repository? (i/r)" choice
 case "$choice" in 
-  i|I) addrepo ;;
-  r|R) removerepo ;;
+  i|I ) addrepo ;;
+  r|R ) removerepo ;;
   * ) echo "Invalid input!";;
 esac
 echo "Bye!"
