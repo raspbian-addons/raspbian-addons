@@ -6,7 +6,9 @@ function error {
 }
 
 function ctrl_c() {
+  break &./dev/null
   rm repo.sh &>/dev/null
+  exit 1
 }
 #make the ctr_c function run if ctrl+c is pressed
 trap "ctrl_c" 2
