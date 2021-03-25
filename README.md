@@ -18,7 +18,7 @@ Here are some examples of what this repository includes:
 And more! To see a complete list, scroll down.
 
 ### To install or remove:
-Installation and removal instructions are [here](https://chunky-milk.github.io/raspbian-repository).
+Installation and removal instructions are [here](https://chunky-milk.github.io/raspbian-addons/).
 
 
 ### Having issues?
