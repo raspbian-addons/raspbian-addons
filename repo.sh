@@ -28,7 +28,8 @@ function removerepo() {
 }
 
 while true; do
-  read -p "(i)nstall or (r)emove raspbian-addons repository? (i/r)" choice
+  echo "(i)nstall or (r)emove raspbian-addons repository? (i/r)?"
+  read choice
   case "$choice" in 
     i|I ) addrepo && break ;;
     r|R ) removerepo && break ;;
