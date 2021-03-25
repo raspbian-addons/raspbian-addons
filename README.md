@@ -8,8 +8,7 @@ Here are some examples of what this repository includes:
 - ClamTk
 - qemu2deb by [Itai Nelken](https://github.com/Itai-Nelken/qemu2deb) (a script to compile and package QEMU)
 - PPSSPP emulator
-- DuckStation emulator
-- StackEdit
+- - StackEdit
 - RPiPlay (open source AirPlay mirror server)
 - Super Productivity
 - Simplenote-electron, a note-taking application
@@ -59,7 +58,6 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [thunar-sendto-clamtk](https://github.com/dave-theunsub/thunar-sendto-clamtk)
 - [vkmark](https://github.com/vkmark/vkmark)
 - [VeraCrypt](https://sourceforge.net/projects/veracrypt/)
-- [DuckStation](https://github.com/stenzek/duckstation)
 - [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - [StackEdit](https://github.com/benweet/stackedit)
 - [Super Productivity](https://github.com/johannesjo/super-productivity)
