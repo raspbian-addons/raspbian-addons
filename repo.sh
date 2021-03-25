@@ -27,9 +27,9 @@ function removerepo() {
   sudo apt update || error "Failed to update APT lists!"
 }
 
+printf "(i)nstall or (r)emove raspbian-addons repository"
 while true; do
-  echo "(i)nstall or (r)emove raspbian-addons repository? (i/r)?"
-  read choice
+  read -p "(i/r)?" choice
   case "$choice" in 
     i|I ) addrepo && break ;;
     r|R ) removerepo && break ;;
