@@ -63,3 +63,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Super Productivity](https://github.com/johannesjo/super-productivity)
 - [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager)
 - [GitHub CLI](https://github.com/cli/cli)
+- [VSCodium](https://github.com/VSCodium/VSCodium)
