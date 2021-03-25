@@ -62,3 +62,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [StackEdit](https://github.com/benweet/stackedit)
 - [Super Productivity](https://github.com/johannesjo/super-productivity)
 - [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager)
+- [GitHub CLI](https://github.com/cli/cli)
