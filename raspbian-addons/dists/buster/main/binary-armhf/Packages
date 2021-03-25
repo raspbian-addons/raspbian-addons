@@ -136,21 +136,6 @@ MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
 
-Package: duckstation
-Version: 20210319
-Architecture: armhf
-Maintainer: chunkymilk0309
-Depends: qtbase5-dev, qtbase5-private-dev, qtbase5-dev-tools, qttools5-dev, libdrm-dev, libevdev-dev, libsdl2-dev
-Recommends: git
-Priority: optional
-Section: games
-Filename: pool/main/d/duckstation/duckstation_20210319_armhf.deb
-Size: 15929156
-SHA256: a40ea2ac94fae0bd1c54df372a749c7f66a5e72b45f03293fb2f1aa7d4764ecc
-SHA1: 313bd58a3be331e7c69611029e902c23dfe2a2fb
-MD5sum: 93b9694d8cabb5b80da1b808dce4ce1d
-Description: Fast PlayStation 1 emulator
-
 Package: duf
 Version: 0.6.0
 Architecture: armhf
