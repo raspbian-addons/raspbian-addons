@@ -101,6 +101,22 @@ MD5sum: 6225daef75f523d92d836200ae35abbd
 Description: 
   A private YouTube client
 
+Package: gh
+Version: 1.7.0
+Architecture: arm64
+Maintainer: GitHub
+Installed-Size: 16057
+Depends: git
+Homepage: https://github.com/cli/cli
+Priority: 
+Section: 
+Filename: pool/main/g/gh/gh_1.7.0_arm64.deb
+Size: 5816912
+SHA256: 78f020944fbfe9a75ad4603c207d368f34de5bf6475e1266027bf8ad51f3b951
+SHA1: e63dc89d58f793af8346abe6af4054e56d8de95a
+MD5sum: 1209d9bd284da483936e5088c3e2a036
+Description: GitHub’s official command line tool.
+
 Package: lightpad
 Source: com.github.libredeb.lightpad
 Version: 0.0.8~rev2+build1

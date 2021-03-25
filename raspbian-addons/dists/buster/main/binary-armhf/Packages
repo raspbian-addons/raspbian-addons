@@ -209,6 +209,22 @@ MD5sum: 5d229276d36ab04eca642ced46cf7a9e
 Description: 
   A private YouTube client
 
+Package: gh
+Version: 1.7.0
+Architecture: armhf
+Maintainer: GitHub
+Installed-Size: 14393
+Depends: git
+Homepage: https://github.com/cli/cli
+Priority: 
+Section: 
+Filename: pool/main/g/gh/gh_1.7.0_armhf.deb
+Size: 6092158
+SHA256: 1d2f621b6632f02723e43221acd76d849c5d5c0b0ab20e7a14f0d77a53ea6994
+SHA1: 8e601bf86cc25e0f5cb29fd57782a6b84981b5f6
+MD5sum: 057e8229db1ac1185adf9887cdbfd0f4
+Description: GitHub’s official command line tool.
+
 Package: glmark2
 Source: glmark2
 Build-Depends: debhelper
