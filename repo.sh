@@ -10,14 +10,28 @@ function ctrl_c() {
   rm repo.sh &>/dev/null
   exit 1
 }
-#make the ctr_c function run if ctrl+c is pressed
+#make the ctrl_c function run if ctrl+c is pressed
 trap "ctrl_c" 2
+
+HOST_ARCH=$(uname -m)
+if [ "${HOST_ARCH}" != "armv7l" ] && [ "${HOST_ARCH}" != "aarch64" ]; then
+  echo "This script is only intended to run on ARM devices."
+  exit 1
+fi
+
+PI_MODEL=$(grep ^Model /proc/cpuinfo  | cut -d':' -f2- | sed 's/ R/R/')
+if [[ "${PI_MODEL}" == *"Raspberry Pi"* ]]; then
+  echo "Running on ${PI_MODEL}"
+else
+  echo "This is not a Raspberry Pi. Quitting!"
+  exit 1
+fi
 
 function addrepo() {
   echo "You chose to add the repository. To cancel click ctrl+c in the next 5 seconds."
   sleep 5
   echo "Downloading package list..."
-  sudo wget https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list || error "Failed to download rpirepo.list!"
+  sudo wget -q https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list || error "Failed to download rpirepo.list!"
   echo "Adding GPG key..."
   wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"
   echo "Updating APT lists..."
@@ -37,7 +51,7 @@ function removerepo() {
 
 printf "(i)nstall or (r)emove raspbian-addons repository "
 while true; do
-  read -p "(i/r)?" choice
+  read -p "(i/r)? " choice
   case "$choice" in 
     i|I ) addrepo && break ;;
     r|R ) removerepo && break ;;
