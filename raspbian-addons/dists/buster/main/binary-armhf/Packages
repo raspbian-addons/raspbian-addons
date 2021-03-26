@@ -684,19 +684,6 @@ Description: System restore utility
  at a later date to undo system changes. Creates incremental snapshots
  using rsync or BTRFS snapshots using BTRFS tools.
 
-Package: tt
-Version: 0.4.0
-Architecture: armhf
-Maintainer: lemnos
-Priority: optional
-Section: unknown
-Filename: pool/main/t/tt/tt_0.4.0_armhf.deb
-Size: 1868368
-SHA256: b8d57db3d2bdcc23f0a539bdc2886a9248f6e0acef2b78da238a9de6d3789ea7
-SHA1: 8f9b68237546cf4113e0275c57a5fd4b2a296b28
-MD5sum: 2601cd08ebd989e6492a88293730fc72
-Description: A terminal based typing test.
-
 Package: veracrypt
 Architecture: armhf
 Conflicts: veracrypt-console
