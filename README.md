@@ -64,3 +64,5 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager)
 - [GitHub CLI](https://github.com/cli/cli)
 - [VSCodium](https://github.com/VSCodium/VSCodium)
+- [tt](https://github.com/lemnos/tt)
+- [theme.sh](https://github.com/lemnos/theme.sh)

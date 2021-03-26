@@ -632,6 +632,20 @@ SHA1: 607354aebc1c7d2b56bab37b925633aa1579635c
 MD5sum: b62ff606139e6589e58d7f453085da96
 Description: System Monitor With UI Like Windows
 
+Package: theme-sh
+Version: 20210326
+Architecture: all
+Maintainer: lemnos
+Depends: fzf
+Priority: optional
+Section: unknown
+Filename: pool/main/t/theme-sh/theme-sh_20210326_all.deb
+Size: 18932
+SHA256: 1e71ebc506c58afc7fac52cf97de3204a49e866b54830e962a8f8d710d7a29c0
+SHA1: d2f33801f6a0a33cc41b0eb910922567d20d4ef5
+MD5sum: 6fcd18cc79009454966082aaa7424316
+Description: Theme your terminal a certain color.
+
 Package: thunar-sendto-clamtk
 Version: 0.06-1
 Architecture: all
