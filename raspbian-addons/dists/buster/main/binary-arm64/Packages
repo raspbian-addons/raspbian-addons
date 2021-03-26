@@ -252,3 +252,16 @@ Description: System restore utility
  at a later date to undo system changes. Creates incremental snapshots
  using rsync or BTRFS snapshots using BTRFS tools.
 
+Package: tt
+Version: 0.4.0
+Architecture: arm64
+Maintainer: lemnos
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tt/tt_0.4.0_arm64.deb
+Size: 1887040
+SHA256: e0b341efaed069c6b0b0e49a2809b74d89d6232779bde4b167bcfc162e0cd8c0
+SHA1: d0bc1432d76bafdf7f9faf3038e30879f7a8f364
+MD5sum: 6d3fa08ca74e3909834b5fdca7268336
+Description: A terminal based typing test.
+
