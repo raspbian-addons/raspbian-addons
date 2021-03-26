@@ -8,7 +8,7 @@ Here are some examples of what this repository includes:
 - ClamTk
 - qemu2deb by [Itai Nelken](https://github.com/Itai-Nelken/qemu2deb) (a script to compile and package QEMU)
 - PPSSPP emulator
-- - StackEdit
+- StackEdit
 - RPiPlay (open source AirPlay mirror server)
 - Super Productivity
 - Simplenote-electron, a note-taking application
