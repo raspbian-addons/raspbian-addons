@@ -235,15 +235,14 @@ Package: theme-sh
 Version: 20210326
 Architecture: all
 Maintainer: lemnos
-Depends: fzf
 Priority: optional
 Section: unknown
 Filename: pool/main/t/theme-sh/theme-sh_20210326_all.deb
-Size: 18932
-SHA256: 1e71ebc506c58afc7fac52cf97de3204a49e866b54830e962a8f8d710d7a29c0
-SHA1: d2f33801f6a0a33cc41b0eb910922567d20d4ef5
-MD5sum: 6fcd18cc79009454966082aaa7424316
-Description: Theme your terminal a certain color.
+Size: 18916
+SHA256: ad825be536c05a93816b8af1f6c0be73cff7a54eac371ec9e99711ec496ed9f4
+SHA1: 50ce7749b8ce111f31a5498ce309f210f41174b6
+MD5sum: 477902500494679a9ceaaafb3de9a8b8
+Description: Theme your terminal with one script.
 
 Package: timeshift
 Version: 20.11.1
@@ -265,4 +264,17 @@ Description: System restore utility
  of the system at regular intervals. These snapshots can be restored
  at a later date to undo system changes. Creates incremental snapshots
  using rsync or BTRFS snapshots using BTRFS tools.
+
+Package: tt
+Version: 0.4.0
+Architecture: arm64
+Maintainer: lemnos
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tt/tt_0.4.0_arm64.deb
+Size: 1886732
+SHA256: e708824b966e03f1141799a3efc328738ab4188392a40fe705c0ba7753267c51
+SHA1: 4c5f13679ebf31fb111b4b56b2bfc36f51e44eae
+MD5sum: 7de94918eb4f825861142ba76f1a32f1
+Description: Terminal based typing test.
 
