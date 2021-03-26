@@ -1,5 +1,5 @@
 # [Raspbian Addons](http://chunky-milk.github.io/raspbian-addons/)
-This repository hosts extra software for Raspberry Pi. It supports armhf (32-bit) and arm64 (64-bit) architectures. However, there is currently *more 32-bit software* than 64-bit software.
+This repository hosts extra software for Raspberry Pi. It supports both 32bit and 64bit Debian-based operating systems.
 
 Here are some examples of what this repository includes:
 - BalenaEtcher [compiled by Itai Nelken](http://github.com/Itai-Nelken/Etcher-arm-32-64)
@@ -8,7 +8,7 @@ Here are some examples of what this repository includes:
 - ClamTk
 - qemu2deb by [Itai Nelken](https://github.com/Itai-Nelken/qemu2deb) (a script to compile and package QEMU)
 - PPSSPP emulator
-- - StackEdit
+- StackEdit
 - RPiPlay (open source AirPlay mirror server)
 - Super Productivity
 - Simplenote-electron, a note-taking application
@@ -16,7 +16,7 @@ Here are some examples of what this repository includes:
 
 And more! To see a complete list, scroll down.
 
-### To install or remove:
+# To install or remove:
 Installation and removal instructions are [here](https://chunky-milk.github.io/raspbian-addons/).
 
 
