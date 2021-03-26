@@ -15,7 +15,7 @@ trap "ctrl_c" 2
 
 HOST_ARCH=$(uname -m)
 if [ "${HOST_ARCH}" != "armv7l" ] && [ "${HOST_ARCH}" != "aarch64" ]; then
-  echo "This script is only intended to run on ARM devices."
+  error "This script is only intended to run on ARM devices."
   exit 1
 fi
 
@@ -23,7 +23,7 @@ PI_MODEL=$(grep ^Model /proc/cpuinfo  | cut -d':' -f2- | sed 's/ R/R/')
 if [[ "${PI_MODEL}" == *"Raspberry Pi"* ]]; then
   echo "Running on ${PI_MODEL}"
 else
-  echo "This is not a Raspberry Pi. Quitting!"
+  error "This is not a Raspberry Pi. Quitting!"
   exit 1
 fi
 
@@ -32,7 +32,7 @@ function check_internet() {
   if [ $? -eq 0 ]; then
     echo "Online. Continuing."
   else
-    echo "Offline. Go connect to the internet then run the script again."
+    error "Offline. Go connect to the internet then run the script again."
     exit 1
   fi
 }
