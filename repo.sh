@@ -27,6 +27,16 @@ else
   exit 1
 fi
 
+function check_internet() {
+  wget -q --spider http://google.com
+  if [ $? -eq 0 ]; then
+    echo "Online. Continuing."
+  else
+    echo "Offline. Go connect to the internet then run the script again."
+    exit 1
+  fi
+}
+
 function addrepo() {
   echo "You chose to add the repository. To cancel click ctrl+c in the next 5 seconds."
   sleep 5
@@ -48,6 +58,8 @@ function removerepo() {
   echo "Updating APT lists..."
   sudo apt update || error "Failed to update APT lists!"
 }
+
+check_internet
 
 printf "(i)nstall or (r)emove raspbian-addons repository "
 while true; do
