@@ -16,7 +16,6 @@ trap "ctrl_c" 2
 HOST_ARCH=$(uname -m)
 if [ "${HOST_ARCH}" != "armv7l" ] && [ "${HOST_ARCH}" != "aarch64" ]; then
   error "This script is only intended to run on ARM devices."
-  exit 1
 fi
 
 PI_MODEL=$(grep ^Model /proc/cpuinfo  | cut -d':' -f2- | sed 's/ R/R/')
@@ -24,26 +23,27 @@ if [[ "${PI_MODEL}" == *"Raspberry Pi"* ]]; then
   echo "Running on ${PI_MODEL}"
 else
   error "This is not a Raspberry Pi. Quitting!"
-  exit 1
 fi
 
 function check_internet() {
+  printf "checking if you are online..."
   wget -q --spider http://google.com
   if [ $? -eq 0 ]; then
     echo "Online. Continuing."
   else
     error "Offline. Go connect to the internet then run the script again."
-    exit 1
   fi
 }
 
 function addrepo() {
   echo "You chose to add the repository. To cancel click ctrl+c in the next 5 seconds."
   sleep 5
-  echo "Downloading package list..."
+  printf "Downloading package list..."
   sudo wget -q https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list || error "Failed to download rpirepo.list!"
-  echo "Adding GPG key..."
+  echo "done"
+  printf "Adding GPG key..."
   wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"
+  echo "done"
   echo "Updating APT lists..."
   sudo apt update || error "Failed to update APT lists!"
 }
@@ -51,9 +51,10 @@ function addrepo() {
 function removerepo() {
   echo "You chose to remove the repository. To cancel click ctrl+c in the next 5 seconds."
   sleep 5
-  echo "Removing rpirepo.list..."
+  printf "Removing rpirepo.list..."
   sudo rm /etc/apt/sources.list.d/rpirepo.list || error "Failed to remove rpirepo.list!"
-  echo "Removing GPG key..."
+  echo "done"
+  printf "Removing GPG key..."
   sudo apt-key remove "232E 6F29 77AB D48E 5A9F  AD03 9ACB 4E70 D84B FD24" || error "Failed to remove GPG key!"
   echo "Updating APT lists..."
   sudo apt update || error "Failed to update APT lists!"
