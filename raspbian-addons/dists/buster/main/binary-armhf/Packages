@@ -157,19 +157,19 @@ Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
 
 Package: duf
-Version: 0.6.0
+Version: 0.6.2
 Architecture: armhf
 Maintainer: Christian Muehlhaeuser <muesli@gmail.com>
 Vendor: muesli
-Installed-Size: 2176
+Installed-Size: 2048
 Homepage: https://fribbledom.com/
 Priority: 
 Section: 
-Filename: pool/main/d/duf/duf_0.6.0_armhf.deb
-Size: 970606
-SHA256: 54d155e2c6bd141f9da91bfa280d754c460b4347a3f9ca45b4dbb3bb9074f419
-SHA1: c08bdf906ba6818b6ce8eeffc5976380825077de
-MD5sum: ef64765fae8a118a37b3d70491097bd4
+Filename: pool/main/d/duf/duf_0.6.2_armhf.deb
+Size: 915274
+SHA256: 9ae5225a6a11f7a59cef2e3bde9a5f9773c6bc5acfa24b95b7a714fa96c8fee3
+SHA1: b6261bead239c5207d48a1c3014d2bc5363ad852
+MD5sum: 7175cdeeb7588e16b3f1af74af3dde18
 Description: Disk Usage/Free Utility
 
 Package: fancy-cursor-themes
@@ -457,40 +457,40 @@ Description: A free fully featured markdown editor.
  how you like.
 
 Package: rpi-imager
-Version: 1.6
+Version: 1.6.1
 Architecture: armhf
 Maintainer: Floris Bos <bos@je-eigen-domein.nl>
-Installed-Size: 998
-Depends: libarchive13 (>= 3.0.4), libatomic1 (>= 4.8), libc6 (>= 2.4), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Installed-Size: 1026
+Depends: libarchive13 (>= 3.0.4), libatomic1 (>= 4.8), libc6 (>= 2.4), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
 Recommends: udisks2
 Homepage: https://www.raspberrypi.org/
 Priority: optional
 Section: admin
-Filename: pool/main/r/rpi-imager/rpi-imager_1.6_armhf.deb
-Size: 387336
-SHA256: 69d0af4233a2ce78cd01ff60d3b7087e17ab7ad4493a9f98e966066bf9067013
-SHA1: 39abe94cad50aea7e0b319682a4b1683652ccb9b
-MD5sum: 25fb9f5492e5e3b1349b3538000d6c66
+Filename: pool/main/r/rpi-imager/rpi-imager_1.6.1_armhf.deb
+Size: 391320
+SHA256: a309a4bf42857507245d0b48a1bb67ebc4fe85cb77ec537979a851d4026fc318
+SHA1: 2d96086aa9ddbacff569b4b0495c23bb11875098
+MD5sum: 9ddd97de2271b7a9d1e86e592be6ecf2
 Description: Raspberry Pi imaging utility
  Graphical user-interface to write disk images and format SD cards.
 
 Package: rpi-imager-dbgsym
 Source: rpi-imager
-Version: 1.6
+Version: 1.6.1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Floris Bos <bos@je-eigen-domein.nl>
-Installed-Size: 2839
-Depends: rpi-imager (= 1.6)
+Installed-Size: 2859
+Depends: rpi-imager (= 1.6.1)
 Priority: optional
 Section: debug
-Filename: pool/main/r/rpi-imager/rpi-imager-dbgsym_1.6_armhf.deb
-Size: 2815124
-SHA256: e5e5f8803e74db7541617ad23287346579bb6e93eaa53b1a5eab02e47e0b19dc
-SHA1: 33cfaa6d240f1a95f5e6900d94ccc77c0e9262cb
-MD5sum: 3b7bcffa15962e11aaedaa5ee49dc8c7
+Filename: pool/main/r/rpi-imager/rpi-imager-dbgsym_1.6.1_armhf.deb
+Size: 2836876
+SHA256: 62b4f1d1f396480ada6435f1be6746b15a7d07d44fadf8290b25f981698cf757
+SHA1: 449ec8549cf0f8bcc99dc0a4613f6787c352b82e
+MD5sum: 3fcb5ee4af512eab2bf2115da11e5d48
 Description: debug symbols for rpi-imager
-Build-Ids: c46d5945caddd33cf68cfbc25a2e5c470c83fcc6
+Build-Ids: 1acfe4971caf1265567169d4feb101ecaaf92bc6
 
 Package: rpiplay
 Installed-Size: 1424
