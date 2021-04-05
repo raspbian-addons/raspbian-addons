@@ -67,3 +67,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [tt](https://github.com/lemnos/tt)
 - [theme-sh](https://github.com/lemnos/theme.sh)
 - [WebCord](https://github.com/SpacingBat3/electron-discord-webapp)
+- [Firefox](http://ports.ubuntu.com/ubuntu-ports/pool/main/f/firefox/)
