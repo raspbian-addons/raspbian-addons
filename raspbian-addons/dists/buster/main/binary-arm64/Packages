@@ -210,6 +210,22 @@ SHA1: ac03a017ec472fc60b59f950571be02e842bb7e1
 MD5sum: 6d494c5e45b1ea07f6b8b52300e794ee
 Description: GitHub’s official command line tool.
 
+Package: kdiskmark
+Version: 2.2.0-3
+Architecture: arm64
+Maintainer: Dmitry Ilyich Sidorov <jonmagon@gmail.com>
+Installed-Size: 398
+Depends: fio (>= 3.1), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5authcore5 (>= 5.56.0), libkf5coreaddons5 (>= 4.97.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Homepage: https://github.com/JonMagon/KDiskMark
+Priority: optional
+Section: devel
+Filename: pool/main/k/kdiskmark/kdiskmark_2.2.0-3_arm64.deb
+Size: 114480
+SHA256: 5b9984779e83514c913cddac9b06f9a09a5c3a1fb2716a391b4faf419fc5398d
+SHA1: ef1e9b20842971e277df043ff817c2d57a67a62e
+MD5sum: b66742d15c13fe1aae0b519e4a80b7b7
+Description: A simple open source disk benchmark tool for Linux distros
+
 Package: lightpad
 Source: com.github.libredeb.lightpad
 Version: 0.0.8~rev2+build1

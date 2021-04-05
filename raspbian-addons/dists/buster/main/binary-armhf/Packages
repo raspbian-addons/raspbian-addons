@@ -355,6 +355,22 @@ Description: Angry IP Scanner - fast and friendly IP Scanner
  The program provides an easy to use GUI interface and is very extensible,
  see https://angryip.org/ for more information.
 
+Package: kdiskmark
+Version: 2.2.0-3
+Architecture: armhf
+Maintainer: Dmitry Ilyich Sidorov <jonmagon@gmail.com>
+Installed-Size: 348
+Depends: fio (>= 3.1), libc6 (>= 2.4), libgcc-s1 (>= 3.5), libkf5authcore5 (>= 5.56.0), libkf5coreaddons5 (>= 4.97.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Homepage: https://github.com/JonMagon/KDiskMark
+Priority: optional
+Section: devel
+Filename: pool/main/k/kdiskmark/kdiskmark_2.2.0-3_armhf.deb
+Size: 117280
+SHA256: 257a95b170d59d09a53b5a919dcf9369517738edb112201005adceb48dcf2510
+SHA1: f77ea32e23e086d1cd5c769ea7c54a054a3ce6f1
+MD5sum: 32c3acef518cc23aaf885e04624f3818
+Description: A simple open source disk benchmark tool for Linux distros
+
 Package: keepassx
 Installed-Size: 2640
 Maintainer: root@raspberrypi

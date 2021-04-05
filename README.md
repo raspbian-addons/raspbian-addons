@@ -72,4 +72,5 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [TurboWarp Desktop](https://github.com/TurboWarp/desktop)
 - [Drawing](https://launchpad.net/~cartes/+archive/ubuntu/drawing/+packages)
 - [Foliate](https://github.com/johnfactotum/foliate)
-- [QQ](https://im.qq.com/linuxqq/download.html)
+- [linuxqq](https://im.qq.com/linuxqq/download.html)
+- [KDiskMark](https://launchpad.net/~jonmagon/+archive/ubuntu/kdiskmark/+packages)
