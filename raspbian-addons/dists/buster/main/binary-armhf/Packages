@@ -696,6 +696,25 @@ SHA1: 7852782e20a2c5d3e3fb009e4b3142c11947a88d
 MD5sum: 6bc8baa343172f8f99f55ad377b519fd
 Description: Terminal based typing test.
 
+Package: turbowarp-desktop
+Version: 0.3.1
+License: GPL-3.0
+Vendor: Thomas Weber <contact@turbowarp.org>
+Architecture: armhf
+Maintainer: Thomas Weber <contact@turbowarp.org>
+Installed-Size: 201094
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://desktop.turbowarp.org/
+Priority: extra
+Section: default
+Filename: pool/main/t/turbowarp-desktop/turbowarp-desktop_0.3.1_armhf.deb
+Size: 93311236
+SHA256: 406ca395228db237fdb348d25750ba2dd80da387f6f700f149c37b6d8fb12615
+SHA1: a662bb6853e455bc8bb2ada12f7304583a9aeed6
+MD5sum: 40351f10bd1acaf60c5e60fea2be8d2b
+Description: Mod of Scratch with a compiler and more features.
+  TurboWarp is a Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.
+
 Package: ulauncher
 Version: 5.10.0
 Architecture: all
