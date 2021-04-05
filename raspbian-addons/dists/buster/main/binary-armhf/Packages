@@ -729,3 +729,22 @@ SHA1: c8bc800bdbebd2738afd4170fb21f49c3f8b2e7e
 MD5sum: 2651bb4fbe46013c78b83158d1f33f3d
 Description: vkglmark compiled for raspberry pi 4
 
+Package: webcord
+Version: 1.3.0
+Architecture: armhf
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Installed-Size: 132567
+Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
+Homepage: https://github.com/SpacingBat3/WebCord#readme
+Priority: optional
+Section: web
+Filename: pool/main/w/webcord/webcord_1.3.0_armhf.deb
+Size: 52600352
+SHA256: b55845bc608589d021f03b15be470ee206ad82c2405f4196e777f332bed9386a
+SHA1: 88420b1803ccb99326c765109d0de296612a43e7
+MD5sum: 05694e1366a4e43c2cec675ca231de22
+Description: A Discord Web App made with the Electron API.
+ A Discord Web App made with the Electron API.
+

@@ -66,3 +66,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [VSCodium](https://github.com/VSCodium/VSCodium)
 - [tt](https://github.com/lemnos/tt)
 - [theme-sh](https://github.com/lemnos/theme.sh)
+- [WebCord](https://github.com/SpacingBat3/electron-discord-webapp)

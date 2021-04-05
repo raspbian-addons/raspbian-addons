@@ -278,3 +278,22 @@ SHA1: 4c5f13679ebf31fb111b4b56b2bfc36f51e44eae
 MD5sum: 7de94918eb4f825861142ba76f1a32f1
 Description: Terminal based typing test.
 
+Package: webcord
+Version: 1.3.0
+Architecture: arm64
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Installed-Size: 206661
+Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
+Homepage: https://github.com/SpacingBat3/WebCord#readme
+Priority: optional
+Section: web
+Filename: pool/main/w/webcord/webcord_1.3.0_arm64.deb
+Size: 59307184
+SHA256: ffb64f8947198e40f6cfdae18e3e0b751859013a7ac9b14a2206b706e25ed3d9
+SHA1: cc2c97c5cabe38fd0c65709f29f1d5a7059f9582
+MD5sum: defcfaabaa6db8ed6779a148d30a00c6
+Description: A Discord Web App made with the Electron API.
+ A Discord Web App made with the Electron API.
+
