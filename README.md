@@ -68,3 +68,5 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [theme-sh](https://github.com/lemnos/theme.sh)
 - [WebCord](https://github.com/SpacingBat3/electron-discord-webapp)
 - [Firefox](http://ports.ubuntu.com/ubuntu-ports/pool/main/f/firefox/)
+- [BlockPi](https://github.com/alienzhangyw/BlockPi)
+- [TurboWarp Desktop](https://github.com/TurboWarp/desktop)

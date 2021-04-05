@@ -17,6 +17,25 @@ MD5sum: d80165ceea1f77a07021548eaf2377a1
 Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
   Flash OS images to SD cards and USB drives, safely and easily.
 
+Package: blockpi
+Version: 1.1.5
+License: Apache-2.0
+Vendor: Zhang Yiwei <alienzhangyw@live.cn>
+Architecture: arm64
+Maintainer: Zhang Yiwei <alienzhangyw@live.cn>
+Installed-Size: 198277
+Depends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, python3-gpiozero, sense-hat, python3-sense-emu, sense-emu-tools, python3-picamera
+Homepage: https://github.com/alienzhangyw/BlockPi
+Priority: extra
+Section: default
+Filename: pool/main/b/blockpi/blockpi_1.1.5_arm64.deb
+Size: 49025468
+SHA256: 79b150a11e33091e410c7e1bd6eba25f59d28ecdd07014fa14b3ddc2b40a1351
+SHA1: 7346c06ff89cf1ae281c25f84476e006770d4429
+MD5sum: 9879c150b31c2a7280d242f3d29e916a
+Description: 
+  A visual programming editor for Raspberry Pi
+
 Package: browsh
 Version: 1.6.4
 Architecture: arm64
