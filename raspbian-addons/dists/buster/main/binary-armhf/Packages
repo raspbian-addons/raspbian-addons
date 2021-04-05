@@ -158,6 +158,42 @@ MD5sum: ccd7236e56a81452bcb850658dd2fe49
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://vscodium.com/docs/setup/linux for installation instructions and FAQ.
 
+Package: com.github.johnfactotum.foliate
+Version: 2.6.3
+Architecture: all
+Maintainer: John Factotum <50942278+johnfactotum@users.noreply.github.com>
+Installed-Size: 5127
+Depends: dconf-gsettings-backend | gsettings-backend, gjs (>= 1.52), gir1.2-webkit2-4.0
+Recommends: gir1.2-gspell-1, gir1.2-handy-0.0, iso-codes (>= 3.67)
+Suggests: gir1.2-tracker-2.0, espeak, festival, sdcv, dictd, dictd-dictionary, hyphen-af, hyphen-as, hyphen-bg, hyphen-bn, hyphen-ca, hyphen-cs, hyphen-da, hyphen-de, hyphen-el, hyphen-en-ca, hyphen-en-gb, hyphen-en-us, hyphen-es, hyphen-fi, hyphen-fr, hyphen-ga, hyphen-gl, hyphen-gu, hyphen-hi, hyphen-hr, hyphen-hu, hyphen-id, hyphen-is, hyphen-it, hyphen-kn, hyphen-lt, hyphen-lv, hyphen-ml, hyphen-mr, hyphen-nl, hyphen-no, hyphen-or, hyphen-pa, hyphen-pl, hyphen-pt-br, hyphen-pt-pt, hyphen-ro, hyphen-ru, hyphen-show, hyphen-sk, hyphen-sl, hyphen-sr, hyphen-sv, hyphen-ta, hyphen-te, hyphen-uk, hyphen-zu
+Homepage: https://johnfactotum.github.io/foliate/
+Priority: optional
+Section: gnome
+Filename: pool/main/c/com.github.johnfactotum.foliate/com.github.johnfactotum.foliate_2.6.3_all.deb
+Size: 892840
+SHA256: b4fb556d59407e047ebe796423e94980925b988d79f7148270024bafa3ae9c82
+SHA1: c2d97deb7f4d1fcfd80a53d3d8854f5cb64120af
+MD5sum: ad5350c2829d66e995afee85c32f1af1
+Description: Simple and modern eBook viewer
+ A simple and modern GTK eBook viewer, built with GJS and Epub.js.
+ Supported formats:
+   EPUB (.epub, .epub3)
+   Kindle (.azw, .azw3) and Mobipocket (.mobi)
+   FictionBook (.fb2, .fb2.zip)
+   Comic book archive (.cbr, .cbz, .cbt, .cb7)
+   Plain text (.txt)
+ Single-column, two-column, or continuous scrolling layouts
+ Adjust font, line-spacing, and margins
+ Customize colors and brightness
+ Reading progress slider with chapter marks
+ Bookmarks and annotations
+ Find in book
+ Open footnotes in popovers
+ Touchpad gestures—use two-finger swipe to turn the page
+ Quick dictionary lookup with Wiktionary, Wikipedia, dictd,
+ and sdcv, or translate text with Google Translate
+ Basic text-to-speech support with eSpeak NG and Festival
+
 Package: conky-manager
 Version: 2.4~136~ubuntu16.04.1
 Architecture: armhf
@@ -174,6 +210,24 @@ SHA1: f0a55c29ba01496c09d1dea56a99da9b41c48a8d
 MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
+
+Package: drawing
+Version: 0.6.5-0ubuntu1~groovy
+Architecture: armhf
+Maintainer: Romain F. T. <rrroschan@gmail.com>
+Installed-Size: 3508
+Depends: dconf-gsettings-backend | gsettings-backend, python3-gi (>= 3.26.0), python3-gi-cairo (>= 3.26.0), gir1.2-gtk-3.0 (>= 3.22.30)
+Homepage: https://maoschanz.github.io/drawing/
+Priority: optional
+Section: graphics
+Filename: pool/main/d/drawing/drawing_0.6.5-0ubuntu1~groovy_armhf.deb
+Size: 2478216
+SHA256: 70bc912b2e7bdc3bcb1863b1b10899392b8f27361efee01734c3d5aa61544946
+SHA1: bc273785e1429eb6a763fa5983ac3d306445ab66
+MD5sum: 03bd6c1621799cb948c1df730453a5a2
+Description: A drawing application for the GNOME desktop.
+ A simple application to draw or edit pictures.
+ It includes tools like: Pencil, Selection, Shape, Text, …
 
 Package: duf
 Version: 0.6.2
