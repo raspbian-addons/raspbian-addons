@@ -73,6 +73,5 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [com.github.johnfactotum.foliate](https://github.com/johnfactotum/foliate)
 - [linuxqq](https://im.qq.com/linuxqq/download.html)
 - [Lutris](http://download.opensuse.org/repositories/home:/strycore/Raspbian_10/)
-- [AnyDesk](http://download.anydesk.com/rpi/)
 - [panther-launcher](https://gitlab.com/rastersoft/panther_launcher)
 - [USBImager](https://gitlab.com/bztsrc/usbimager/)
