@@ -475,26 +475,6 @@ SHA1: 1f3d5beec7c4047c69652a8c5294d8e7a4c84867
 MD5sum: baedc836b3b2e1231aedeb0176a377ee
 Description: PSP emulator
 
-Package: qemu
-Maintainer: Itai-Nelken <itainelken@gmail.com> 
-Summary: QEMU 5.2.90 armhf for the Raspberry Pi and other armhf devices built using qemu2deb.
-Name: qemu 
-Priority: optional
-Section: custom
-Filename: pool/main/q/qemu/qemu_5.2.90_armhf.deb
-Size: 121649368
-SHA256: d4e19f2b0d7f2a029aff133f260df7cba194c8b05df3e973e4ca591c241d6c1d
-SHA1: f044852cab2796a2f8691aed7a8e4fc7591f9000
-MD5sum: 3584faa6c01e2eb7e3fe245dfc919a9b
-Description: QEMU 5.2.90 armhf built using QEMU2DEB for the Raspberry Pi and other armhf devices.
-Version: 1:5.2.90 
-Release: 1 
-License: GPL 
-Architecture: armhf 
-Provides: qemu
-Recommends: bash-completion
-Conflicts: qemu-utils, qemu-system-common, qemu-system-gui, qemu-system-ppc, qemu-block-extra, qemu-guest-agent, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-mips, qemu-system-misc, qemu-system-sparc, qemu-system-x86, qemu-system, qemu-user-binfmt, qemu-user-static, qemu-user, qemu, openbios-sparc, openbios-ppc, openbios-sparc, seabios, openhackware, qemu-slof, ovmf
-
 Package: qemu2deb
 Version: 0.6.0
 Architecture: all
