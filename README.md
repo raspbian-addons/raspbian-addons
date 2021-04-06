@@ -74,4 +74,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [linuxqq](https://im.qq.com/linuxqq/download.html)
 - [Lutris](http://download.opensuse.org/repositories/home:/strycore/Raspbian_10/)
 - [AnyDesk](http://download.anydesk.com/rpi/)
-- [panther_launcher](https://gitlab.com/rastersoft/panther_launcher)
+- [panther-launcher](https://gitlab.com/rastersoft/panther_launcher)
