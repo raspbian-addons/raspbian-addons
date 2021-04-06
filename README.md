@@ -72,3 +72,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Drawing](https://launchpad.net/~cartes/+archive/ubuntu/drawing/+packages)
 - [com.github.johnfactotum.foliate](https://github.com/johnfactotum/foliate)
 - [linuxqq](https://im.qq.com/linuxqq/download.html)
+- [Lutris](http://download.opensuse.org/repositories/home:/strycore/Raspbian_10/)

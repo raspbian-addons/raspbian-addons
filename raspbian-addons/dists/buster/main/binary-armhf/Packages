@@ -433,6 +433,27 @@ SHA1: b67beed8b554e1ad983478489a24b43f78ff012d
 MD5sum: f9caf5162d5f425bc9e9d06fc01ac6b4
 Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
 
+Package: lutris
+Version: 0.5.8.3
+Architecture: all
+Maintainer: Mathieu Comandon <strider@strycore.com>
+Installed-Size: 2137
+Depends: python3:any, python3-yaml, python3-lxml, python3-requests, python3-pil, python3-gi, python3-setproctitle, python3-magic, python3-distro, python3-dbus, gir1.2-gtk-3.0, gir1.2-gnomedesktop-3.0, gir1.2-webkit2-4.0, gir1.2-notify-0.7, psmisc, cabextract, unzip, p7zip, curl, fluid-soundfont-gs, x11-xserver-utils, mesa-utils
+Recommends: python3-evdev, gvfs-backends, libwine-development, winetricks
+Suggests: gamemode
+Homepage: https://lutris.net
+Priority: optional
+Section: games
+Filename: pool/main/l/lutris/lutris_0.5.8.3_all.deb
+Size: 588276
+SHA256: 882e2ce547ab3b2c6e1472141d6b672b2c4e46e81ee408a920715810c9eba07b
+SHA1: 37bd07737d3bd42be40235aca5e28cfce7e06cd7
+MD5sum: c8c76a764fef206ba5fc7b549279a0fd
+Description: open source gaming platform
+ Lutris goal is to make gaming on Linux as easy as possible by taking care of
+ installing and setting up the game for the user. The only thing you have to do
+ is play the game. It aims to support every game that is playable on Linux.
+
 Package: papirus-icon-theme
 Version: 20210302-5107+pkg21~ubuntu20.10.1
 Architecture: all
