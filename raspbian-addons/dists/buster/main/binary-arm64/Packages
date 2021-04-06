@@ -269,6 +269,21 @@ Description: Papirus Icon Theme
   - Papirus-Dark
   - Papirus-Light
 
+Package: qemu
+Installed-Size: 952956
+Maintainer: root@raspberrypi
+Architecture: arm64
+Version: 5.2.50-1
+Provides: qemu
+Priority: extra
+Section: checkinstall
+Filename: pool/main/q/qemu/qemu_5.2.50-1_arm64.deb
+Size: 125513520
+SHA256: 94bc12bca24574d1c6c646666bce1f07bd5ae8f2d12b121308a6f493b28ea00c
+SHA1: 280fc6c0bc09d86ff5ef79e898928729170a844b
+MD5sum: e207f256aaacaca41c9fa8a8ba32983e
+Description: QEMU
+
 Package: rpi-imager
 Version: 1.6.1
 Architecture: arm64
