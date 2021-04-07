@@ -75,6 +75,22 @@ MD5sum: 7f0c78c5ac7a04986e1b0666b2170bd6
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
+Package: duf
+Version: 0.6.2
+Architecture: arm64
+Maintainer: Christian Muehlhaeuser <muesli@gmail.com>
+Vendor: muesli
+Installed-Size: 2240
+Homepage: https://fribbledom.com/
+Priority: 
+Section: 
+Filename: pool/main/d/duf/duf_0.6.2_arm64.deb
+Size: 887474
+SHA256: 6cdd3b1d76322079eae98b7cfd7fd23c4b6b6a7d35d89d70cb10edddafec257f
+SHA1: a9686a5165cb27a2942aae16bf4cf6086c3f2049
+MD5sum: 26b495c1e7be2b3a6da184c885d8a70b
+Description: Disk Usage/Free Utility
+
 Package: fancy-cursor-themes
 Version: 1.2
 Architecture: all
@@ -88,6 +104,25 @@ SHA256: 83a17a9ef701f9e9170f5b4d07bb619c265aa60afccd433ae939488a38179e76
 SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
 MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
+
+Package: freetube
+Version: 0.12.0
+License: AGPL-3.0-or-later
+Vendor: PrestonN <FreeTubeApp@protonmail.com>
+Architecture: arm64
+Maintainer: PrestonN <FreeTubeApp@protonmail.com>
+Installed-Size: 320030
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Priority: extra
+Section: default
+Filename: pool/main/f/freetube/freetube_0.12.0_arm64.deb
+Size: 71552906
+SHA256: 4fdd3b8d205beb738da9cf3c0eec4c136101acadf1eac1736084f9faf69463f3
+SHA1: 9c621fa4860cd42fe0ea958d9320b637658e6dfb
+MD5sum: 6225daef75f523d92d836200ae35abbd
+Description: 
+  A private YouTube client
 
 Package: lightpad
 Source: com.github.libredeb.lightpad

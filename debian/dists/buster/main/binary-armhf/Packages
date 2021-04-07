@@ -136,6 +136,22 @@ MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
 
+Package: duf
+Version: 0.6.2
+Architecture: armhf
+Maintainer: Christian Muehlhaeuser <muesli@gmail.com>
+Vendor: muesli
+Installed-Size: 2048
+Homepage: https://fribbledom.com/
+Priority: 
+Section: 
+Filename: pool/main/d/duf/duf_0.6.2_armhf.deb
+Size: 915274
+SHA256: 9ae5225a6a11f7a59cef2e3bde9a5f9773c6bc5acfa24b95b7a714fa96c8fee3
+SHA1: b6261bead239c5207d48a1c3014d2bc5363ad852
+MD5sum: 7175cdeeb7588e16b3f1af74af3dde18
+Description: Disk Usage/Free Utility
+
 Package: fancy-cursor-themes
 Version: 1.2
 Architecture: all
@@ -149,6 +165,25 @@ SHA256: 83a17a9ef701f9e9170f5b4d07bb619c265aa60afccd433ae939488a38179e76
 SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
 MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
+
+Package: freetube
+Version: 0.12.0
+License: AGPL-3.0-or-later
+Vendor: PrestonN <FreeTubeApp@protonmail.com>
+Architecture: armhf
+Maintainer: PrestonN <FreeTubeApp@protonmail.com>
+Installed-Size: 245793
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Priority: extra
+Section: default
+Filename: pool/main/f/freetube/freetube_0.12.0_armhf.deb
+Size: 68511486
+SHA256: 8e4b9a0fb421391f4f2e24dea9c619eb4c815040a65e9ab001df9aee66a6dc20
+SHA1: 4c87fb8b87ee1654244f2baef81cc1eb75fdfe2f
+MD5sum: 5d229276d36ab04eca642ced46cf7a9e
+Description: 
+  A private YouTube client
 
 Package: lightpad
 Source: com.github.libredeb.lightpad
