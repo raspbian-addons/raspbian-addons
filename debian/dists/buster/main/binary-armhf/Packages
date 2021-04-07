@@ -119,6 +119,26 @@ MD5sum: 7f0c78c5ac7a04986e1b0666b2170bd6
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
+Package: codium
+Version: 1.55.0-1617288871
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Architecture: armhf
+Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
+Homepage: https://vscodium.com/
+Installed-Size: 214953
+Provides: visual-studio-codium
+Conflicts: visual-studio-codium
+Replaces: visual-studio-codium
+Priority: optional
+Section: devel
+Filename: pool/main/c/codium/codium_1.55.0-1617288871_armhf.deb
+Size: 66310356
+SHA256: 34308f4259a5bf2299def997ff7928fd382bf8eb66539f625c0fe907b6716908
+SHA1: 32c098a3c09d633623e840b41f069731aec0800f
+MD5sum: ccd7236e56a81452bcb850658dd2fe49
+Description: Code editing. Redefined.
+ VSCodium is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://vscodium.com/docs/setup/linux for installation instructions and FAQ.
+
 Package: conky-manager
 Version: 2.4~136~ubuntu16.04.1
 Architecture: armhf
@@ -208,6 +228,22 @@ SHA1: 4c87fb8b87ee1654244f2baef81cc1eb75fdfe2f
 MD5sum: 5d229276d36ab04eca642ced46cf7a9e
 Description: 
   A private YouTube client
+
+Package: gh
+Version: 1.8.1
+Architecture: armhf
+Maintainer: GitHub
+Installed-Size: 14714
+Depends: git
+Homepage: https://github.com/cli/cli
+Priority: 
+Section: 
+Filename: pool/main/g/gh/gh_1.8.1_armhf.deb
+Size: 6207990
+SHA256: c7335cf6dda2cc4fe69e0e575420c70acb251e41d770d4ffe07acd23c542d405
+SHA1: 2de60b89f6b54a766d5d69b3b3722de01af0f4ed
+MD5sum: 192cdcb178eb09872964023dc9cda643
+Description: GitHub’s official command line tool.
 
 Package: glmark2
 Source: glmark2
