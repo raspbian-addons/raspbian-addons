@@ -71,3 +71,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [panther-launcher](https://gitlab.com/rastersoft/panther_launcher)
 - [USBImager](https://gitlab.com/bztsrc/usbimager/)
 - [FreeCAD](https://github.com/chunky-milk/freecad-rpi/)
+- [QEMU](https://www.qemu.org/)
