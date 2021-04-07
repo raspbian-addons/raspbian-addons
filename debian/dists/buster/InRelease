@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: raspbian-addons
+Label: apt repository
+Codename: buster
+Date: Wed, 07 Apr 2021 13:22:04 UTC
+Architectures: armhf arm64
+Components: main
+Description: Addon packages not found in the RPi repos
+MD5Sum:
+ 03785a7d829fdd1e533b331bce1e9732 1382 main/binary-armhf/Packages
+ 53f7aff137d4131c912daa118c992faa 801 main/binary-armhf/Packages.gz
+ 0afc04b611ab511c50c8d5c71bf709bd 137 main/binary-armhf/Release
+ e46a8808b4a3ff0927b8bc03b6d6e249 1382 main/binary-arm64/Packages
+ 493b97e374bf39dbc54946908d78461e 802 main/binary-arm64/Packages.gz
+ 77cbc0641f7d1ddf10f0e0361b185d06 137 main/binary-arm64/Release
+SHA1:
+ ed591fbba2bbc3860c7ee0c913a91fbd00aeb7f2 1382 main/binary-armhf/Packages
+ faf25332d26f21ac4b03a745930edd3be9b0aec1 801 main/binary-armhf/Packages.gz
+ 549920d7ff913612edc21896074314131b9b7424 137 main/binary-armhf/Release
+ c01466da9864686fb3ba3d760b28b165b335d5c2 1382 main/binary-arm64/Packages
+ 42347cce3c90afdbdd531655cfb9712ab617057a 802 main/binary-arm64/Packages.gz
+ 063b283db3653f575cee84bdeb623a1a327e2639 137 main/binary-arm64/Release
+SHA256:
+ 0fec2f4c803fd493cb4ba8adbf895a07dfccca108ad984debf8fc63496e10aad 1382 main/binary-armhf/Packages
+ 35375a89bb6bcf066b95d625905f7407594401e514b4280220a5457ee2240818 801 main/binary-armhf/Packages.gz
+ 90be94b0d5bb827232e866e56e58f89957a49e7a8a46322ff57706f8c7e7f10a 137 main/binary-armhf/Release
+ 60fb9779f79dab3420fd2380b3a61b50e40f6a11b02da22eb3f2dfb49702d7a8 1382 main/binary-arm64/Packages
+ 6481312f0a4d06429bd5c551afbc4ecbff662a6222817959ea5fddf6c5a4242b 802 main/binary-arm64/Packages.gz
+ 8f7374ad1d86b245ec5c863d01f2a13d75f1b5c6e8d68322b750c0051058485c 137 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEIy5vKXer1I5an60DmstOcNhL/SQFAmBtsfwACgkQmstOcNhL
+/SSPbQ//RivoFBFUcLsfHtefBJIUxuN+2HHJel1HsYYwmmJvJfbiUIz64jQYh6TP
+NA3Vn0QYktvjCn3J5f/6VBy3lb2U3Nv5+BuOgWHIpKilFgHKR5WSq3JiyM5Q5OiQ
+9i87KcFzKicqABSLs/l2Hp5+Htv6i4Y0E8XX/yGMvMlVWL/qUReayoF9C33IJAtZ
+4sC1su1W7Ai+WfTAZVUODq+m/eqbAFPF8wEHFpzYOimb2T1uKJYkF+iij0e8flal
+u29t9OkRBxpJ+o/w6cktQxUwUmgjuctqpfen2BaP/sWVyEX9I1fw9NMBhpxBr+Yg
+QDUO6JxrZErYfZ3vk/zsCHCx6SO1rwR7pn3WQURgBs8rMwXgEBttZgPEUH51lj0J
+3/dt1OQqzhorpSddkhGs6UVaJyR3Z7tR9vEqmshQP8wzZyS/qUGB1S2614k+cWvm
+zxbnv6MRswkFqhJO0D3KVJaOELhTEiIyCPZQfKbF+JcSMXyFb5hzJhnGLuhQY6Eg
+xt+tvTCmHFl41D5D+6x2LnYKdgA9WbD7jsakjd3vFGXBwdIC0BlAFRA4yGZbAQBN
+ChzljjTlNg0x52KZVLrQcJahHGcSacv9t0TAZefwIxENhVm7+CxeDKEnjcFcOBox
+O0xK8tW6Ut8wS8QXuExaPSmMesuMgEKChPYWhgxBLWknrMMYmQQ=
+=FkHk
+-----END PGP SIGNATURE-----
