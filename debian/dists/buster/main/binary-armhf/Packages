@@ -166,6 +166,30 @@ SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
 MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
 
+Package: fonts-inter
+Version: 3.15+ds-2
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 5009
+Multi-Arch: foreign
+Homepage: https://rsms.me/inter/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-inter/fonts-inter_3.15+ds-2_all.deb
+Size: 1529848
+SHA256: ab5f80dcfb74d922254c154fe82a1b90e10de72f33bcb0ba403ca9673b178cf1
+SHA1: 4189f2b178adb18d2bb8adc75b28e178d70990c1
+MD5sum: ae52e66513dfe2f339ec9e38ed9ff31b
+Description: Inter font family
+ This is a typeface specially designed for user interfaces with focus
+ on high legibility of small-to-medium sized text on computer screens.
+ .
+ The family features a tall x-height to aid in readability of
+ mixed-case and lower-case text. Several OpenType features are
+ provided as well, like contextual alternates that adjusts punctuation
+ depending on the shape of surrounding glyphs, slashed zero for when
+ you need to disambiguate "0" from "o", tabular numbers, etc.
+
 Package: freetube
 Version: 0.12.0
 License: AGPL-3.0-or-later
@@ -185,6 +209,59 @@ MD5sum: 5d229276d36ab04eca642ced46cf7a9e
 Description: 
   A private YouTube client
 
+Package: glmark2
+Source: glmark2
+Build-Depends: debhelper
+Maintainer: Don Novaspirit <novaspirit.com>
+Version: 2020.04
+Architecture: armhf
+Depends: libpng-dev,libgl1-mesa-dev,libgl1-mesa-dev,libjpeg-dev,libdrm-dev,libgbm1,libudev1
+Homepage: https://novaspirit.com
+Priority: optional
+Section: base
+Filename: pool/main/g/glmark2/glmark2_2020.04_armhf.deb
+Size: 15174584
+SHA256: c663aa161132500169f277f1363040fc2958944ec17f68cd594e228c1c774ff6
+SHA1: 4ccd1766fe1534858960e36997f5124f3755b923
+MD5sum: 9054dad02de8c31d56ca1d4125618cae
+Description: glmark2 glmark-es2 compiled for raspberry pi 4 with x11-gl
+
+Package: ipscan
+Version: 3.7.6
+Architecture: all
+Installed-Size: 1940
+Depends: libswt-gtk-4-java, libswt-cairo-gtk-4-jni, java8-runtime
+Maintainer: Anton Keks <anton@azib.net>
+Priority: optional
+Section: net
+Filename: pool/main/i/ipscan/ipscan_3.7.6_all.deb
+Size: 793468
+SHA256: 2236ee082c1c00e9423365db339a811a36869fcc4d3438e8c89982ccfe4917f4
+SHA1: 875f651fbfaf4e047492bd2ae5767cafc04841b0
+MD5sum: 115e08729b91835473c9612373e890c6
+Description: Angry IP Scanner - fast and friendly IP Scanner
+ Angry IP Scanner is a cross-platform network scanner written in Java.
+ It can scan IP-based networks in any range, scan ports, and resolve
+ other information.
+ The program provides an easy to use GUI interface and is very extensible,
+ see https://angryip.org/ for more information.
+
+Package: keepassx
+Installed-Size: 2640
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 2.0.3-1
+Depends: build-essential,cmake,qtbase5-dev,libqt5x11extras5-dev,qttools5-dev,qttools5-dev-tools,libgcrypt20-dev,zlib1g-dev,libxi-dev,libxtst-dev
+Provides: keepassx
+Priority: extra
+Section: checkinstall
+Filename: pool/main/k/keepassx/keepassx_2.0.3-1_armhf.deb
+Size: 526992
+SHA256: d82188e4958ae3033f59c3954c39ea168de2da874167662579da9ee1ae7ed4cf
+SHA1: 9962be0ac73e0fd20eb0dc8243e2ba5eba6f3cb6
+MD5sum: 5899f8f933c05727a3275bccd3161e27
+Description: Package created with checkinstall 1.6.3
+
 Package: lightpad
 Source: com.github.libredeb.lightpad
 Version: 0.0.8~rev1
@@ -200,6 +277,21 @@ SHA256: 0b8e93341ca49a64a9c775d0cc136fe8cac5d1b60423a3d33463c0cebb093617
 SHA1: b67beed8b554e1ad983478489a24b43f78ff012d
 MD5sum: f9caf5162d5f425bc9e9d06fc01ac6b4
 Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
+
+Package: qemu2deb
+Version: 0.6.0
+Architecture: all
+Essential: no
+Installed-Size: 71658
+Maintainer: Itai Nelken <https://github.com/Itai-Nelken/>
+Priority: optional
+Section: custom
+Filename: pool/main/q/qemu2deb/qemu2deb_0.6.0_all.deb
+Size: 20480
+SHA256: 3aba25abefc26905904d655903c27540ee69fa2380034460bdc1002da0c9fcb4
+SHA1: c745caf6ca424d6ffabfafd24a038e7cd6282693
+MD5sum: 3b15a992a2f8f6fd71ba9bb7cad52941
+Description: compiling/packaging/installing qemu made easier than ever.
 
 Package: realpath
 Source: coreutils
@@ -218,4 +310,200 @@ MD5sum: 72a1d860446630bea18bcfb09f52c82b
 Description: coreutils realpath transitional package
  Empty package to facilitate upgrades, can be safely removed.
 Original-Maintainer: Michael Stone <mstone@debian.org>
+
+Package: remarkable
+Version: 1.87
+Architecture: all
+Maintainer: Jamie McGowan <jamiemcgowan.dev@gmail.com>
+Installed-Size: 388
+Depends: python3 | python, dconf-gsettings-backend | gsettings-backend, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-gtksource-3.0, python3-markdown, python3-bs4, gir1.2-webkit-3.0, yelp, wkhtmltopdf, python3-gi
+Priority: extra
+Section: python
+Filename: pool/main/r/remarkable/remarkable_1.87_all.deb
+Size: 76486
+SHA256: d34c7925498053362b56c25ae92268bf9fa9810f283b097f987d2ef05f8efb2d
+SHA1: 95f45865faecc86cc0f7d84d78b0c87c834bf405
+MD5sum: b14b7bf5b4d4cbf2acb9559220bba982
+Description: A free fully featured markdown editor.
+ Remarkable is a free fully featured markdown editor. It has a syntax
+ like Github flavoured markdown. With it you can write markdown and view
+ the changes as you make them in the live preview window. You can export
+ your files to a variety of formats. There are multiple styles available
+ along with extensive configuration options so you can set it up exactly
+ how you like.
+
+Package: rpiplay
+Installed-Size: 1420
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 20210203-1
+Provides: rpiplay
+Priority: extra
+Section: checkinstall
+Filename: pool/main/r/rpiplay/rpiplay_20210203-1_armhf.deb
+Size: 635160
+SHA256: 03c7898edb677482caefd8127eacb04c2ea87d3b9b660c4bdaf265339fca08bc
+SHA1: 27915425aa6197166d5dd654895b2fa890610642
+MD5sum: 29fbcc00ced7fbff99dbd19fb5f53455
+Description: An open-source implementation of an AirPlay mirroring server for the Raspberry Pi. The goal is to make it run smoothly even on a Raspberry Pi Zero.
+
+Package: shellcheck
+Version: 20210322-0.7.1
+Architecture: armhf
+Maintainer: Itai Nelken
+Installed-Size: 19627
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.27), libffi6 (>= 3.0.4), libgmp10
+Multi-Arch: foreign
+Homepage: https://www.shellcheck.net/
+Priority: optional
+Section: devel
+Filename: pool/main/s/shellcheck/shellcheck_20210322-0.7.1_armhf.deb
+Size: 2520664
+SHA256: 933b480776988c820e77dc9fafb6f6d8e2acb4c6f322cca48ea211c27ef36c41
+SHA1: 4861401aded5be6c1016480c43b87c9eb7d12bb8
+MD5sum: 792cd5d4edb2247301e5a455da9459a1
+Description: lint tool for shell scripts
+ The goals of ShellCheck are:
+ .
+  * To point out and clarify typical beginner's syntax issues,
+    that causes a shell to give cryptic error messages.
+ .
+  * To point out and clarify typical intermediate level semantic problems,
+    that causes a shell to behave strangely and counter-intuitively.
+ .
+  * To point out subtle caveats, corner cases and pitfalls, that may cause an
+    advanced user's otherwise working script to fail under future circumstances.
+
+Package: sonic-pi
+Version: 1:3.3.1
+Architecture: armhf
+3Essential: no
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgles2, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 5.2), alsa-utils, ruby, jackd2, supercollider-server, sc3-plugins-server, erlang-base, dbus-x11, libqt5xml5, pulseaudio, pulseaudio-utils, pulseaudio-module-jack
+Recommends: compton 
+Installed-Size: 193784
+Maintainer: Robin Newman <rbnpiman@gmail.com>
+Priority: optional
+Section: unknown
+Filename: pool/main/s/sonic-pi/sonic-pi_3.3.1_armhf.deb
+Size: 69208356
+SHA256: f6cc382cea61467d04ce7fe186deba7d352f64b0a7b4d9ccc8f74b2774d9dfe5
+SHA1: 5aa44d8a010cb40a9f72faf4252d7e80df054f80
+MD5sum: 0b5c00cc092a8f3c6b2584caf2554937
+Description: Sonic Pi - The Live Coding Music Synth for Everyone.
+Homepage: http://sonic-pi.net
+
+Package: stacer
+Version: 1.1.0+ds-1
+Architecture: armhf
+Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
+Installed-Size: 1365
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 4.3.0), fonts-league-spartan
+Homepage: https://github.com/oguzhaninan/Stacer/
+Priority: optional
+Section: utils
+Filename: pool/main/s/stacer/stacer_1.1.0+ds-1_armhf.deb
+Size: 594260
+SHA256: 33096b261f058b79c25d8e060d490445367663f3b0aed0b6a6e3111e527cfdd5
+SHA1: 16ef2d2202aa70c21c8402b13df95e118a498756
+MD5sum: 19742afb27230e7949950e06009aa51e
+Description: Linux system optimizer and monitoring
+ Monitor your system (CPU, memory, disk) in a graphical application (qt).
+ Change and monitor your services. Summarizes basic system information and
+ can show network download/upload speeds/totals.
+
+Package: sysmontask
+Version: 1.1.1-ubuntu20.10-beta-bb
+Architecture: all
+Maintainer: Neeraj Kumar <neerajjangra4u@gmail.com>
+Installed-Size: 444
+Depends: python3-cairo, python3-gi, python3-psutil, python3:any (>= 3.6~), python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-wnck-3.0
+Priority: optional
+Section: devel
+Filename: pool/main/s/sysmontask/sysmontask_1.1.1-ubuntu20.10-beta-bb_all.deb
+Size: 37840
+SHA256: 03ab0688c2856e4c6c87a4bd744c1838d8f77f03b596552a50f086c52e752dba
+SHA1: a715ceb14d4439064e7dbaa82fed074114b09fc3
+MD5sum: a2052a7a4808f6acd5a31f6ea65ca5e7
+Description: System Monitor With UI Like Windows
+
+Package: theme-sh
+Version: 20210326
+Architecture: all
+Maintainer: lemnos
+Priority: optional
+Section: unknown
+Filename: pool/main/t/theme-sh/theme-sh_20210326_all.deb
+Size: 18916
+SHA256: ad825be536c05a93816b8af1f6c0be73cff7a54eac371ec9e99711ec496ed9f4
+SHA1: 50ce7749b8ce111f31a5498ce309f210f41174b6
+MD5sum: 477902500494679a9ceaaafb3de9a8b8
+Description: Theme your terminal with one script.
+
+Package: thunar-sendto-clamtk
+Version: 0.06-1
+Architecture: all
+Maintainer: Dave Mauroni <dave.nerd@gmail.com>
+Installed-Size: 17
+Depends: thunar, clamtk
+Homepage: https://dave-theunsub.github.io/clamtk/
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar-sendto-clamtk/thunar-sendto-clamtk_0.06-1_all.deb
+Size: 5530
+SHA256: e65b97e326ea545f15122a70ee7e6747c26b5a70ce79bec1dbe6994a0b51e8ff
+SHA1: 7db3c6c11ab9e47fda79d43308b90d00645ba1e9
+MD5sum: dd97ad2b8e0898c9f5895f8c2afba8c6
+Description: Simple virus scanning plugin for Thunar file manager
+ A simple plugin to allow right-click virus scanning within Thunar
+
+Package: timeshift
+Version: 20.11.1
+Architecture: armhf
+Maintainer: Tony George <teejeetech@gmail.com>
+Installed-Size: 2733
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.13.2), libvte-2.91-0, rsync, btrfs-progs | btrfs-tools
+Replaces: timeshift-btrfs
+Homepage: https://teejeetech.in/
+Priority: extra
+Section: utils
+Filename: pool/main/t/timeshift/timeshift_20.11.1_armhf.deb
+Size: 592638
+SHA256: 6ac692eceb94949a77554c84effe961cb0b266dbe40eaf51c2bb68089e164f2f
+SHA1: 8d5987cd73894d96f2dba4258c1734f79dce83d6
+MD5sum: f0a77c290f80ab4b4e0cbceff5d3db78
+Description: System restore utility
+ Timeshift is a system restore utility which takes snapshots
+ of the system at regular intervals. These snapshots can be restored
+ at a later date to undo system changes. Creates incremental snapshots
+ using rsync or BTRFS snapshots using BTRFS tools.
+
+Package: tt
+Version: 0.4.0
+Architecture: armhf
+Maintainer: lemnos
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tt/tt_0.4.0_armhf.deb
+Size: 1868720
+SHA256: 6aabbedad56d7d854265ea403dcbe8fc3aea411a1bda1f4c7d4e603efdb4dad0
+SHA1: 7852782e20a2c5d3e3fb009e4b3142c11947a88d
+MD5sum: 6bc8baa343172f8f99f55ad377b519fd
+Description: Terminal based typing test.
+
+Package: vkmark
+Source: vkmark
+Build-Depends: debhelper
+Maintainer: Don Novaspirit <novaspirit.com>
+Version: 2020.04
+Architecture: armhf
+Depends: libpng-dev,libgl1-mesa-dev,libgl1-mesa-dev,libjpeg-dev,libdrm-dev,libgbm1,libudev1
+Homepage: https://novaspirit.com
+Priority: optional
+Section: base
+Filename: pool/main/v/vkmark/vkmark_2020.04_armhf.deb
+Size: 3039660
+SHA256: 8999b1ebf59765f8292a65a85d9555edb34b01bfd7264b2d0cf74d9001b2cbee
+SHA1: c8bc800bdbebd2738afd4170fb21f49c3f8b2e7e
+MD5sum: 2651bb4fbe46013c78b83158d1f33f3d
+Description: vkglmark compiled for raspberry pi 4
 

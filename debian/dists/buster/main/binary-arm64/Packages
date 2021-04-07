@@ -105,6 +105,30 @@ SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
 MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
 
+Package: fonts-inter
+Version: 3.15+ds-2
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 5009
+Multi-Arch: foreign
+Homepage: https://rsms.me/inter/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-inter/fonts-inter_3.15+ds-2_all.deb
+Size: 1529848
+SHA256: ab5f80dcfb74d922254c154fe82a1b90e10de72f33bcb0ba403ca9673b178cf1
+SHA1: 4189f2b178adb18d2bb8adc75b28e178d70990c1
+MD5sum: ae52e66513dfe2f339ec9e38ed9ff31b
+Description: Inter font family
+ This is a typeface specially designed for user interfaces with focus
+ on high legibility of small-to-medium sized text on computer screens.
+ .
+ The family features a tall x-height to aid in readability of
+ mixed-case and lower-case text. Several OpenType features are
+ provided as well, like contextual alternates that adjusts punctuation
+ depending on the shape of surrounding glyphs, slashed zero for when
+ you need to disambiguate "0" from "o", tabular numbers, etc.
+
 Package: freetube
 Version: 0.12.0
 License: AGPL-3.0-or-later
@@ -124,6 +148,26 @@ MD5sum: 6225daef75f523d92d836200ae35abbd
 Description: 
   A private YouTube client
 
+Package: ipscan
+Version: 3.7.6
+Architecture: all
+Installed-Size: 1940
+Depends: libswt-gtk-4-java, libswt-cairo-gtk-4-jni, java8-runtime
+Maintainer: Anton Keks <anton@azib.net>
+Priority: optional
+Section: net
+Filename: pool/main/i/ipscan/ipscan_3.7.6_all.deb
+Size: 793468
+SHA256: 2236ee082c1c00e9423365db339a811a36869fcc4d3438e8c89982ccfe4917f4
+SHA1: 875f651fbfaf4e047492bd2ae5767cafc04841b0
+MD5sum: 115e08729b91835473c9612373e890c6
+Description: Angry IP Scanner - fast and friendly IP Scanner
+ Angry IP Scanner is a cross-platform network scanner written in Java.
+ It can scan IP-based networks in any range, scan ports, and resolve
+ other information.
+ The program provides an easy to use GUI interface and is very extensible,
+ see https://angryip.org/ for more information.
+
 Package: lightpad
 Source: com.github.libredeb.lightpad
 Version: 0.0.8~rev2+build1
@@ -139,6 +183,21 @@ SHA256: 302276c27498b4880261cc258edd238e7746210c8dddbea77277fc1a4ceaf024
 SHA1: 07f2b3f7cfd995813362d3d3ce0011fdbd39480b
 MD5sum: 7819002094b1dea094884e12b5138934
 Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
+
+Package: qemu2deb
+Version: 0.6.0
+Architecture: all
+Essential: no
+Installed-Size: 71658
+Maintainer: Itai Nelken <https://github.com/Itai-Nelken/>
+Priority: optional
+Section: custom
+Filename: pool/main/q/qemu2deb/qemu2deb_0.6.0_all.deb
+Size: 20480
+SHA256: 3aba25abefc26905904d655903c27540ee69fa2380034460bdc1002da0c9fcb4
+SHA1: c745caf6ca424d6ffabfafd24a038e7cd6282693
+MD5sum: 3b15a992a2f8f6fd71ba9bb7cad52941
+Description: compiling/packaging/installing qemu made easier than ever.
 
 Package: realpath
 Source: coreutils
@@ -157,4 +216,104 @@ MD5sum: 72a1d860446630bea18bcfb09f52c82b
 Description: coreutils realpath transitional package
  Empty package to facilitate upgrades, can be safely removed.
 Original-Maintainer: Michael Stone <mstone@debian.org>
+
+Package: remarkable
+Version: 1.87
+Architecture: all
+Maintainer: Jamie McGowan <jamiemcgowan.dev@gmail.com>
+Installed-Size: 388
+Depends: python3 | python, dconf-gsettings-backend | gsettings-backend, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-gtksource-3.0, python3-markdown, python3-bs4, gir1.2-webkit-3.0, yelp, wkhtmltopdf, python3-gi
+Priority: extra
+Section: python
+Filename: pool/main/r/remarkable/remarkable_1.87_all.deb
+Size: 76486
+SHA256: d34c7925498053362b56c25ae92268bf9fa9810f283b097f987d2ef05f8efb2d
+SHA1: 95f45865faecc86cc0f7d84d78b0c87c834bf405
+MD5sum: b14b7bf5b4d4cbf2acb9559220bba982
+Description: A free fully featured markdown editor.
+ Remarkable is a free fully featured markdown editor. It has a syntax
+ like Github flavoured markdown. With it you can write markdown and view
+ the changes as you make them in the live preview window. You can export
+ your files to a variety of formats. There are multiple styles available
+ along with extensive configuration options so you can set it up exactly
+ how you like.
+
+Package: sysmontask
+Version: 1.1.1-ubuntu20.10-beta-bb
+Architecture: all
+Maintainer: Neeraj Kumar <neerajjangra4u@gmail.com>
+Installed-Size: 444
+Depends: python3-cairo, python3-gi, python3-psutil, python3:any (>= 3.6~), python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-wnck-3.0
+Priority: optional
+Section: devel
+Filename: pool/main/s/sysmontask/sysmontask_1.1.1-ubuntu20.10-beta-bb_all.deb
+Size: 37840
+SHA256: 03ab0688c2856e4c6c87a4bd744c1838d8f77f03b596552a50f086c52e752dba
+SHA1: a715ceb14d4439064e7dbaa82fed074114b09fc3
+MD5sum: a2052a7a4808f6acd5a31f6ea65ca5e7
+Description: System Monitor With UI Like Windows
+
+Package: theme-sh
+Version: 20210326
+Architecture: all
+Maintainer: lemnos
+Priority: optional
+Section: unknown
+Filename: pool/main/t/theme-sh/theme-sh_20210326_all.deb
+Size: 18916
+SHA256: ad825be536c05a93816b8af1f6c0be73cff7a54eac371ec9e99711ec496ed9f4
+SHA1: 50ce7749b8ce111f31a5498ce309f210f41174b6
+MD5sum: 477902500494679a9ceaaafb3de9a8b8
+Description: Theme your terminal with one script.
+
+Package: thunar-sendto-clamtk
+Version: 0.06-1
+Architecture: all
+Maintainer: Dave Mauroni <dave.nerd@gmail.com>
+Installed-Size: 17
+Depends: thunar, clamtk
+Homepage: https://dave-theunsub.github.io/clamtk/
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar-sendto-clamtk/thunar-sendto-clamtk_0.06-1_all.deb
+Size: 5530
+SHA256: e65b97e326ea545f15122a70ee7e6747c26b5a70ce79bec1dbe6994a0b51e8ff
+SHA1: 7db3c6c11ab9e47fda79d43308b90d00645ba1e9
+MD5sum: dd97ad2b8e0898c9f5895f8c2afba8c6
+Description: Simple virus scanning plugin for Thunar file manager
+ A simple plugin to allow right-click virus scanning within Thunar
+
+Package: timeshift
+Version: 20.11.1
+Architecture: arm64
+Maintainer: Tony George <teejeetech@gmail.com>
+Installed-Size: 3038
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.13.2), libvte-2.91-0, rsync, btrfs-progs | btrfs-tools
+Replaces: timeshift-btrfs
+Homepage: https://teejeetech.in/
+Priority: extra
+Section: utils
+Filename: pool/main/t/timeshift/timeshift_20.11.1_arm64.deb
+Size: 590500
+SHA256: d0707c3915ce33a4f31d84166abd43db0a692aa131082f79c03f0379a37fbbda
+SHA1: cae6cd565fdea50dcfa28bab4eaaff38efc23e29
+MD5sum: 9fdc6a5d9b0ecf1bde6e5558dc0c1714
+Description: System restore utility
+ Timeshift is a system restore utility which takes snapshots
+ of the system at regular intervals. These snapshots can be restored
+ at a later date to undo system changes. Creates incremental snapshots
+ using rsync or BTRFS snapshots using BTRFS tools.
+
+Package: tt
+Version: 0.4.0
+Architecture: arm64
+Maintainer: lemnos
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tt/tt_0.4.0_arm64.deb
+Size: 1886732
+SHA256: e708824b966e03f1141799a3efc328738ab4188392a40fe705c0ba7753267c51
+SHA1: 4c5f13679ebf31fb111b4b56b2bfc36f51e44eae
+MD5sum: 7de94918eb4f825861142ba76f1a32f1
+Description: Terminal based typing test.
 

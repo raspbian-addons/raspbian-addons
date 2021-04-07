@@ -7,10 +7,8 @@ Here are some examples of what this repository includes:
 - Stacer
 - ClamTk
 - qemu2deb by [Itai Nelken](https://github.com/Itai-Nelken/qemu2deb) (a script to compile and package QEMU)
-- PPSSPP emulator
 - StackEdit
 - RPiPlay (open source AirPlay mirror server)
-- Super Productivity
 - Simplenote-electron, a note-taking application
 - Alacritty Terminal (Uses the GPU for rendering!)
 
@@ -59,8 +57,6 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [vkmark](https://github.com/vkmark/vkmark)
 - [VeraCrypt](https://sourceforge.net/projects/veracrypt/)
 - [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-- [StackEdit](https://github.com/benweet/stackedit)
-- [Super Productivity](https://github.com/johannesjo/super-productivity)
 - [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager)
 - [GitHub CLI](https://github.com/cli/cli)
 - [VSCodium](https://github.com/VSCodium/VSCodium)
