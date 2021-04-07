@@ -158,6 +158,42 @@ MD5sum: ccd7236e56a81452bcb850658dd2fe49
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://vscodium.com/docs/setup/linux for installation instructions and FAQ.
 
+Package: com.github.johnfactotum.foliate
+Version: 2.6.3
+Architecture: all
+Maintainer: John Factotum <50942278+johnfactotum@users.noreply.github.com>
+Installed-Size: 5127
+Depends: dconf-gsettings-backend | gsettings-backend, gjs (>= 1.52), gir1.2-webkit2-4.0
+Recommends: gir1.2-gspell-1, gir1.2-handy-0.0, iso-codes (>= 3.67)
+Suggests: gir1.2-tracker-2.0, espeak, festival, sdcv, dictd, dictd-dictionary, hyphen-af, hyphen-as, hyphen-bg, hyphen-bn, hyphen-ca, hyphen-cs, hyphen-da, hyphen-de, hyphen-el, hyphen-en-ca, hyphen-en-gb, hyphen-en-us, hyphen-es, hyphen-fi, hyphen-fr, hyphen-ga, hyphen-gl, hyphen-gu, hyphen-hi, hyphen-hr, hyphen-hu, hyphen-id, hyphen-is, hyphen-it, hyphen-kn, hyphen-lt, hyphen-lv, hyphen-ml, hyphen-mr, hyphen-nl, hyphen-no, hyphen-or, hyphen-pa, hyphen-pl, hyphen-pt-br, hyphen-pt-pt, hyphen-ro, hyphen-ru, hyphen-show, hyphen-sk, hyphen-sl, hyphen-sr, hyphen-sv, hyphen-ta, hyphen-te, hyphen-uk, hyphen-zu
+Homepage: https://johnfactotum.github.io/foliate/
+Priority: optional
+Section: gnome
+Filename: pool/main/c/com.github.johnfactotum.foliate/com.github.johnfactotum.foliate_2.6.3_all.deb
+Size: 892840
+SHA256: b4fb556d59407e047ebe796423e94980925b988d79f7148270024bafa3ae9c82
+SHA1: c2d97deb7f4d1fcfd80a53d3d8854f5cb64120af
+MD5sum: ad5350c2829d66e995afee85c32f1af1
+Description: Simple and modern eBook viewer
+ A simple and modern GTK eBook viewer, built with GJS and Epub.js.
+ Supported formats:
+   EPUB (.epub, .epub3)
+   Kindle (.azw, .azw3) and Mobipocket (.mobi)
+   FictionBook (.fb2, .fb2.zip)
+   Comic book archive (.cbr, .cbz, .cbt, .cb7)
+   Plain text (.txt)
+ Single-column, two-column, or continuous scrolling layouts
+ Adjust font, line-spacing, and margins
+ Customize colors and brightness
+ Reading progress slider with chapter marks
+ Bookmarks and annotations
+ Find in book
+ Open footnotes in popovers
+ Touchpad gestures—use two-finger swipe to turn the page
+ Quick dictionary lookup with Wiktionary, Wikipedia, dictd,
+ and sdcv, or translate text with Google Translate
+ Basic text-to-speech support with eSpeak NG and Festival
+
 Package: conky-manager
 Version: 2.4~136~ubuntu16.04.1
 Architecture: armhf
@@ -174,6 +210,24 @@ SHA1: f0a55c29ba01496c09d1dea56a99da9b41c48a8d
 MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
+
+Package: drawing
+Version: 0.6.5-0ubuntu1~groovy
+Architecture: armhf
+Maintainer: Romain F. T. <rrroschan@gmail.com>
+Installed-Size: 3508
+Depends: dconf-gsettings-backend | gsettings-backend, python3-gi (>= 3.26.0), python3-gi-cairo (>= 3.26.0), gir1.2-gtk-3.0 (>= 3.22.30)
+Homepage: https://maoschanz.github.io/drawing/
+Priority: optional
+Section: graphics
+Filename: pool/main/d/drawing/drawing_0.6.5-0ubuntu1~groovy_armhf.deb
+Size: 2478216
+SHA256: 70bc912b2e7bdc3bcb1863b1b10899392b8f27361efee01734c3d5aa61544946
+SHA1: bc273785e1429eb6a763fa5983ac3d306445ab66
+MD5sum: 03bd6c1621799cb948c1df730453a5a2
+Description: A drawing application for the GNOME desktop.
+ A simple application to draw or edit pictures.
+ It includes tools like: Pencil, Selection, Shape, Text, …
 
 Package: duf
 Version: 0.6.2
@@ -332,6 +386,43 @@ SHA256: 0b8e93341ca49a64a9c775d0cc136fe8cac5d1b60423a3d33463c0cebb093617
 SHA1: b67beed8b554e1ad983478489a24b43f78ff012d
 MD5sum: f9caf5162d5f425bc9e9d06fc01ac6b4
 Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
+
+Package: lutris
+Version: 0.5.8.3
+Architecture: all
+Maintainer: Mathieu Comandon <strider@strycore.com>
+Installed-Size: 2137
+Depends: python3:any, python3-yaml, python3-lxml, python3-requests, python3-pil, python3-gi, python3-setproctitle, python3-magic, python3-distro, python3-dbus, gir1.2-gtk-3.0, gir1.2-gnomedesktop-3.0, gir1.2-webkit2-4.0, gir1.2-notify-0.7, psmisc, cabextract, unzip, p7zip, curl, fluid-soundfont-gs, x11-xserver-utils, mesa-utils
+Recommends: python3-evdev, gvfs-backends, libwine-development, winetricks
+Suggests: gamemode
+Homepage: https://lutris.net
+Priority: optional
+Section: games
+Filename: pool/main/l/lutris/lutris_0.5.8.3_all.deb
+Size: 588276
+SHA256: 882e2ce547ab3b2c6e1472141d6b672b2c4e46e81ee408a920715810c9eba07b
+SHA1: 37bd07737d3bd42be40235aca5e28cfce7e06cd7
+MD5sum: c8c76a764fef206ba5fc7b549279a0fd
+Description: open source gaming platform
+ Lutris goal is to make gaming on Linux as easy as possible by taking care of
+ installing and setting up the game for the user. The only thing you have to do
+ is play the game. It aims to support every game that is playable on Linux.
+
+Package: panther-launcher
+Installed-Size: 1656
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 20210119-1
+Provides: panther-launcher
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/panther-launcher/panther-launcher_20210119-1_armhf.deb
+Size: 189456
+SHA256: 5b522be1d4d32ccf96b05528d441f06878345f23999a2a438fde358d5861bbe2
+SHA1: a2f55e4e2ead57cdd0022bae57bee821dcf666a0
+MD5sum: 6d2cdcca4cd9976247911b66364759ad
+Description: Package created with checkinstall 1.6.3
+Depends: libgee-0.8-2
 
 Package: papirus-icon-theme
 Version: 20210407-5200+pkg21~ubuntu20.10.1
@@ -607,6 +698,45 @@ SHA256: 6aabbedad56d7d854265ea403dcbe8fc3aea411a1bda1f4c7d4e603efdb4dad0
 SHA1: 7852782e20a2c5d3e3fb009e4b3142c11947a88d
 MD5sum: 6bc8baa343172f8f99f55ad377b519fd
 Description: Terminal based typing test.
+
+Package: turbowarp-desktop
+Version: 0.3.1
+License: GPL-3.0
+Vendor: Thomas Weber <contact@turbowarp.org>
+Architecture: armhf
+Maintainer: Thomas Weber <contact@turbowarp.org>
+Installed-Size: 201094
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://desktop.turbowarp.org/
+Priority: extra
+Section: default
+Filename: pool/main/t/turbowarp-desktop/turbowarp-desktop_0.3.1_armhf.deb
+Size: 93311236
+SHA256: 406ca395228db237fdb348d25750ba2dd80da387f6f700f149c37b6d8fb12615
+SHA1: a662bb6853e455bc8bb2ada12f7304583a9aeed6
+MD5sum: 40351f10bd1acaf60c5e60fea2be8d2b
+Description: Mod of Scratch with a compiler and more features.
+  TurboWarp is a Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.
+
+Package: usbimager
+Version: 1.0.7
+Architecture: armhf
+Essential: no
+Depends: udisks2
+Maintainer: bzt
+Homepage: https://gitlab.com/bztsrc/usbimager
+Installed-Size: 360
+Priority: optional
+Section: Admin
+Filename: pool/main/u/usbimager/usbimager_1.0.7_armhf.deb
+Size: 166362
+SHA256: 1333c5dbbcffc948a87cf1962a3457c2c8eb52bd225e7473e127938907b41be6
+SHA1: 07cce452dd6eb8405769768724f307e333fddd96
+MD5sum: ebe35417037917f2e8e251a8b977760f
+Description: A very minimal GUI app to write compressed images to USB sticks and create backups
+  Uncompresses gz, bzip2, xz and zip (zip64) images on-the-fly and writes them to USB devices.
+  Also capable of sending images through serial port to Raspberry Pi machines, and to create
+  backup image files from USB storage devices.
 
 Package: veracrypt
 Architecture: armhf

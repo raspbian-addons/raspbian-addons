@@ -114,6 +114,60 @@ MD5sum: dedce32e1a532f848e60cd2e78f106db
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://vscodium.com/docs/setup/linux for installation instructions and FAQ.
 
+Package: com.github.johnfactotum.foliate
+Version: 2.6.3
+Architecture: all
+Maintainer: John Factotum <50942278+johnfactotum@users.noreply.github.com>
+Installed-Size: 5127
+Depends: dconf-gsettings-backend | gsettings-backend, gjs (>= 1.52), gir1.2-webkit2-4.0
+Recommends: gir1.2-gspell-1, gir1.2-handy-0.0, iso-codes (>= 3.67)
+Suggests: gir1.2-tracker-2.0, espeak, festival, sdcv, dictd, dictd-dictionary, hyphen-af, hyphen-as, hyphen-bg, hyphen-bn, hyphen-ca, hyphen-cs, hyphen-da, hyphen-de, hyphen-el, hyphen-en-ca, hyphen-en-gb, hyphen-en-us, hyphen-es, hyphen-fi, hyphen-fr, hyphen-ga, hyphen-gl, hyphen-gu, hyphen-hi, hyphen-hr, hyphen-hu, hyphen-id, hyphen-is, hyphen-it, hyphen-kn, hyphen-lt, hyphen-lv, hyphen-ml, hyphen-mr, hyphen-nl, hyphen-no, hyphen-or, hyphen-pa, hyphen-pl, hyphen-pt-br, hyphen-pt-pt, hyphen-ro, hyphen-ru, hyphen-show, hyphen-sk, hyphen-sl, hyphen-sr, hyphen-sv, hyphen-ta, hyphen-te, hyphen-uk, hyphen-zu
+Homepage: https://johnfactotum.github.io/foliate/
+Priority: optional
+Section: gnome
+Filename: pool/main/c/com.github.johnfactotum.foliate/com.github.johnfactotum.foliate_2.6.3_all.deb
+Size: 892840
+SHA256: b4fb556d59407e047ebe796423e94980925b988d79f7148270024bafa3ae9c82
+SHA1: c2d97deb7f4d1fcfd80a53d3d8854f5cb64120af
+MD5sum: ad5350c2829d66e995afee85c32f1af1
+Description: Simple and modern eBook viewer
+ A simple and modern GTK eBook viewer, built with GJS and Epub.js.
+ Supported formats:
+   EPUB (.epub, .epub3)
+   Kindle (.azw, .azw3) and Mobipocket (.mobi)
+   FictionBook (.fb2, .fb2.zip)
+   Comic book archive (.cbr, .cbz, .cbt, .cb7)
+   Plain text (.txt)
+ Single-column, two-column, or continuous scrolling layouts
+ Adjust font, line-spacing, and margins
+ Customize colors and brightness
+ Reading progress slider with chapter marks
+ Bookmarks and annotations
+ Find in book
+ Open footnotes in popovers
+ Touchpad gestures—use two-finger swipe to turn the page
+ Quick dictionary lookup with Wiktionary, Wikipedia, dictd,
+ and sdcv, or translate text with Google Translate
+ Basic text-to-speech support with eSpeak NG and Festival
+
+Package: drawing
+Version: 0.6.5-0ubuntu1~groovy
+Architecture: arm64
+Maintainer: Romain F. T. <rrroschan@gmail.com>
+Installed-Size: 3508
+Depends: dconf-gsettings-backend | gsettings-backend, python3-gi (>= 3.26.0), python3-gi-cairo (>= 3.26.0), gir1.2-gtk-3.0 (>= 3.22.30)
+Homepage: https://maoschanz.github.io/drawing/
+Priority: optional
+Section: graphics
+Filename: pool/main/d/drawing/drawing_0.6.5-0ubuntu1~groovy_arm64.deb
+Size: 2478216
+SHA256: 1a7acea00fa1884900077bb7b5e0d2be5db4eaf4c83b7f9051caae57694439ce
+SHA1: 9e79a0e98c3be9e3cc5f2b9ba8a5d5a38fc1da4a
+MD5sum: 6c89a50382b0e62b7b79d86b955580d5
+Description: A drawing application for the GNOME desktop.
+ A simple application to draw or edit pictures.
+ It includes tools like: Pencil, Selection, Shape, Text, …
+
 Package: duf
 Version: 0.6.2
 Architecture: arm64
@@ -238,6 +292,27 @@ SHA256: 302276c27498b4880261cc258edd238e7746210c8dddbea77277fc1a4ceaf024
 SHA1: 07f2b3f7cfd995813362d3d3ce0011fdbd39480b
 MD5sum: 7819002094b1dea094884e12b5138934
 Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
+
+Package: lutris
+Version: 0.5.8.3
+Architecture: all
+Maintainer: Mathieu Comandon <strider@strycore.com>
+Installed-Size: 2137
+Depends: python3:any, python3-yaml, python3-lxml, python3-requests, python3-pil, python3-gi, python3-setproctitle, python3-magic, python3-distro, python3-dbus, gir1.2-gtk-3.0, gir1.2-gnomedesktop-3.0, gir1.2-webkit2-4.0, gir1.2-notify-0.7, psmisc, cabextract, unzip, p7zip, curl, fluid-soundfont-gs, x11-xserver-utils, mesa-utils
+Recommends: python3-evdev, gvfs-backends, libwine-development, winetricks
+Suggests: gamemode
+Homepage: https://lutris.net
+Priority: optional
+Section: games
+Filename: pool/main/l/lutris/lutris_0.5.8.3_all.deb
+Size: 588276
+SHA256: 882e2ce547ab3b2c6e1472141d6b672b2c4e46e81ee408a920715810c9eba07b
+SHA1: 37bd07737d3bd42be40235aca5e28cfce7e06cd7
+MD5sum: c8c76a764fef206ba5fc7b549279a0fd
+Description: open source gaming platform
+ Lutris goal is to make gaming on Linux as easy as possible by taking care of
+ installing and setting up the game for the user. The only thing you have to do
+ is play the game. It aims to support every game that is playable on Linux.
 
 Package: papirus-icon-theme
 Version: 20210407-5200+pkg21~ubuntu20.10.1
@@ -434,6 +509,25 @@ SHA256: e708824b966e03f1141799a3efc328738ab4188392a40fe705c0ba7753267c51
 SHA1: 4c5f13679ebf31fb111b4b56b2bfc36f51e44eae
 MD5sum: 7de94918eb4f825861142ba76f1a32f1
 Description: Terminal based typing test.
+
+Package: turbowarp-desktop
+Version: 0.3.1
+License: GPL-3.0
+Vendor: Thomas Weber <contact@turbowarp.org>
+Architecture: arm64
+Maintainer: Thomas Weber <contact@turbowarp.org>
+Installed-Size: 275187
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://desktop.turbowarp.org/
+Priority: extra
+Section: default
+Filename: pool/main/t/turbowarp-desktop/turbowarp-desktop_0.3.1_arm64.deb
+Size: 96506074
+SHA256: 99764f9eead7b1b71129bcad173e93ddd74b37f698f5111562c9f45f7991ef6f
+SHA1: 19c49ed2e3b29a397748587716dc61e340a86d8b
+MD5sum: db4e6bc39014ada735f54abc69a72d14
+Description: Mod of Scratch with a compiler and more features.
+  TurboWarp is a Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.
 
 Package: webcord
 Version: 1.3.0
