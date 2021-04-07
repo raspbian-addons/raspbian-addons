@@ -359,6 +359,42 @@ Description: A free fully featured markdown editor.
  along with extensive configuration options so you can set it up exactly
  how you like.
 
+Package: rpi-imager
+Version: 1.6.1
+Architecture: armhf
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 1026
+Depends: libarchive13 (>= 3.0.4), libatomic1 (>= 4.8), libc6 (>= 2.4), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Recommends: udisks2
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: admin
+Filename: pool/main/r/rpi-imager/rpi-imager_1.6.1_armhf.deb
+Size: 391288
+SHA256: fe99989adbeee1a99e79bdba879c47ad38a3279e6c144946f5767b6a02c3974e
+SHA1: 897efb930208ba58acb014137322d40ea5fb9940
+MD5sum: 8aaa56d16afe9c87007b9cd2bff1a114
+Description: Raspberry Pi imaging utility
+ Graphical user-interface to write disk images and format SD cards.
+
+Package: rpi-imager-dbgsym
+Source: rpi-imager
+Version: 1.6.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 2859
+Depends: rpi-imager (= 1.6.1)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rpi-imager/rpi-imager-dbgsym_1.6.1_armhf.deb
+Size: 2836872
+SHA256: 0f550452f1216c4bcb6a11cb27e4ada90c4528a2883fae0aad98d6d77b7f7d75
+SHA1: efad130fc397e5869eac1df7186db3056bba567b
+MD5sum: e68c1375fbb60715a275d776f1978949
+Description: debug symbols for rpi-imager
+Build-Ids: bef16c0cb01f7ea59f2fe2309fa69fa5be6bf031
+
 Package: rpiplay
 Installed-Size: 1420
 Maintainer: root@raspberrypi
