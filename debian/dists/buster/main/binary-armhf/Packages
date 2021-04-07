@@ -1,3 +1,16 @@
+Package: alacritty
+Version: 0.6.0
+Architecture: armhf
+Maintainer: chunkymilk0309
+Priority: optional
+Section: unknown
+Filename: pool/main/a/alacritty/alacritty_0.6.0_armhf.deb
+Size: 6900500
+SHA256: c575fbe6497c83f36de516c61d52f9c4b9842cfb066892ec5865472fed90ebe3
+SHA1: 3d75671225ff5da1422f3a21830b3dac9f2708f4
+MD5sum: c539a0369fec4698f980679c3e7847d8
+Description: Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it.
+
 Package: balena-etcher-electron
 Version: 1.5.116+37769efb
 License: Apache-2.0
@@ -16,4 +29,158 @@ SHA1: 3af466e893b5cb4909ed057fd6beb7c861d401e9
 MD5sum: 1256a53e14493dbb78d7672ca4628c3d
 Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
   Flash OS images to SD cards and USB drives, safely and easily.
+
+Package: bleachbit
+Version: 4.2.0-0
+Architecture: all
+Maintainer: Andrew Ziem <andrew@bleachbit.org>
+Installed-Size: 2426
+Depends: gir1.2-gtk-3.0, gir1.2-notify-0.7, libgtk-3-0, python3, python3-chardet, python3-gi
+Recommends: python3-notify, python3-scandir
+Homepage: https://www.bleachbit.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bleachbit/bleachbit_4.2.0-0_all.deb
+Size: 416748
+SHA256: 88b44da2bd2414460a30b5a26e3594e66a1c4d6703ffe035be07a7373004e481
+SHA1: ca26ff8cb4e0e665c70ec7127029d4d6a016e872
+MD5sum: b839737fc3491e811463930a0bca060c
+Description: Removes unnecessary files
+ Delete traces of your activities and other junk files to free disk
+ space and maintain privacy.  BleachBit identifies and erases
+ broken menu entries, cache, cookies, localizations, recent document
+ lists, and temporary files in Firefox, Google Chrome, Flash, and 60
+ other applications. Shred files to prevent recovery, and wipe free
+ disk space to hide previously deleted files.
+
+Package: browsh
+Version: 1.6.4
+Architecture: armhf
+Maintainer: Thomas Buckley-Houston <tom@tombh.co.uk>
+Vendor: Browsh
+Installed-Size: 7614
+Depends: firefox | firefox-esr
+Homepage: https://www.brow.sh
+Priority: 
+Section: 
+Filename: pool/main/b/browsh/browsh_1.6.4_armhf.deb
+Size: 3441278
+SHA256: b12184639ce4ebcd04ac319d3e1ab3af9075a1074b35135999f1eafac59af945
+SHA1: 9885cfbfd35695aabc46b5ca7a709d750430ddff
+MD5sum: 8bf394e15dab5ff85fb74d2cf79d4d10
+Description: The modern, text-based browser
+
+Package: cbonsai
+Installed-Size: 96
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 20210310-1
+Depends: libncurses-dev
+Provides: cbonsai
+Priority: extra
+Section: checkinstall
+Filename: pool/main/c/cbonsai/cbonsai_20210310-1_armhf.deb
+Size: 20808
+SHA256: 24a6be1446d8ba465c3bb904ba400da8352ae6f9c2ebe0b747b57c60f9328fee
+SHA1: 3041df4c5712d88b117db74e98a524660b609e7c
+MD5sum: 85a389cc6defce6f73b0830f1ee01f04
+Description: Package created with checkinstall 1.6.3
+
+Package: cfetch
+Installed-Size: 120
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 20210127-1
+Provides: cfetch
+Priority: extra
+Section: checkinstall
+Filename: pool/main/c/cfetch/cfetch_20210127-1_armhf.deb
+Size: 23084
+SHA256: d97360c059f90e2d0782afc439487abba815bd2c877e781ca744d02ea916f25b
+SHA1: c66ffbafab0da223b3483d6f52fc136ad3bbff62
+MD5sum: 681b3a17ac97cf007310ec3ed78294bf
+Description: A simple system information tool for linux.
+
+Package: clamtk
+Version: 6.10-1
+Architecture: all
+Maintainer: Dave M <dave.nerd@gmail.com>
+Installed-Size: 997
+Depends: perl:any, clamav (>= 0.95), clamav-freshclam (>= 0.95), libgtk3-perl, libtext-csv-perl, libwww-perl, libjson-perl, liblocale-gettext-perl, liblwp-protocol-https-perl, gnome-icon-theme, cron
+Suggests: cabextract
+Homepage: https://gitlab.com/dave_m/clamtk/wikis/Home
+Priority: optional
+Section: utils
+Filename: pool/main/c/clamtk/clamtk_6.10-1_all.deb
+Size: 230370
+SHA256: 264460b8cef62b061de443567428854005ec808fd92f5d844c375d37cb79fa63
+SHA1: 26c2070d56bf72c5c31265f68c155576fa599598
+MD5sum: 7f0c78c5ac7a04986e1b0666b2170bd6
+Description: graphical front-end for ClamAV
+ ClamTk is an easy to use graphical front-end for Clam Antivirus.
+
+Package: conky-manager
+Version: 2.4~136~ubuntu16.04.1
+Architecture: armhf
+Maintainer: Tony George <tony.george.kol@gmail.com>
+Installed-Size: 1063
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libjson-glib-1.0-0 (>= 0.13.2), realpath, conky, p7zip-full, rsync, imagemagick
+Homepage: http://teejeetech.blogspot.in/
+Priority: extra
+Section: utils
+Filename: pool/main/c/conky-manager/conky-manager_2.4~136~ubuntu16.04.1_armhf.deb
+Size: 772134
+SHA256: 40d7bfd5c87e887a8f9a50cd1bda5cc21c7e561e309d2c644164cb58ea40e2d3
+SHA1: f0a55c29ba01496c09d1dea56a99da9b41c48a8d
+MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
+Description: Utility for managing Conky configuration files
+ Utility for managing Conky configuration files
+
+Package: fancy-cursor-themes
+Version: 1.2
+Architecture: all
+Maintainer: chunkymilk0309
+Depends: xcursor-themes
+Priority: optional
+Section: unknown
+Filename: pool/main/f/fancy-cursor-themes/fancy-cursor-themes_1.2_all.deb
+Size: 2284864
+SHA256: 83a17a9ef701f9e9170f5b4d07bb619c265aa60afccd433ae939488a38179e76
+SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
+MD5sum: 84611c8723046d395ea6eaee3e002e79
+Description: Extra cursor themes for your distro.
+
+Package: lightpad
+Source: com.github.libredeb.lightpad
+Version: 0.0.8~rev1
+Architecture: armhf
+Maintainer: Juan Pablo Lozano <libredeb@gmail.com>
+Installed-Size: 209
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.18.0), libglib2.0-0 (>= 2.50.0), libgnome-menu-3-0 (>= 3.13.0), libgtk-3-0 (>= 3.22.0), gnome-menus (>= 3.13.0), libwnck-3-0 (>= 3.20.0), xterm
+Priority: optional
+Section: x11
+Filename: pool/main/c/com.github.libredeb.lightpad/lightpad_0.0.8~rev1_armhf.deb
+Size: 28232
+SHA256: 0b8e93341ca49a64a9c775d0cc136fe8cac5d1b60423a3d33463c0cebb093617
+SHA1: b67beed8b554e1ad983478489a24b43f78ff012d
+MD5sum: f9caf5162d5f425bc9e9d06fc01ac6b4
+Description: LightPad is a lightweight, simple and powerful application launcher. Writen in GTK+ 3.0. It is also Wayland compatible.
+
+Package: realpath
+Source: coreutils
+Version: 8.25-2ubuntu3~16.04
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 25
+Depends: coreutils (>= 8.23-1~)
+Priority: extra
+Section: oldlibs
+Filename: pool/main/c/coreutils/realpath_8.25-2ubuntu3~16.04_all.deb
+Size: 1096
+SHA256: f819b729f097347d398b4dd4b737f2a640e907816662dbce78e8bac04d39bc47
+SHA1: f334240a61d9fb2052607f4ef15093ab952fa5b4
+MD5sum: 72a1d860446630bea18bcfb09f52c82b
+Description: coreutils realpath transitional package
+ Empty package to facilitate upgrades, can be safely removed.
+Original-Maintainer: Michael Stone <mstone@debian.org>
 
