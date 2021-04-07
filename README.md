@@ -67,7 +67,6 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [TurboWarp Desktop](https://github.com/TurboWarp/desktop)
 - [Drawing](https://launchpad.net/~cartes/+archive/ubuntu/drawing/+packages)
 - [com.github.johnfactotum.foliate](https://github.com/johnfactotum/foliate)
-- [linuxqq](https://im.qq.com/linuxqq/download.html)
 - [Lutris](http://download.opensuse.org/repositories/home:/strycore/Raspbian_10/)
 - [panther-launcher](https://gitlab.com/rastersoft/panther_launcher)
 - [USBImager](https://gitlab.com/bztsrc/usbimager/)
