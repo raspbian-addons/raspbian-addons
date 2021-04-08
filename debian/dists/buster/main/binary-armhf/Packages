@@ -837,16 +837,3 @@ MD5sum: 05694e1366a4e43c2cec675ca231de22
 Description: A Discord Web App made with the Electron API.
  A Discord Web App made with the Electron API.
 
-Package: whatsappweb-nativefier
-Version: 20210408
-Architecture: armhf
-Maintainer: Itai-Nelken <itainelken@gmail.com>
-Priority: optional
-Section: unknown
-Filename: pool/main/w/whatsappweb-nativefier/whatsappweb-nativefier_20210408_armhf.deb
-Size: 52256356
-SHA256: adca6ffe5bd5a5015d445e9ce6d0c3e3f09a9e1a4505db0cada75523f923313e
-SHA1: f972ddca7d6c9837975dd360788aef559d75d60a
-MD5sum: 913adbcfd06600eb6e2477dca3f587d7
-Description: WhatsappWeb webapp built with nativefier.
-
