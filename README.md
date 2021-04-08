@@ -4,6 +4,7 @@ This repository hosts extra software for Raspberry Pi. It fully supports 32-bit 
 Here are some examples of what this repository includes:
 - BalenaEtcher [compiled by Itai Nelken](http://github.com/Itai-Nelken/Etcher-arm-32-64)
 - Conky Manager (to manage your Conky themes)
+- StackEdit
 - Stacer
 - ClamTk
 - qemu2deb by [Itai Nelken](https://github.com/Itai-Nelken/qemu2deb) (a script to compile and package QEMU)
@@ -73,3 +74,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [USBImager](https://gitlab.com/bztsrc/usbimager/)
 - [FreeCAD](https://github.com/chunky-milk/freecad-rpi/)
 - [QEMU](https://www.qemu.org/)
+- [StackEdit](https://stackedit.io/app#)
