@@ -238,10 +238,10 @@ Recommends: git
 Priority: optional
 Section: unknown
 Filename: pool/main/d/duckstation/duckstation_20210319_armhf.deb
-Size: 15928548
-SHA256: c86bfa5ccb788c4586e95a4c6f788b3630275de74436e031a03e0e6596064d81
-SHA1: 5a7bdcb33316a9f6865c30c9d6760ba405fb8300
-MD5sum: 9a19d4c206c609062e71587e36361987
+Size: 17173436
+SHA256: c12fe7d7a722ec4597536a40f54aae0f6a267a37fdf0a8ac5d3d13859a83b7bf
+SHA1: db1a1ccb2559185bfe37b5629ef36b5bfe74e802
+MD5sum: 1d0e2a5e46893b3b27c359357f5c2d21
 Description: Fast PlayStation 1 emulator
 
 Package: duf
