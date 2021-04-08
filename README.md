@@ -4,7 +4,7 @@ This repository hosts extra software for Raspberry Pi. It fully supports 32-bit 
 Here are some examples of what this repository includes:
 - BalenaEtcher [compiled by Itai Nelken](http://github.com/Itai-Nelken/Etcher-arm-32-64)
 - Conky Manager (to manage your Conky themes)
-- StackEdit
+- StackEdit-nativefier
 - Stacer
 - DuckStation emulator (fast PS1 emulator)
 - ClamTk
@@ -75,6 +75,6 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [USBImager](https://gitlab.com/bztsrc/usbimager/)
 - [FreeCAD](https://github.com/chunky-milk/freecad-rpi/)
 - [QEMU](https://www.qemu.org/)
-- [StackEdit](https://stackedit.io/app#)
+- [StackEdit-nativefier](https://stackedit.io/app#)
 - [DuckStation](https://github.com/stenzek/duckstation) (bios available here: https://github.com/chunky-milk/duckstation-rpi/raw/main/SCPH1001.BIN)
 - [WhatsAppWeb-nativefier](https://github.com/Itai-Nelken/Nativefier-WebApps/releases/tag/v1.0)

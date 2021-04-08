@@ -654,19 +654,6 @@ Description: Linux system optimizer and monitoring
  Change and monitor your services. Summarizes basic system information and
  can show network download/upload speeds/totals.
 
-Package: stackedit
-Version: 20210408
-Architecture: armhf
-Maintainer: chunkymilk0309
-Priority: optional
-Section: unknown
-Filename: pool/main/s/stackedit/stackedit_20210408_armhf.deb
-Size: 50366260
-SHA256: 15bd82349301ca21d419298b23f07c95e77f9f99eaaa43f1c9d2f5f49b67fe5f
-SHA1: 9864160a380514046bd39ea813e32b3ca7eca906
-MD5sum: 5fdde487b6e97a11a66d822a20f9db0c
-Description: Fully featured, open-source markdown editor.
-
 Package: sysmontask
 Version: 1.1.1-ubuntu20.10-beta-bb
 Architecture: all
@@ -836,4 +823,17 @@ SHA1: 88420b1803ccb99326c765109d0de296612a43e7
 MD5sum: 05694e1366a4e43c2cec675ca231de22
 Description: A Discord Web App made with the Electron API.
  A Discord Web App made with the Electron API.
+
+Package: whatsappweb-nativefier
+Version: 20210408
+Architecture: armhf
+Maintainer: Itai-Nelken <itainelken@gmail.com>
+Priority: optional
+Section: unknown
+Filename: pool/main/w/whatsappweb-nativefier/whatsappweb-nativefier_20210408_armhf.deb
+Size: 52254804
+SHA256: e23805583c0df07bc2a91f7019be8af22c76657dd019559c83992298081cb749
+SHA1: 9f5a8d9cfebf44b7ab048370e0f2cd4f76622eeb
+MD5sum: 6ccbbfc78e7fe2c9015b697ee2f5f80e
+Description: WhatsappWeb webapp built with nativefier.
 

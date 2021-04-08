@@ -431,19 +431,6 @@ MD5sum: 6cd73aa54518e48afd3d9ef3b360c2a5
 Description: debug symbols for rpi-imager
 Build-Ids: 9a6cbd83b58a727cfff94f89eca805a6b4ad0a22
 
-Package: stackedit
-Version: 20210408
-Architecture: arm64
-Maintainer: chunkymilk0309
-Priority: optional
-Section: unknown
-Filename: pool/main/s/stackedit/stackedit_20210408_arm64.deb
-Size: 56328572
-SHA256: c19002cb189c63dfafc894ea63f9896262713a69f9778f6668aa75eb6c53ee3b
-SHA1: 0fe085d2bb5daf417ff0bea40c7dd41b849bb5d9
-MD5sum: 7360c8a09ad9bb6616014955ddc641aa
-Description: Fully featured, open-source markdown editor.
-
 Package: sysmontask
 Version: 1.1.1-ubuntu20.10-beta-bb
 Architecture: all
@@ -560,4 +547,17 @@ SHA1: cc2c97c5cabe38fd0c65709f29f1d5a7059f9582
 MD5sum: defcfaabaa6db8ed6779a148d30a00c6
 Description: A Discord Web App made with the Electron API.
  A Discord Web App made with the Electron API.
+
+Package: whatsappweb-nativefier
+Version: 20210408
+Architecture: arm64
+Maintainer: Itai-Nelken <itainelken@gmail.com>
+Priority: optional
+Section: unknown
+Filename: pool/main/w/whatsappweb-nativefier/whatsappweb-nativefier_20210408_arm64.deb
+Size: 58971560
+SHA256: 3ef012f06c6502e24e869568a78814fca15a4c91fb192997edebde52ea021b55
+SHA1: 9b18566c44244d5296b7acc2b4d0f8a15757ae8e
+MD5sum: b6a60f9685e99ac22e5fda455e5b4bff
+Description: WhatsappWeb webapp built with nativefier.
 
