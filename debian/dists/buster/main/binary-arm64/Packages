@@ -431,6 +431,19 @@ MD5sum: 6cd73aa54518e48afd3d9ef3b360c2a5
 Description: debug symbols for rpi-imager
 Build-Ids: 9a6cbd83b58a727cfff94f89eca805a6b4ad0a22
 
+Package: stackedit
+Version: 20210408
+Architecture: arm64
+Maintainer: chunkymilk0309
+Priority: optional
+Section: unknown
+Filename: pool/main/s/stackedit/stackedit_20210408_arm64.deb
+Size: 56328572
+SHA256: c19002cb189c63dfafc894ea63f9896262713a69f9778f6668aa75eb6c53ee3b
+SHA1: 0fe085d2bb5daf417ff0bea40c7dd41b849bb5d9
+MD5sum: 7360c8a09ad9bb6616014955ddc641aa
+Description: Fully featured, open-source markdown editor.
+
 Package: sysmontask
 Version: 1.1.1-ubuntu20.10-beta-bb
 Architecture: all

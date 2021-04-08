@@ -639,6 +639,19 @@ Description: Linux system optimizer and monitoring
  Change and monitor your services. Summarizes basic system information and
  can show network download/upload speeds/totals.
 
+Package: stackedit
+Version: 20210408
+Architecture: armhf
+Maintainer: chunkymilk0309
+Priority: optional
+Section: unknown
+Filename: pool/main/s/stackedit/stackedit_20210408_armhf.deb
+Size: 50366260
+SHA256: 15bd82349301ca21d419298b23f07c95e77f9f99eaaa43f1c9d2f5f49b67fe5f
+SHA1: 9864160a380514046bd39ea813e32b3ca7eca906
+MD5sum: 5fdde487b6e97a11a66d822a20f9db0c
+Description: Fully featured, open-source markdown editor.
+
 Package: sysmontask
 Version: 1.1.1-ubuntu20.10-beta-bb
 Architecture: all
