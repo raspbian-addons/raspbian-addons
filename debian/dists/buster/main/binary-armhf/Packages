@@ -229,6 +229,21 @@ Description: A drawing application for the GNOME desktop.
  A simple application to draw or edit pictures.
  It includes tools like: Pencil, Selection, Shape, Text, …
 
+Package: duckstation
+Version: 20210319
+Architecture: armhf
+Maintainer: chunkymilk0309
+Depends: qtbase5-dev, qtbase5-private-dev, qtbase5-dev-tools, qttools5-dev, libdrm-dev, libevdev-dev, libsdl2-dev
+Recommends: git
+Priority: optional
+Section: unknown
+Filename: pool/main/d/duckstation/duckstation_20210319_armhf.deb
+Size: 15928548
+SHA256: c86bfa5ccb788c4586e95a4c6f788b3630275de74436e031a03e0e6596064d81
+SHA1: 5a7bdcb33316a9f6865c30c9d6760ba405fb8300
+MD5sum: 9a19d4c206c609062e71587e36361987
+Description: Fast PlayStation 1 emulator
+
 Package: duf
 Version: 0.6.2
 Architecture: armhf

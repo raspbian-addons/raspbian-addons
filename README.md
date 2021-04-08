@@ -6,6 +6,7 @@ Here are some examples of what this repository includes:
 - Conky Manager (to manage your Conky themes)
 - StackEdit
 - Stacer
+- DuckStation emulator (fast PS1 emulator)
 - ClamTk
 - qemu2deb by [Itai Nelken](https://github.com/Itai-Nelken/qemu2deb) (a script to compile and package QEMU)
 - RPiPlay (open source AirPlay mirror server)
@@ -75,3 +76,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [FreeCAD](https://github.com/chunky-milk/freecad-rpi/)
 - [QEMU](https://www.qemu.org/)
 - [StackEdit](https://stackedit.io/app#)
+- [DuckStation](https://github.com/stenzek/duckstation) (bios available here: https://github.com/chunky-milk/duckstation-rpi/raw/main/SCPH1001.BIN)
