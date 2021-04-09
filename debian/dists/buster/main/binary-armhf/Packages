@@ -139,22 +139,22 @@ Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
 Package: codium
-Version: 1.55.0-1617288871
+Version: 1.55.1-1617929325
 Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
 Architecture: armhf
 Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
 Homepage: https://vscodium.com/
-Installed-Size: 214953
+Installed-Size: 214863
 Provides: visual-studio-codium
 Conflicts: visual-studio-codium
 Replaces: visual-studio-codium
 Priority: optional
 Section: devel
-Filename: pool/main/c/codium/codium_1.55.0-1617288871_armhf.deb
-Size: 66310356
-SHA256: 34308f4259a5bf2299def997ff7928fd382bf8eb66539f625c0fe907b6716908
-SHA1: 32c098a3c09d633623e840b41f069731aec0800f
-MD5sum: ccd7236e56a81452bcb850658dd2fe49
+Filename: pool/main/c/codium/codium_1.55.1-1617929325_armhf.deb
+Size: 66312668
+SHA256: 81838f20d8e35c8f6bde5ec2bff4fc4fbb1c28c848b47feb5c09c9ec4f3cfcf7
+SHA1: 20e86efbbc6ff685265eaffade61c44f790c08dc
+MD5sum: 295fb170f3cfada9b30b79fd8fc3ddd1
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://vscodium.com/docs/setup/linux for installation instructions and FAQ.
 
