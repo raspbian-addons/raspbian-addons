@@ -431,6 +431,19 @@ MD5sum: 6cd73aa54518e48afd3d9ef3b360c2a5
 Description: debug symbols for rpi-imager
 Build-Ids: 9a6cbd83b58a727cfff94f89eca805a6b4ad0a22
 
+Package: stackedit-nativefier
+Version: 20210408
+Architecture: arm64
+Maintainer: Itai-Nelken <itainelken@gmail.com>
+Priority: optional
+Section: unknown
+Filename: pool/main/s/stackedit-nativefier/stackedit-nativefier_20210408_arm64.deb
+Size: 58957008
+SHA256: fde48b93997cfd9abab30d63a50beed2a86b46b76cacc534babfe9dae758c03f
+SHA1: 88656a3dc07dbe47b8a9021a3d50e6c09cce34bc
+MD5sum: 4ea0fa7bd98ec52bb38b871b0d5bff82
+Description: StackEdit webapp built with nativefier.
+
 Package: sysmontask
 Version: 1.1.1-ubuntu20.10-beta-bb
 Architecture: all
