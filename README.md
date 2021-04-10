@@ -78,3 +78,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [StackEdit-nativefier](https://stackedit.io/app#)
 - [DuckStation](https://github.com/stenzek/duckstation) (bios available here: https://github.com/chunky-milk/duckstation-rpi/raw/main/SCPH1001.BIN)
 - [WhatsAppWeb-nativefier](https://github.com/Itai-Nelken/Nativefier-WebApps/releases/tag/v1.0)
+- [Flameshot](https://github.com/flameshot-org/flameshot)
