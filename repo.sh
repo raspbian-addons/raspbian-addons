@@ -27,7 +27,7 @@ fi
 
 function check_internet() {
   printf "checking if you are online..."
-  wget -q --spider http://google.com
+  wget -q --spider http://github.com
   if [ $? -eq 0 ]; then
     echo "Online. Continuing."
   else
