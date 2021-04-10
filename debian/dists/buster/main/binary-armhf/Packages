@@ -274,6 +274,27 @@ SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
 MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
 
+Package: flameshot
+Version: 0.9.0-1
+Architecture: armhf
+Maintainer: Boyuan Yang <byang@debian.org>
+Installed-Size: 1634
+Depends: hicolor-icon-theme, libqt5svg5 (>= 5.9.0~), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.9.0~), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 6)
+Suggests: ca-certificates, openssl
+Homepage: https://github.com/flameshot-org/flameshot
+Priority: optional
+Section: graphics
+Filename: pool/main/f/flameshot/flameshot_0.9.0-1_armhf.deb
+Size: 478348
+SHA256: c7f88e59e9a99b67e2a5e2a37b891ec2e953a3cd90ae96bc2e44414343c8f610
+SHA1: c583d511a566c5d892796da176e3b8b10f995ce9
+MD5sum: 72efd85b00d6dc3f254e0097f8a46ad4
+Description: Powerful yet simple-to-use screenshot software
+ Flameshot is a powerful yet simple-to-use screenshot software.
+ Notable features include customizable appearance, in-app screenshot editing,
+ D-Bus interface, experimental GNOME/KDE Wayland support, integration with
+ Imgur and support for both GUI and CLI interface.
+
 Package: fonts-inter
 Version: 3.15+ds-2
 Architecture: all
