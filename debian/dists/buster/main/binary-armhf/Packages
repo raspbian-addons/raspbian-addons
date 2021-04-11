@@ -954,6 +954,22 @@ MD5sum: 40351f10bd1acaf60c5e60fea2be8d2b
 Description: Mod of Scratch with a compiler and more features.
   TurboWarp is a Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.
 
+Package: ulauncher
+Version: 5.10.0
+Architecture: all
+Maintainer: Aleksandr Gornostal <ulauncher.app@gmail.com>
+Installed-Size: 6114
+Depends: python3-pyinotify, python3:any (>= 3.5~), libkeybinder-3.0-0, libgtk-3-0 (>= 3.10), gir1.2-gtk-3.0, gir1.2-keybinder-3.0 (>= 0.3), gir1.2-webkit2-4.0 | gir1.2-webkit2-3.0, gir1.2-glib-2.0, gir1.2-notify-0.7, gir1.2-gdkpixbuf-2.0, gir1.2-appindicator3-0.1, python3-gi, python3-gi-cairo, python3-distutils-extra, python3-dbus, python3-levenshtein, python3-websocket, python3-xdg
+Priority: extra
+Section: python
+Filename: pool/main/u/ulauncher/ulauncher_5.10.0_all.deb
+Size: 1357392
+SHA256: b47662c11cecf6d0d79eb78af31dfdc8e9f8fd24fe17c6bd31c2c2d1e3d38606
+SHA1: fbce63240f5b669b31a5fd04d69a103ab8682b15
+MD5sum: 984ed845ece766626ccc7d151fb1e745
+Description: Application launcher for Linux
+ See https://ulauncher.io for more information
+
 Package: usbimager
 Version: 1.0.7
 Architecture: armhf

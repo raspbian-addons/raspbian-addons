@@ -80,3 +80,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [WhatsAppWeb-nativefier](https://github.com/Itai-Nelken/Nativefier-WebApps/releases/tag/v1.0)
 - [Flameshot](https://github.com/flameshot-org/flameshot)
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)
+- [Ulauncher](https://ulauncher.io/#Download)
