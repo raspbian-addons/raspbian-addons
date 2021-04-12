@@ -1009,16 +1009,16 @@ Description: Linux system optimizer and monitoring
  can show network download/upload speeds/totals.
 
 Package: stackedit-nativefier
-Version: 20210408
+Version: 20210412
 Architecture: armhf
 Maintainer: Itai-Nelken <itainelken@gmail.com>
 Priority: optional
 Section: unknown
-Filename: pool/main/s/stackedit-nativefier/stackedit-nativefier_20210408_armhf.deb
-Size: 52243372
-SHA256: ac0288b9f1825a7d021a691bbcd1ea03eaebf55c8252610e4806a18c041abb7b
-SHA1: bc507d054901d2e63e67368809de3bbca43016d4
-MD5sum: 47df8fcef24789fd8cae726fb0bd7b02
+Filename: pool/main/s/stackedit-nativefier/stackedit-nativefier_20210412_armhf.deb
+Size: 52101592
+SHA256: d1295ef60db02b6de6772da01e934063e2c72a0e50cb651d533dc4088bc546e3
+SHA1: b4932fc52e2d85c3784bfe190fc040b48ae413a7
+MD5sum: 5282fd47552b24f316de080fb6fb00bc
 Description: StackEdit webapp built with nativefier.
 
 Package: sysmontask
