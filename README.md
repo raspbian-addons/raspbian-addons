@@ -81,4 +81,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Flameshot](https://github.com/flameshot-org/flameshot)
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)
 - [Ulauncher](https://ulauncher.io/#Download)
-- [OpenRazer-meta](http://download.opensuse.org/repositories/hardware:/razer/Raspbian_10/)
+- [OpenRazer](http://download.opensuse.org/repositories/hardware:/razer/Raspbian_10/)
