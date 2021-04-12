@@ -612,6 +612,112 @@ Description: open source gaming platform
  installing and setting up the game for the user. The only thing you have to do
  is play the game. It aims to support every game that is playable on Linux.
 
+Package: openrazer-daemon
+Source: openrazer
+Version: 3.0.1-0
+Architecture: all
+Maintainer: Terry Cain <terry@terrys-home.co.uk>
+Installed-Size: 504
+Depends: python3:any, openrazer-driver-dkms (= 3.0.1-0), python3-dbus, python3-gi, python3-pyudev, python3-setproctitle, python3-notify2, python3-daemonize (>= 2.4.0), gir1.2-gtk-3.0, xautomation, dbus-user-session
+Recommends: python3-openrazer (= 3.0.1-0)
+Conflicts: razer-daemon
+Replaces: razer-daemon
+Provides: razer-daemon
+Homepage: https://openrazer.github.io/
+Priority: optional
+Section: misc
+Filename: pool/main/o/openrazer/openrazer-daemon_3.0.1-0_all.deb
+Size: 64100
+SHA256: 164d3b273fe3ce5991196c46b4f5c3f5a3fffa019c4d2084f0f5a5516a37bc05
+SHA1: 7a91a17498fa54ab81b56b283f6a148c9a8b5fc1
+MD5sum: 950c0c8285596d807e46d69d5eb92dbc
+Description: OpenRazer peripheral drivers (daemon)
+ OpenRazer is a collection of GNU/Linux drivers for the Razer devices.
+ Supported devices include keyboards, mice, mouse-mats, headsets and
+ various other devices.
+ .
+ This package provides a user-space daemon used to interface with the driver.
+ It contains a systemd user unit and an AppStream file.
+
+Package: openrazer-doc
+Source: openrazer
+Version: 3.0.1-0
+Architecture: all
+Maintainer: Terry Cain <terry@terrys-home.co.uk>
+Installed-Size: 41
+Conflicts: razer-doc
+Replaces: razer-doc
+Provides: razer-doc
+Homepage: https://openrazer.github.io/
+Priority: optional
+Section: doc
+Filename: pool/main/o/openrazer/openrazer-doc_3.0.1-0_all.deb
+Size: 13368
+SHA256: 7ad6c3bc61c13e4a9eb6b2bb274f6ee6fc7a1f7de6b99385dab34ea3c34c837a
+SHA1: 9a6a2bf26ea09ff93285cc776d846ac655aaa365
+MD5sum: f2171b06072fa074c5691be34a32695c
+Description: OpenRazer peripheral drivers (documentation)
+ OpenRazer is a collection of GNU/Linux drivers for the Razer devices.
+ Supported devices include keyboards, mice, mouse-mats, headsets and
+ various other devices.
+ .
+ This package contains scripts on how to interact with the daemon and
+ the driver.
+
+Package: openrazer-driver-dkms
+Source: openrazer
+Version: 3.0.1-0
+Architecture: all
+Maintainer: Terry Cain <terry@terrys-home.co.uk>
+Installed-Size: 604
+Depends: dkms (>= 2.1.0.0), udev
+Conflicts: openrazer-kernel-modules-dkms, razer-chroma-driver, razer-kernel-modules-dkms
+Replaces: openrazer-kernel-modules-dkms, razer-chroma-driver, razer-kernel-modules-dkms
+Provides: openrazer-kernel-modules-dkms, razer-chroma-driver, razer-kernel-modules-dkms
+Homepage: https://openrazer.github.io/
+Priority: optional
+Section: kernel
+Filename: pool/main/o/openrazer/openrazer-driver-dkms_3.0.1-0_all.deb
+Size: 56856
+SHA256: 61d083e3e570b343e451fbdceb25338b82981916e11baa87de16863678523b0e
+SHA1: 2bf2b15acd0d1f3309a1617501f1604510bc4ea2
+MD5sum: 7271b28bffe79ab689d886985618c46e
+Description: OpenRazer peripheral drivers (DKMS)
+ OpenRazer is a collection of GNU/Linux drivers for the Razer devices.
+ Supported devices include keyboards, mice, mouse-mats, headsets and
+ various other devices.
+ .
+ This package provides the source code for the OpenRazer kernel module to be
+ build with dkms. Kernel sources or headers are required to compile this
+ module.
+ .
+ Please read the Troubleshooting Guide in
+ /usr/share/doc/openrazer-driver-dkms/README.Debian.
+
+Package: openrazer-meta
+Source: openrazer
+Version: 3.0.1-0
+Architecture: all
+Maintainer: Terry Cain <terry@terrys-home.co.uk>
+Installed-Size: 31
+Depends: openrazer-driver-dkms (= 3.0.1-0), openrazer-daemon (= 3.0.1-0), python3-openrazer (= 3.0.1-0)
+Suggests: openrazer-doc (= 3.0.1-0)
+Homepage: https://openrazer.github.io/
+Priority: optional
+Section: misc
+Filename: pool/main/o/openrazer/openrazer-meta_3.0.1-0_all.deb
+Size: 13748
+SHA256: b9a0d2798f8c3295ae0ecf3bd7037c7e3a16feb324dfa874bf18183f0de97b65
+SHA1: d5fd705dc6ed96b6d3358230c4f1928177407d34
+MD5sum: ef1b8bcc40a562d0b9ff7b4c4cb8bc68
+Description: OpenRazer peripheral drivers (metapackage)
+ OpenRazer is a collection of GNU/Linux drivers for the Razer devices.
+ Supported devices include keyboards, mice, mouse-mats, headsets and
+ various other devices.
+ .
+ This package is a metapackage which depends on the OpenRazer driver and
+ userspace daemon, plus a Python library and documentation.
+
 Package: panther-launcher
 Installed-Size: 1656
 Maintainer: root@raspberrypi
@@ -655,6 +761,31 @@ Description: Papirus Icon Theme
   - Papirus-Dark
   - Papirus-Light
 
+Package: python3-openrazer
+Source: openrazer
+Version: 3.0.1-0
+Architecture: all
+Maintainer: Terry Cain <terry@terrys-home.co.uk>
+Installed-Size: 137
+Depends: python3:any, openrazer-daemon (= 3.0.1-0), python3-dbus, python3-gi, python3-numpy
+Conflicts: python3-razer
+Replaces: python3-razer
+Provides: python3-razer
+Homepage: https://openrazer.github.io/
+Priority: optional
+Section: python
+Filename: pool/main/o/openrazer/python3-openrazer_3.0.1-0_all.deb
+Size: 25724
+SHA256: 44b8cc934d9a6a889614caf8a230c26d5130f806f89c3a0a2fa9fedc74292be0
+SHA1: a19fd0fb6f4b4ac2e007f6b0241bcb3e89d7d593
+MD5sum: 14ef011b129d45a96087718e796178c1
+Description: OpenRazer peripheral drivers (Python 3)
+ OpenRazer is a collection of GNU/Linux drivers for the Razer devices.
+ Supported devices include keyboards, mice, mouse-mats, headsets and
+ various other devices.
+ .
+ This package contains a library for interacting with the OpenRazer daemon.
+
 Package: qemu2deb
 Version: 0.6.0
 Architecture: all
@@ -669,6 +800,40 @@ SHA256: 3aba25abefc26905904d655903c27540ee69fa2380034460bdc1002da0c9fcb4
 SHA1: c745caf6ca424d6ffabfafd24a038e7cd6282693
 MD5sum: 3b15a992a2f8f6fd71ba9bb7cad52941
 Description: compiling/packaging/installing qemu made easier than ever.
+
+Package: razergenie
+Version: 0.9.0-0
+Architecture: armhf
+Maintainer: Luca Weiss <luca@z3ntu.xyz>
+Installed-Size: 472
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.3.0), openrazer-daemon
+Priority: optional
+Section: misc
+Filename: pool/main/r/razergenie/razergenie_0.9.0-0_armhf.deb
+Size: 108952
+SHA256: c630c7bc2af6d790e8df0ff25823c09e110bccfd7fb3426777fb25f6c4ee5f64
+SHA1: 188b34755c4f83fcf38d794abc20335c42eb1224
+MD5sum: dc72040dbec29097c2eb482c631b5395
+Description: Qt application for configuring your Razer devices
+ Interfaces with the OpenRazer daemon to control and configure all of your Razer peripherals that are connected to your PC.
+
+Package: razergenie-dbgsym
+Source: razergenie
+Version: 0.9.0-0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Luca Weiss <luca@z3ntu.xyz>
+Installed-Size: 2483
+Depends: razergenie (= 0.9.0-0)
+Priority: optional
+Section: debug
+Filename: pool/main/r/razergenie/razergenie-dbgsym_0.9.0-0_armhf.deb
+Size: 2451872
+SHA256: e7535925ff6780dffd13f0f695f35cdee782b5cb5785e52395136c5040a1a60a
+SHA1: bc5128e78d739c5ae7b4d3281ac7e2ff57826e90
+MD5sum: c7c32c91a5226a7152bdbd70d12b426b
+Description: debug symbols for razergenie
+Build-Ids: 4b9912d97f75e7930c03aad10611f76c82716e6d ee1b65227e77c39f5f799eaac7b69ba0a336d758
 
 Package: realpath
 Source: coreutils
