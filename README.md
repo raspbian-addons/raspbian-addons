@@ -82,3 +82,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)
 - [Ulauncher](https://ulauncher.io/#Download)
 - [OpenRazer](http://download.opensuse.org/repositories/hardware:/razer/Raspbian_10/)
+- [Ookla Speedtest](http://ookla.bintray.com/debian/)
