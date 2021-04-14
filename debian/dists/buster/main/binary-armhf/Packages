@@ -507,19 +507,19 @@ Description:
   A private YouTube client
 
 Package: gh
-Version: 1.8.1
+Version: 1.9.0
 Architecture: armhf
 Maintainer: GitHub
-Installed-Size: 14714
+Installed-Size: 14918
 Depends: git
 Homepage: https://github.com/cli/cli
 Priority: 
 Section: 
-Filename: pool/main/g/gh/gh_1.8.1_armhf.deb
-Size: 6207990
-SHA256: c7335cf6dda2cc4fe69e0e575420c70acb251e41d770d4ffe07acd23c542d405
-SHA1: 2de60b89f6b54a766d5d69b3b3722de01af0f4ed
-MD5sum: 192cdcb178eb09872964023dc9cda643
+Filename: pool/main/g/gh/gh_1.9.0_armhf.deb
+Size: 6311290
+SHA256: 313f4c4c9cc3f439b81e2fb7f48d1ff3f954795b072ec11c5d65981ca7668ca4
+SHA1: 4b960e78bec0e583de4fee2554696168225330ae
+MD5sum: 3fd3e2b54ee30dd38f4c203d915dfd12
 Description: GitHub’s official command line tool.
 
 Package: glmark2
@@ -988,6 +988,23 @@ SHA1: 5aa44d8a010cb40a9f72faf4252d7e80df054f80
 MD5sum: 0b5c00cc092a8f3c6b2584caf2554937
 Description: Sonic Pi - The Live Coding Music Synth for Everyone.
 Homepage: http://sonic-pi.net
+
+Package: speedtest
+Version: 1.0.0.2-1.5ae238b
+License: https://www.speedtest.net/about/eula
+Architecture: armhf
+Maintainer: support@ookla.com
+Installed-Size: 1847
+Depends: ca-certificates
+Homepage: https://www.speedtest.net/
+Priority: extra
+Section: default
+Filename: pool/main/s/speedtest/speedtest_1.0.0.2-1.5ae238b_armhf.deb
+Size: 836210
+SHA256: e435effc2e6238c1af110f3715afba4d8e694ad5b51da4fe1e3d1a7b858396b9
+SHA1: c9d3a25ffc1195d119ae87becd65cca0ad35574c
+MD5sum: 2b0aa609390fe3fe21a6ae4b0b6c83d3
+Description: Official Ookla Speedtest CLI for personal, non-commercial use
 
 Package: stacer
 Version: 1.1.0+ds-1

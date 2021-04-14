@@ -431,19 +431,19 @@ Description:
   A private YouTube client
 
 Package: gh
-Version: 1.8.1
+Version: 1.9.0
 Architecture: arm64
 Maintainer: GitHub
-Installed-Size: 16378
+Installed-Size: 16646
 Depends: git
 Homepage: https://github.com/cli/cli
 Priority: 
 Section: 
-Filename: pool/main/g/gh/gh_1.8.1_arm64.deb
-Size: 5926594
-SHA256: 52ad6aa8a7bd74c7686a4ca41a0486ab0b09df1479e7e2c5d20ab5e1a2c72219
-SHA1: ac03a017ec472fc60b59f950571be02e842bb7e1
-MD5sum: 6d494c5e45b1ea07f6b8b52300e794ee
+Filename: pool/main/g/gh/gh_1.9.0_arm64.deb
+Size: 6026640
+SHA256: 3c2060c7a184d9ba29011646172e373332c73f3e8afb3ebebc98fc1d753323ff
+SHA1: 685d6be3fe685d40498b4d707e0eb0193575ea4a
+MD5sum: 5a04b296712a025c719a035ecbedbdb6
 Description: GitHub’s official command line tool.
 
 Package: ipscan
@@ -750,6 +750,23 @@ SHA1: 88e836518159e70415bf209576fd642634c2b5c3
 MD5sum: 6cd73aa54518e48afd3d9ef3b360c2a5
 Description: debug symbols for rpi-imager
 Build-Ids: 9a6cbd83b58a727cfff94f89eca805a6b4ad0a22
+
+Package: speedtest
+Version: 1.0.0.2-1.5ae238b
+License: https://www.speedtest.net/about/eula
+Architecture: arm64
+Maintainer: support@ookla.com
+Installed-Size: 2206
+Depends: ca-certificates
+Homepage: https://www.speedtest.net/
+Priority: extra
+Section: default
+Filename: pool/main/s/speedtest/speedtest_1.0.0.2-1.5ae238b_arm64.deb
+Size: 915352
+SHA256: 4063882774aae886f519efe070eb068b73b50be81d358e90769d6cc0cc22ed7a
+SHA1: eb2faa85f159a7924bf6473d1d7e083ea4f1ea01
+MD5sum: 31a5678c82c64e45a23daa7896e06146
+Description: Official Ookla Speedtest CLI for personal, non-commercial use
 
 Package: stackedit-nativefier
 Version: 20210412
