@@ -507,7 +507,7 @@ Description:
   A private YouTube client
 
 Package: gh
-Version: 1.9.0
+Version: 1.9.1
 Architecture: armhf
 Maintainer: GitHub
 Installed-Size: 14918
@@ -515,11 +515,11 @@ Depends: git
 Homepage: https://github.com/cli/cli
 Priority: 
 Section: 
-Filename: pool/main/g/gh/gh_1.9.0_armhf.deb
-Size: 6311290
-SHA256: 313f4c4c9cc3f439b81e2fb7f48d1ff3f954795b072ec11c5d65981ca7668ca4
-SHA1: 4b960e78bec0e583de4fee2554696168225330ae
-MD5sum: 3fd3e2b54ee30dd38f4c203d915dfd12
+Filename: pool/main/g/gh/gh_1.9.1_armhf.deb
+Size: 6311158
+SHA256: aaf9ddf22f0a92a9f35632a74f02d7157ae201dd8c110a2d78ef60b74303203b
+SHA1: 04d5d2073c55f170d7bf550d0702301b6501ae30
+MD5sum: e94a6da3a92ab7ef219dad58b45584da
 Description: GitHub’s official command line tool.
 
 Package: glmark2
