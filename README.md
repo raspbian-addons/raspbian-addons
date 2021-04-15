@@ -3,7 +3,6 @@ This repository hosts extra software for Raspberry Pi. It fully supports 32-bit 
 
 Here are some examples of what this repository includes:
 - BalenaEtcher
-- alliswell 
 - Conky Manager (to manage your Conky themes)
 - StackEdit-nativefier
 - Stacer
@@ -84,4 +83,3 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Ulauncher](https://ulauncher.io/#Download)
 - [OpenRazer](http://download.opensuse.org/repositories/hardware:/razer/Raspbian_10/)
 - [Speedtest](http://ookla.bintray.com/debian/)
-- [alliswell](https://github.com/spectrumgamer75/All-is-well)
