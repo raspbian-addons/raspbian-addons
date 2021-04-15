@@ -2,13 +2,14 @@
 This repository hosts extra software for Raspberry Pi. It fully supports 32-bit debian-based operating systems. See below for information on 64-bit support.
 
 Here are some examples of what this repository includes:
-- BalenaEtcher [compiled by Itai Nelken](http://github.com/Itai-Nelken/Etcher-arm-32-64)
+- BalenaEtcher
+- alliswell 
 - Conky Manager (to manage your Conky themes)
 - StackEdit-nativefier
 - Stacer
 - DuckStation emulator (fast PS1 emulator)
 - ClamTk
-- qemu2deb by [Itai Nelken](https://github.com/Itai-Nelken/qemu2deb) (a script to compile and package QEMU)
+- qemu2deb
 - RPiPlay (open source AirPlay mirror server)
 - Simplenote-electron, a note-taking application
 - Alacritty Terminal (Uses the GPU for rendering!)
@@ -83,3 +84,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Ulauncher](https://ulauncher.io/#Download)
 - [OpenRazer](http://download.opensuse.org/repositories/hardware:/razer/Raspbian_10/)
 - [Speedtest](http://ookla.bintray.com/debian/)
+- [alliswell](https://github.com/spectrumgamer75/All-is-well)
