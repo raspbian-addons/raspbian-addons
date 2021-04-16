@@ -40,7 +40,7 @@ function addrepo() {
   sleep 5
   printf "Downloading package list..."
   sudo wget -q https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list || error "Failed to download rpirepo.list!"
-  sudo wget -q http://download.tuxfamily.org/rpiaddons/rpi_addons.list -O /etc/apt/sources.list.d/rpi_addons.list || error "Failed to download rpi_addons.list!"
+  #sudo wget -q http://download.tuxfamily.org/rpiaddons/rpi_addons.list -O /etc/apt/sources.list.d/rpi_addons.list || error "Failed to download rpi_addons.list!"
   echo "done"
   printf "Adding GPG key..."
   wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"
@@ -54,7 +54,7 @@ function removerepo() {
   sleep 5
   printf "Removing rpirepo.list..."
   sudo rm /etc/apt/sources.list.d/rpirepo.list || error "Failed to remove rpirepo.list!"
-  sudo rm /etc/apt/sources.list.d/rpi_addons.list || error "Failed to remove rpi_addons.list!"
+  #sudo rm /etc/apt/sources.list.d/rpi_addons.list || error "Failed to remove rpi_addons.list!"
   echo "done"
   printf "Removing GPG key..."
   sudo apt-key remove "232E 6F29 77AB D48E 5A9F  AD03 9ACB 4E70 D84B FD24" || error "Failed to remove GPG key!"
