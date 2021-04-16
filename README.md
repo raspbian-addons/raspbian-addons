@@ -1,5 +1,5 @@
 # [Raspbian Addons](http://chunky-milk.github.io/raspbian-addons/)
-This repository hosts extra software for Raspberry Pi. It fully supports 32-bit debian-based operating systems. See below for information on 64-bit support.
+An APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32-bit debian-based operating systems (ARM). See below for information on 64-bit support.
 
 Here are some examples of what this repository includes:
 - BalenaEtcher
