@@ -522,6 +522,28 @@ SHA1: 04d5d2073c55f170d7bf550d0702301b6501ae30
 MD5sum: e94a6da3a92ab7ef219dad58b45584da
 Description: GitHub’s official command line tool.
 
+Package: gir1.2-xapp-1.0
+Source: xapp
+Version: 2.0.7-1
+Architecture: armhf
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 47
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, libxapp1 (>= 2.0.7), python3:any
+Breaks: cinnamon (<< 4.0), cinnamon-screensaver (<< 4.0)
+Homepage: http://cinnamon.linuxmint.com/
+Priority: optional
+Section: introspection
+Filename: pool/main/x/xapp/gir1.2-xapp-1.0_2.0.7-1_armhf.deb
+Size: 10668
+SHA256: e5d1b7bc8890a2ed90ab47330b99e765230abe22c890877fb9cedf00686699f4
+SHA1: ddce55fdc4adfe5ed9f6e7a98346af21cc8e8035
+MD5sum: 48fc2aab8b22cc3c080c853e5a949640
+Description: Introspection data for Xapp
+ Xapp provides components which are common to multiple desktop environments
+ and required to implement cross-DE solutions.
+ .
+ This package contains the introspection data for Xapp.
+
 Package: glmark2
 Source: glmark2
 Build-Depends: debhelper
@@ -574,6 +596,71 @@ SHA256: d82188e4958ae3033f59c3954c39ea168de2da874167662579da9ee1ae7ed4cf
 SHA1: 9962be0ac73e0fd20eb0dc8243e2ba5eba6f3cb6
 MD5sum: 5899f8f933c05727a3275bccd3161e27
 Description: Package created with checkinstall 1.6.3
+
+Package: libxapp-dev
+Source: xapp
+Version: 2.0.7-1
+Architecture: armhf
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 329
+Depends: gir1.2-xapp-1.0 (= 2.0.7-1), libgnomekbd-dev, libgtk-3-dev (>= 3.3.16), libxapp1 (= 2.0.7-1), libxkbfile-dev
+Homepage: http://cinnamon.linuxmint.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/x/xapp/libxapp-dev_2.0.7-1_armhf.deb
+Size: 28412
+SHA256: 3889fbd5163c55195f1596fb01e95bfac20f57b3f5f066afca5e899b337481bf
+SHA1: 871ce54c17c9d572506bef757bf9faeea7e07279
+MD5sum: 23c0948459b929931c22a5dd1cd8aba9
+Description: XApp library - development files
+ Xapp provides components which are common to multiple desktop environments
+ and required to implement cross-DE solutions.
+ .
+ This package provides the include files and static library for the Xapp
+ library functions.
+
+Package: libxapp1
+Source: xapp
+Version: 2.0.7-1
+Architecture: armhf
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 285
+Depends: libgnomekbd8 (>= 3.6.0), xapps-common (>= 2.0.7-1), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdbusmenu-gtk3-4 (>= 0.4.2), libgdk-pixbuf2.0-0 (>= 2.23.0), libglib2.0-0 (>= 2.57.2), libgtk-3-0 (>= 3.21.5), libx11-6
+Breaks: nemo (<< 4.0), xapps-common (<< 2.0.6-2~)
+Replaces: xapps-common (<< 2.0.6-2~)
+Multi-Arch: same
+Homepage: http://cinnamon.linuxmint.com/
+Priority: optional
+Section: libs
+Filename: pool/main/x/xapp/libxapp1_2.0.7-1_armhf.deb
+Size: 74336
+SHA256: 53edbae29f5805b6580ef2ad0f5d321da0deed1496827f8fa3d5550b566a7ff1
+SHA1: 08d8c9049738534b25f6d2578c6654e586973a71
+MD5sum: 82e67ee425b2d30db2092cccece215f1
+Description: XApp library
+ Xapp provides components which are common to multiple desktop environments
+ and required to implement cross-DE solutions.
+ .
+ This library is used by several Xapp apps.
+
+Package: libxapp1-dbgsym
+Source: xapp
+Version: 2.0.7-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 417
+Depends: libxapp1 (= 2.0.7-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/x/xapp/libxapp1-dbgsym_2.0.7-1_armhf.deb
+Size: 316332
+SHA256: fed49269753d478f6a3970bd54143c425d1494010e6d202a1f5026b4c97f0902
+SHA1: bf4fb374d12b93f13c9b47468c02b5243875fd0c
+MD5sum: fb071464c91b0cafd6482eae6ae9ee71
+Description: debug symbols for libxapp1
+Build-Ids: 6870054f9f35534b71d793df943946c95a147c60 beb6e9e9de6ff9a1c55566c8e2d23e3e80fd1e6f fcf30a2426bfd9daaad64a550c0bebc14ef9fb14
 
 Package: lightpad
 Source: com.github.libredeb.lightpad
@@ -1242,6 +1329,22 @@ SHA1: c8bc800bdbebd2738afd4170fb21f49c3f8b2e7e
 MD5sum: 2651bb4fbe46013c78b83158d1f33f3d
 Description: vkglmark compiled for raspberry pi 4
 
+Package: webapp-manager
+Version: 1.1.1
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 5481
+Depends: gir1.2-xapp-1.0, python3, python3-gi, python3-bs4, python3-configobj, python3-setproctitle, python3-tldextract, xapps-common, dconf-gsettings-backend | gsettings-backend
+Priority: optional
+Section: admin
+Filename: pool/main/w/webapp-manager/webapp-manager_1.1.1_all.deb
+Size: 53352
+SHA256: a058e588dfc8da811cd9add2150cf3233992ac66ffc341c322daae6c43a86557
+SHA1: b66eb2e624b850cfcb5368f01bb85cbbe3310089
+MD5sum: b013540dfb03b5eb539583ba2586e315
+Description: Web Application Manager
+ Launch websites as if they were apps.
+
 Package: webcord
 Version: 1.3.1
 Architecture: armhf
@@ -1273,4 +1376,50 @@ SHA256: e23805583c0df07bc2a91f7019be8af22c76657dd019559c83992298081cb749
 SHA1: 9f5a8d9cfebf44b7ab048370e0f2cd4f76622eeb
 MD5sum: 6ccbbfc78e7fe2c9015b697ee2f5f80e
 Description: WhatsappWeb webapp built with nativefier.
+
+Package: xapps-common
+Source: xapp
+Version: 2.0.7-1
+Architecture: all
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 493
+Depends: python3, python3-gi, xdg-utils, dconf-gsettings-backend | gsettings-backend
+Recommends: gist, inxi
+Breaks: cinnamon (<< 4.0)
+Multi-Arch: foreign
+Homepage: http://cinnamon.linuxmint.com/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xapp/xapps-common_2.0.7-1_all.deb
+Size: 49864
+SHA256: 8c9f7f8a25ebc87e939a12c063c083a37a6fb9cc2a4d417e433dfca987df5d44
+SHA1: ccfdf932568ed167f32791dfadfac96208e70b9f
+MD5sum: 9a633fe0864afb51c27c582467a3fe55
+Description: Files that are common across Xapp desktop applications
+ Xapp provides components which are common to multiple desktop environments
+ and required to implement cross-DE solutions.
+ .
+ This package includes files that are shared between several XApp
+ apps (i18n files and configuration schemas).
+
+Package: xapps-doc
+Source: xapp
+Version: 2.0.7-1
+Architecture: all
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 615
+Depends: devhelp
+Homepage: http://cinnamon.linuxmint.com/
+Priority: optional
+Section: doc
+Filename: pool/main/x/xapp/xapps-doc_2.0.7-1_all.deb
+Size: 40992
+SHA256: 6a04fb40d1efd497a710aded9350d2fab9f58da2e6d726dcd8cb297dd0c99c3e
+SHA1: e1deab27b2f8fbb7f93cadf80904401a97c3beb4
+MD5sum: 597ed9d36c6c3ed08a831a0314eb71d1
+Description: Libxapp documentation
+ Xapp provides components which are common to multiple desktop environments
+ and required to implement cross-DE solutions.
+ .
+ This package contains documentation for Xapp library
 

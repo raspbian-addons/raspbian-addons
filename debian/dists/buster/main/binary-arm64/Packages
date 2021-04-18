@@ -895,6 +895,22 @@ MD5sum: 984ed845ece766626ccc7d151fb1e745
 Description: Application launcher for Linux
  See https://ulauncher.io for more information
 
+Package: webapp-manager
+Version: 1.1.1
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 5481
+Depends: gir1.2-xapp-1.0, python3, python3-gi, python3-bs4, python3-configobj, python3-setproctitle, python3-tldextract, xapps-common, dconf-gsettings-backend | gsettings-backend
+Priority: optional
+Section: admin
+Filename: pool/main/w/webapp-manager/webapp-manager_1.1.1_all.deb
+Size: 53352
+SHA256: a058e588dfc8da811cd9add2150cf3233992ac66ffc341c322daae6c43a86557
+SHA1: b66eb2e624b850cfcb5368f01bb85cbbe3310089
+MD5sum: b013540dfb03b5eb539583ba2586e315
+Description: Web Application Manager
+ Launch websites as if they were apps.
+
 Package: webcord
 Version: 1.3.1
 Architecture: arm64
@@ -926,4 +942,50 @@ SHA256: 3ef012f06c6502e24e869568a78814fca15a4c91fb192997edebde52ea021b55
 SHA1: 9b18566c44244d5296b7acc2b4d0f8a15757ae8e
 MD5sum: b6a60f9685e99ac22e5fda455e5b4bff
 Description: WhatsappWeb webapp built with nativefier.
+
+Package: xapps-common
+Source: xapp
+Version: 2.0.7-1
+Architecture: all
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 493
+Depends: python3, python3-gi, xdg-utils, dconf-gsettings-backend | gsettings-backend
+Recommends: gist, inxi
+Breaks: cinnamon (<< 4.0)
+Multi-Arch: foreign
+Homepage: http://cinnamon.linuxmint.com/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xapp/xapps-common_2.0.7-1_all.deb
+Size: 49864
+SHA256: 8c9f7f8a25ebc87e939a12c063c083a37a6fb9cc2a4d417e433dfca987df5d44
+SHA1: ccfdf932568ed167f32791dfadfac96208e70b9f
+MD5sum: 9a633fe0864afb51c27c582467a3fe55
+Description: Files that are common across Xapp desktop applications
+ Xapp provides components which are common to multiple desktop environments
+ and required to implement cross-DE solutions.
+ .
+ This package includes files that are shared between several XApp
+ apps (i18n files and configuration schemas).
+
+Package: xapps-doc
+Source: xapp
+Version: 2.0.7-1
+Architecture: all
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 615
+Depends: devhelp
+Homepage: http://cinnamon.linuxmint.com/
+Priority: optional
+Section: doc
+Filename: pool/main/x/xapp/xapps-doc_2.0.7-1_all.deb
+Size: 40992
+SHA256: 6a04fb40d1efd497a710aded9350d2fab9f58da2e6d726dcd8cb297dd0c99c3e
+SHA1: e1deab27b2f8fbb7f93cadf80904401a97c3beb4
+MD5sum: 597ed9d36c6c3ed08a831a0314eb71d1
+Description: Libxapp documentation
+ Xapp provides components which are common to multiple desktop environments
+ and required to implement cross-DE solutions.
+ .
+ This package contains documentation for Xapp library
 

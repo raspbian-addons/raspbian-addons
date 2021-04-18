@@ -84,3 +84,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [OpenRazer](http://download.opensuse.org/repositories/hardware:/razer/Raspbian_10/)
 - [Speedtest](http://ookla.bintray.com/debian/)
 - [Qt5 with Desktop OpenGL](https://github.com/koendv/qt5-opengl-raspberrypi)
+- [WebApp-Manager](https://github.com/phoenixbyrd/Linux_Mint_Webapps)
