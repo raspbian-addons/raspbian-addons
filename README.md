@@ -1,7 +1,9 @@
 # [Raspbian Addons](http://chunky-milk.github.io/raspbian-addons/)
+
 An APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32-bit debian-based operating systems (ARM). See below for information on 64-bit support.
 
 Here are some examples of what this repository includes:
+
 - BalenaEtcher
 - Conky Manager (to manage your Conky themes)
 - StackEdit-nativefier
@@ -15,24 +17,30 @@ Here are some examples of what this repository includes:
 
 And more! To see a complete list, scroll down.
 
-# To install or remove:
+## **To install or remove:**
+
 Installation and removal instructions are [here](https://chunky-milk.github.io/raspbian-addons/).
 
 ### A Note on 64-bit support
+
 Please Note that while there is a lot of software in this repository, **not all of it is available or compiled for 64-bit**. Some packages are, however.
 
 ### Having issues?
+
 If you're having issues with this repository, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
 
 ### What is the goal of this project?
+
 The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that, or to the best of my ability.
 
 ### Would you like to help?
+
 If you'd like to help me with this, **please** contact me! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you. Just make sure the software is installable on at least 32-bit, the .deb is under 100 mb, and works on the Raspberry Pi 4.
 
 Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/)
 
 ### Complete list of software you can install with this repository
+
 - [Alacritty](https://github.com/alacritty/alacritty)
 - [balenaEtcher](https://github.com/Itai-Nelken/Etcher-arm-32-64)
 - [BleachBit](https://github.com/bleachbit/bleachbit)
@@ -76,7 +84,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [FreeCAD](https://github.com/chunky-milk/freecad-rpi/)
 - [QEMU](https://www.qemu.org/)
 - [StackEdit-nativefier](https://stackedit.io/app#)
-- [DuckStation](https://github.com/stenzek/duckstation) (bios available here: https://github.com/chunky-milk/duckstation-rpi/raw/main/SCPH1001.BIN)
+- [DuckStation](https://github.com/stenzek/duckstation) BIOS available[ here:](https://github.com/chunky-milk/duckstation-rpi/raw/main/SCPH1001.BIN)
 - [WhatsAppWeb-nativefier](https://github.com/Itai-Nelken/Nativefier-WebApps/releases/tag/v1.0)
 - [Flameshot](https://github.com/flameshot-org/flameshot)
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)
