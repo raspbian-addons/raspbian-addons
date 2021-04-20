@@ -1150,19 +1150,19 @@ MD5sum: 2b0aa609390fe3fe21a6ae4b0b6c83d3
 Description: Official Ookla Speedtest CLI for personal, non-commercial use
 
 Package: stacer
-Version: 1.1.0+ds-1
+Version: 1.1.0-3
 Architecture: armhf
 Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
-Installed-Size: 1365
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 4.3.0), fonts-league-spartan
+Installed-Size: 1581
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 4.3.0), fonts-inter
 Homepage: https://github.com/oguzhaninan/Stacer/
 Priority: optional
 Section: utils
-Filename: pool/main/s/stacer/stacer_1.1.0+ds-1_armhf.deb
-Size: 594260
-SHA256: 33096b261f058b79c25d8e060d490445367663f3b0aed0b6a6e3111e527cfdd5
-SHA1: 16ef2d2202aa70c21c8402b13df95e118a498756
-MD5sum: 19742afb27230e7949950e06009aa51e
+Filename: pool/main/s/stacer/stacer_1.1.0-3_armhf.deb
+Size: 676472
+SHA256: 8d71a49483953a4da61fe4cf22ada8863a8821bfbb1004fb397e4e7965c28ddd
+SHA1: 33446ee7218eaecb7837d3ffe39470ad8b387a9d
+MD5sum: 92ef7dd1a4d4988e5aefbe5118d92fe3
 Description: Linux system optimizer and monitoring
  Monitor your system (CPU, memory, disk) in a graphical application (qt).
  Change and monitor your services. Summarizes basic system information and

@@ -5,6 +5,7 @@ An APT repository for packages/software that can't be found in the RPi repositor
 Here are some examples of what this repository includes:
 
 - BalenaEtcher
+- the famous Box86!
 - Conky Manager (to manage your Conky themes)
 - StackEdit-nativefier
 - DuckStation emulator (fast PS1 emulator)
@@ -52,7 +53,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [duf](https://github.com/muesli/duf)
 - [Fancy Cursor Themes](https://github.com/chunky-milk/cursor-themes)
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube)
-- [Stacer](https://github.com/oguzhaninan/Stacer) (currently broken, if you have a fix please open a issue)
+- [Stacer](https://github.com/oguzhaninan/Stacer)
 - [glmark2](https://github.com/glmark2/glmark2)
 - [Angry IP Scanner](https://github.com/angryip/ipscan)
 - [KeePassX](https://github.com/keepassx/keepassx)
