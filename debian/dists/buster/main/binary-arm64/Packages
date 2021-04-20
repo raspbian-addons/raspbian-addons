@@ -451,19 +451,19 @@ Description:
   A private YouTube client
 
 Package: gh
-Version: 1.9.1
+Version: 1.9.2
 Architecture: arm64
 Maintainer: GitHub
-Installed-Size: 16646
+Installed-Size: 23942
 Depends: git
 Homepage: https://github.com/cli/cli
 Priority: 
 Section: 
-Filename: pool/main/g/gh/gh_1.9.1_arm64.deb
-Size: 6026620
-SHA256: b453c61bc087cfad46e50b669d2670e5469c3e58d2c9980e06f9a571a73e154d
-SHA1: 61d01aad512536eada0d880e99f6833f025e075d
-MD5sum: 3242e0e090b6e7859413d1a680f821f9
+Filename: pool/main/g/gh/gh_1.9.2_arm64.deb
+Size: 6266590
+SHA256: b5172290dbe14d5b96e7c13eb2e7f3de391cb2743c025e1af675aa4b460117c7
+SHA1: d2f7488faed92f3634dc772b8c157987b7964c1f
+MD5sum: d577ffff110384b99f1fdd8507a59024
 Description: GitHub’s official command line tool.
 
 Package: ipscan
