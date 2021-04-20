@@ -93,3 +93,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Speedtest](http://ookla.bintray.com/debian/)
 - [Qt5 with Desktop OpenGL](https://github.com/koendv/qt5-opengl-raspberrypi)
 - [WebApp-Manager](https://github.com/phoenixbyrd/Linux_Mint_Webapps)
+- [Box86](https://github.com/ptitSeb/box86)

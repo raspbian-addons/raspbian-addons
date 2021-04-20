@@ -240,6 +240,25 @@ MD5sum: 4a9a38860b961c97cf18fe51a54afb11
 Description: 
   A visual programming editor for Raspberry Pi
 
+Package: box86
+Installed-Size: 7052
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 0.2.1+20210420.4a8d19da-1
+Provides: box86
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box86/box86_0.2.1+20210420.4a8d19da-1_armhf.deb
+Size: 1419736
+SHA256: 56601e779a3d09404c6c32f03c8e6bbb512e4ad665092d7f121770515b1abe3a
+SHA1: 63fd6e9a055ad481ed092d36e8f7af93009ff508
+MD5sum: cafd5e878325bd33f5e430ba488c8eaf
+Description: Linux Userspace x86 Emulator with a twist.
+ Box86 lets you run x86 Linux programs (such as games)
+ on non-x86 Linux, like ARM
+ (host system needs to be 32bit little-endian).
+
 Package: browsh
 Version: 1.6.4
 Architecture: armhf
