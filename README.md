@@ -94,3 +94,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Qt5 with Desktop OpenGL](https://github.com/koendv/qt5-opengl-raspberrypi)
 - [WebApp-Manager](https://github.com/phoenixbyrd/Linux_Mint_Webapps)
 - [Box86](https://github.com/ptitSeb/box86) (daily builds)
+- [VSCode](https://code.visualstudio.com/)

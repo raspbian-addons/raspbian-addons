@@ -325,6 +325,26 @@ MD5sum: 36f0bf18b74a2a4c77a9444fb4192e6b
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
+Package: code
+Version: 1.55.2-1618306601
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Architecture: armhf
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Homepage: https://code.visualstudio.com/
+Installed-Size: 219372
+Provides: visual-studio-code
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Priority: optional
+Section: devel
+Filename: pool/main/c/code/code_1.55.2-1618306601_armhf.deb
+Size: 65281200
+SHA256: 6e06fed74e6f97e28cdb74ebb3355cd7f6a32daf83eee270ffae8663020d29e4
+SHA1: bf8e57a19d2b09325da94f507a07c105e8b42073
+MD5sum: c372e61e71eeb697384ecfbea9cab79e
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
 Package: codium
 Version: 1.55.2-1618361277
 Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
