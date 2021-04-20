@@ -7,7 +7,6 @@ Here are some examples of what this repository includes:
 - BalenaEtcher
 - Conky Manager (to manage your Conky themes)
 - StackEdit-nativefier
-- Stacer
 - DuckStation emulator (fast PS1 emulator)
 - ClamTk
 - qemu2deb
@@ -53,7 +52,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [duf](https://github.com/muesli/duf)
 - [Fancy Cursor Themes](https://github.com/chunky-milk/cursor-themes)
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube)
-- [Stacer](https://github.com/oguzhaninan/Stacer)
+- [Stacer](https://github.com/oguzhaninan/Stacer) (currently broken, if you have a fix please open a issue)
 - [glmark2](https://github.com/glmark2/glmark2)
 - [Angry IP Scanner](https://github.com/angryip/ipscan)
 - [KeePassX](https://github.com/keepassx/keepassx)
@@ -93,4 +92,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Speedtest](http://ookla.bintray.com/debian/)
 - [Qt5 with Desktop OpenGL](https://github.com/koendv/qt5-opengl-raspberrypi)
 - [WebApp-Manager](https://github.com/phoenixbyrd/Linux_Mint_Webapps)
-- [Box86](https://github.com/ptitSeb/box86)
+- [Box86](https://github.com/ptitSeb/box86) (daily builds)
