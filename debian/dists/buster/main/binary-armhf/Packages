@@ -244,16 +244,16 @@ Package: box86
 Installed-Size: 7052
 Maintainer: root@raspberrypi
 Architecture: armhf
-Version: 0.2.1+20210420.4a8d19da-1
+Version: 0.2.1+20210422.78920a61-1
 Provides: box86
 Conflicts: qemu-user-static
 Priority: extra
 Section: checkinstall
-Filename: pool/main/b/box86/box86_0.2.1+20210420.4a8d19da-1_armhf.deb
-Size: 1419736
-SHA256: 56601e779a3d09404c6c32f03c8e6bbb512e4ad665092d7f121770515b1abe3a
-SHA1: 63fd6e9a055ad481ed092d36e8f7af93009ff508
-MD5sum: cafd5e878325bd33f5e430ba488c8eaf
+Filename: pool/main/b/box86/box86_0.2.1+20210422.78920a61-1_armhf.deb
+Size: 1419492
+SHA256: 71e19c826e9c51a9fcb3ab2b37096565b54638b551dca780de87141f2a69827e
+SHA1: fcd8403f3f0dc13230e114b728f1193375a3ae82
+MD5sum: cca6224dcecbd51e28508754d97293ea
 Description: Linux Userspace x86 Emulator with a twist.
  Box86 lets you run x86 Linux programs (such as games)
  on non-x86 Linux, like ARM
