@@ -95,3 +95,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [WebApp-Manager](https://github.com/phoenixbyrd/Linux_Mint_Webapps)
 - [Box86](https://github.com/ptitSeb/box86) (thanks to [@Itai-Nelken](https://github.com/Itai-Nelken)'s weekly deb builds)
 - [VSCode](https://code.visualstudio.com/)
+- [Webmin](https://webmin.com/download.html)
