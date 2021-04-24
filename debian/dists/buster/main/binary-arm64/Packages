@@ -682,18 +682,18 @@ Description: OpenRazer peripheral drivers (Python 3)
  This package contains a library for interacting with the OpenRazer daemon.
 
 Package: qemu2deb
-Version: 0.7.0
+Version: 0.7.1
 Architecture: all
 Essential: no
-Installed-size: 80200
+Installed-size: 80100
 Maintainer: Itai Nelken <https://github.com/Itai-Nelken/>
 Priority: optional
 Section: custom
-Filename: pool/main/q/qemu2deb/qemu2deb_0.7.0_all.deb
-Size: 22276
-SHA256: ae3f17390a666470bacf7f54b293087d3b67a83127e9950395c48294aaeb78ce
-SHA1: d9aa43c3e7fe7c7f4ea6ff826b757c19879d5e68
-MD5sum: 8d4cab5ed8945ed3f7e860e868aded9c
+Filename: pool/main/q/qemu2deb/qemu2deb_0.7.1_all.deb
+Size: 22264
+SHA256: 7cc6f89a96d057f951da794b9c2a86ed7d0f4ed3d8e3af976642da56a2c68951
+SHA1: 7bbc5373c052e5c0b740bb0f95caf098bcbd9daa
+MD5sum: e66be9404ee04d43fbccb4a90371625c
 Description: compiling/packaging/installing qemu made easier than ever.
 
 Package: realpath
