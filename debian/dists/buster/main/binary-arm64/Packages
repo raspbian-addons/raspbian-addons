@@ -339,19 +339,19 @@ Description: Simple and modern eBook viewer
  Basic text-to-speech support with eSpeak NG and Festival
 
 Package: drawing
-Version: 0.6.5-0ubuntu1~groovy
+Version: 0.8.0-0ubuntu1~hirsute
 Architecture: arm64
 Maintainer: Romain F. T. <rrroschan@gmail.com>
-Installed-Size: 3508
+Installed-Size: 4391
 Depends: dconf-gsettings-backend | gsettings-backend, python3-gi (>= 3.26.0), python3-gi-cairo (>= 3.26.0), gir1.2-gtk-3.0 (>= 3.22.30)
 Homepage: https://maoschanz.github.io/drawing/
 Priority: optional
 Section: graphics
-Filename: pool/main/d/drawing/drawing_0.6.5-0ubuntu1~groovy_arm64.deb
-Size: 2478216
-SHA256: 1a7acea00fa1884900077bb7b5e0d2be5db4eaf4c83b7f9051caae57694439ce
-SHA1: 9e79a0e98c3be9e3cc5f2b9ba8a5d5a38fc1da4a
-MD5sum: 6c89a50382b0e62b7b79d86b955580d5
+Filename: pool/main/d/drawing/drawing_0.8.0-0ubuntu1~hirsute_arm64.deb
+Size: 3280972
+SHA256: c91bce83147884d648f5963c3727e20031d3fed4a9b199889a48102067ae12a9
+SHA1: 88f50301fb43a4f948cbf5ea4f921555632a98a3
+MD5sum: bc9ab93a2e74f441040f00d8ae1cb84b
 Description: A drawing application for the GNOME desktop.
  A simple application to draw or edit pictures.
  It includes tools like: Pencil, Selection, Shape, Text, …

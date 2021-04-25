@@ -419,19 +419,19 @@ Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
 
 Package: drawing
-Version: 0.6.5-0ubuntu1~groovy
+Version: 0.8.0-0ubuntu1~hirsute
 Architecture: armhf
 Maintainer: Romain F. T. <rrroschan@gmail.com>
-Installed-Size: 3508
+Installed-Size: 4391
 Depends: dconf-gsettings-backend | gsettings-backend, python3-gi (>= 3.26.0), python3-gi-cairo (>= 3.26.0), gir1.2-gtk-3.0 (>= 3.22.30)
 Homepage: https://maoschanz.github.io/drawing/
 Priority: optional
 Section: graphics
-Filename: pool/main/d/drawing/drawing_0.6.5-0ubuntu1~groovy_armhf.deb
-Size: 2478216
-SHA256: 70bc912b2e7bdc3bcb1863b1b10899392b8f27361efee01734c3d5aa61544946
-SHA1: bc273785e1429eb6a763fa5983ac3d306445ab66
-MD5sum: 03bd6c1621799cb948c1df730453a5a2
+Filename: pool/main/d/drawing/drawing_0.8.0-0ubuntu1~hirsute_armhf.deb
+Size: 3280972
+SHA256: 41461baf152bcfcde6a5b965a27695f4ac9da66bfeed74a1a0c123dd040bb358
+SHA1: d9ebcaf9867cf3e24853f8abc56e02f77fbbdb12
+MD5sum: d74b0b8ff2675c896a17015b68145309
 Description: A drawing application for the GNOME desktop.
  A simple application to draw or edit pictures.
  It includes tools like: Pencil, Selection, Shape, Text, …
