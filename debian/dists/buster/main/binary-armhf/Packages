@@ -887,6 +887,41 @@ Description: Papirus Icon Theme
   - Papirus-Dark
   - Papirus-Light
 
+Package: piserver
+Version: 0.7
+Architecture: armhf
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 740
+Depends: libarchive13 (>= 3.0.4), libatk1.0-0 (>= 1.12.4), libatkmm-1.6-1v5 (>= 2.24.0), libatomic1 (>= 4.8), libc6 (>= 2.9), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcairomm-1.0-1v5 (>= 1.12.0), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.18), libglibmm-2.4-1v5 (>= 2.54.0), libgtk-3-0 (>= 3.0.0), libgtkmm-3.0-1v5 (>= 3.24.0), libldap-2.4-2 (>= 2.4.7), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.42.0), libsigc++-2.0-0v5 (>= 2.8.0), libstdc++6 (>= 6)
+Recommends: policykit-1
+Priority: optional
+Section: admin
+Filename: pool/main/p/piserver/piserver_0.7_armhf.deb
+Size: 177936
+SHA256: a3e9eed4fdb8de49529f8882c0aacf15bb74fa598413b63840966e1f0b43dccd
+SHA1: c6917fe8bd5071bd4cea579bb21f18291cad1a68
+MD5sum: 0f335941b042b64947b61bd081305d46
+Description: Utility program to manage a network of diskless Pi 3 terminals
+ Lets diskless Pi 3 terminals PXE boot from the network.
+
+Package: piserver-dbgsym
+Source: piserver
+Version: 0.7
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 5034
+Depends: piserver (= 0.7)
+Priority: optional
+Section: debug
+Filename: pool/main/p/piserver/piserver-dbgsym_0.7_armhf.deb
+Size: 4979752
+SHA256: e7dbc85cf4cc91a0be9e9d21525b506b23728a02a9ebf94cdbaca84a1fe2aa68
+SHA1: 2ad8bb0f41ddf4ade8577f25ee421d9bd559d9ed
+MD5sum: 50fd2de55661aee79f0c9a48547b272e
+Description: debug symbols for piserver
+Build-Ids: e74ad26ed2e9b82bf005152aaa2f13b38737a5f3
+
 Package: python3-openrazer
 Source: openrazer
 Version: 3.0.1-0
