@@ -1151,21 +1151,21 @@ Description: lint tool for shell scripts
     advanced user's otherwise working script to fail under future circumstances.
 
 Package: simplenote
-Version: 2.9.0-23023
+Version: 2.10.0-beta2-23636
 License: GPL-2.0
 Vendor: Automattic, Inc.
 Architecture: armhf
 Maintainer: Automattic, Inc. <support@simplenote.com>
-Installed-Size: 269110
+Installed-Size: 269111
 Depends: gconf2
 Homepage: https://simplenote.com
 Priority: extra
 Section: default
-Filename: pool/main/s/simplenote/simplenote_2.9.0-23023_armhf.deb
-Size: 92336896
-SHA256: 366998358d0fec07984c265e026bcffcef7c88c135f0dbcdcfa94bb67e58a638
-SHA1: a5c803ba5cd9493532c0b0e27f6beb09212b6c5b
-MD5sum: 3ec2359ca97a46d0c4ffd5872238a17b
+Filename: pool/main/s/simplenote/simplenote_2.10.0-beta2-23636_armhf.deb
+Size: 92333346
+SHA256: b59ea5b9c7b1928cb1b04c192422ac2cb80ba7a344396c848f0217723db6a51e
+SHA1: 9dc671ab190cce6d2c0baf2672049877064f8c40
+MD5sum: 51023df0f4f6343f07cc3fbabc8452e9
 Description: The simplest way to keep notes
   Simplenote is an easy way to keep notes, lists, ideas and more. Your notes stay in sync with all your devices for free.
 
