@@ -97,3 +97,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [VSCode](https://code.visualstudio.com/)
 - [Webmin](https://webmin.com/download.html)
 - [PiServer](https://github.com/raspberrypi/piserver)
+- [Touchegg](https://github.com/JoseExposito/touchegg)
