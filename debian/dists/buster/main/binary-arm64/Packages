@@ -1052,3 +1052,20 @@ Description: Libxapp documentation
  .
  This package contains documentation for Xapp library
 
+Package: xtensa-esp32-elf
+Version: 8.2.0-2020r2
+Maintainer: Koen <koen@mcvax.org>
+Bugs: https://github.com/koendv/xtensa-esp32-elf-raspberrypi/issues
+Homepage: https://github.com/koendv/xtensa-esp32-elf-raspberrypi
+Depends: automake, bison, build-essential, ccache, cmake, dfu-util, flex, gawk, gettext, git, gperf, grep, help2man, libffi-dev, libncurses-dev, libssl-dev, libtool, libtool-bin, make, ninja-build, python, python-click, python-cryptography, python-dev, python-future, python-pip, python-pyelftools, python-pyparsing, python-serial, python-setuptools, texinfo, wget
+Architecture: arm64
+Priority: optional
+Section: devel
+Filename: pool/main/x/xtensa-esp32-elf/xtensa-esp32-elf_8.2.0-2020r2_arm64.deb
+Size: 96177096
+SHA256: 1e248df47abd20eb5e4246954fb94d821ba0384395ecca18def1e5ab3dfb19bb
+SHA1: 66d70bac58ef5bae4edb621c24d769e9db874b07
+MD5sum: d385fd24d4f268eee16931a19c49f9e9
+Description: esp32/esp32s2 gcc cross-compiler toolchain
+ compiled for raspberry pi 4 running 2020-05-27-raspios-buster-arm64
+

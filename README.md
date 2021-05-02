@@ -98,3 +98,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Webmin](https://webmin.com/download.html)
 - [PiServer](https://github.com/raspberrypi/piserver)
 - [Touchegg](https://github.com/JoseExposito/touchegg)
+- [xtensa-esp32-elf](https://github.com/koendv/xtensa-esp32-elf-raspberrypi)
