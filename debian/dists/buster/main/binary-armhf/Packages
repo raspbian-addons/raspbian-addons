@@ -180,7 +180,7 @@ Version: 2.2.0-travis995~0f91801+bionic
 Installed-Size: 36648
 
 Package: balena-etcher-electron
-Version: 1.5.118+ed1f008f
+Version: 1.5.119+70229e86
 License: Apache-2.0
 Vendor: Balena Inc. <hello@etcher.io>
 Architecture: armhf
@@ -190,11 +190,11 @@ Depends: gconf2, gconf-service, libasound2, libatk1.0-0, libc6, libcairo2, libcu
 Homepage: https://github.com/balena-io/etcher
 Priority: optional
 Section: utils
-Filename: pool/main/b/balena-etcher-electron/balena-etcher-electron_1.5.118+ed1f008f_armhf.deb
-Size: 80060190
-SHA256: 04c71d6396520d0ca812c36e408c6863292747066289bb0c74a6a508130abbd7
-SHA1: 57d51b8ccf0d1b387835671d7e0540aa0000184a
-MD5sum: b726313077a8e87fa2ecaddb0fb7539d
+Filename: pool/main/b/balena-etcher-electron/balena-etcher-electron_1.5.119+70229e86_armhf.deb
+Size: 80119180
+SHA256: 698976981d160f99d445c8bc7004e6551d57b7c8f553dec318268e3c6189499d
+SHA1: bdfaab7a6960894b30487725b4e39355ef89a9b1
+MD5sum: dddc3eb1a87d2449e69eb23f6946d42b
 Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
   Flash OS images to SD cards and USB drives, safely and easily.
 
