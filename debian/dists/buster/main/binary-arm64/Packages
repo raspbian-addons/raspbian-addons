@@ -486,6 +486,32 @@ Description: Angry IP Scanner - fast and friendly IP Scanner
  The program provides an easy to use GUI interface and is very extensible,
  see https://angryip.org/ for more information.
 
+Package: libcgal-dev
+Source: cgal
+Version: 5.1-1
+Architecture: arm64
+Maintainer: Joachim Reichel <reichel@debian.org>
+Installed-Size: 37539
+Depends: libboost-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libgmp-dev, libmpfr-dev, zlib1g-dev
+Suggests: libmpfi-dev, libntl-dev, libtbb-dev
+Multi-Arch: same
+Homepage: http://www.cgal.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/cgal/libcgal-dev_5.1-1_arm64.deb
+Size: 4591980
+SHA256: 1069898d610c0502cd587ebeef42b5fa23624eb4487ab0f51c988ea0c6342442
+SHA1: c455dd53e5e13d3b2f932f1c945a65d684595945
+MD5sum: 98893b40375bccc8db9609cc5c32c9db
+Description: C++ library for computational geometry (development files)
+ CGAL (Computational Geometry Algorithms Library) makes the most important
+ of the solutions and methods developed in computational geometry available
+ to users in industry and academia in a C++ library. The goal is to provide
+ easy access to useful, reliable geometric algorithms.
+ .
+ This package contains most of the header files. The header files for
+ visualization with Qt can be found in the package libcgal-qt5-dev.
+
 Package: lightpad
 Source: com.github.libredeb.lightpad
 Version: 0.0.8~rev2+build1
@@ -655,6 +681,23 @@ Description: Papirus Icon Theme
   - Papirus
   - Papirus-Dark
   - Papirus-Light
+
+Package: prusa-slicer
+Version: 2.3.0-alpha3
+Maintainer: Koen <koen@mcvax.org>
+Bugs: https://github.com/koendv/prusa-slicer-raspberrypi/issues
+Homepage: https://github.com/koendv/prusa-slicer-raspberrypi
+Depends: cmake, libboost-all-dev, libtbb-dev, libcurl4, libwxgtk3.0-dev, libeigen3-dev, libglew-dev, libcereal-dev, libcgal-dev
+Architecture: arm64
+Priority: optional
+Section: science
+Filename: pool/main/p/prusa-slicer/prusa-slicer_2.3.0-alpha3_arm64.deb
+Size: 21046940
+SHA256: f478775731c6662bc20e6f51e1e5da89043a507aa16dd5cba8b4dd4c38cc70d9
+SHA1: 3a025085b414e3fbfd44057c4b3cc574bba7dfdc
+MD5sum: e6ef9beb82c4ccbe0897ee94d0baad24
+Description: Prusa-Slic3r 2.3.0-alpha3
+ compiled for raspberry pi 4 running 2020-08-20-raspios-buster-arm64.
 
 Package: python3-openrazer
 Source: openrazer
