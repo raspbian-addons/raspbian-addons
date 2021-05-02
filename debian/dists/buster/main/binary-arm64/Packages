@@ -630,22 +630,22 @@ Description: OpenRazer peripheral drivers (metapackage)
  userspace daemon, plus a Python library and documentation.
 
 Package: papirus-icon-theme
-Version: 20210407-5200+pkg21~ubuntu20.10.1
+Version: 20210501-5243+pkg21~ubuntu21.04.1
 Architecture: all
 Bugs: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues
 Maintainer: Sergei Eremenko <finalitik@gmail.com>
-Installed-Size: 167144
+Installed-Size: 167837
 Depends: hicolor-icon-theme
 Suggests: filezilla-theme-papirus, libreoffice-style-papirus
 Replaces: papirus-gtk-icon-theme, papirus-kde-icon-theme
 Homepage: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 Priority: optional
 Section: universe/x11
-Filename: pool/main/p/papirus-icon-theme/papirus-icon-theme_20210407-5200+pkg21~ubuntu20.10.1_all.deb
-Size: 18467244
-SHA256: 1b35a9a9d00229bd1fe0f8efcb6cbdebfebc9ae27f8597a4fe834229246f3448
-SHA1: 966ddd3abd305d6bcdecf55fd35bad4bf03c90dd
-MD5sum: 23470109b8ebfddbc7cc5d7033cade58
+Filename: pool/main/p/papirus-icon-theme/papirus-icon-theme_20210501-5243+pkg21~ubuntu21.04.1_all.deb
+Size: 18560108
+SHA256: 96d1770beb2deb88c0a019b18893e63dbc70795aae12b058a6803c7febd230a3
+SHA1: 4bd393d3a3fb4815ce3bd81d8de840781e193091
+MD5sum: 93a9a9ff8b484d4f0ef606f79b9b97b3
 Description: Papirus Icon Theme
  Papirus is a SVG-based icon theme, drawing inspiration from Material Design
  and flat design.
