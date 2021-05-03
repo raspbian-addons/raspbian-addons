@@ -209,21 +209,21 @@ Description: Removes unnecessary files
  disk space to hide previously deleted files.
 
 Package: blockpi
-Version: 1.1.5
+Version: 1.2.0
 License: Apache-2.0
 Vendor: Zhang Yiwei <alienzhangyw@live.cn>
 Architecture: arm64
 Maintainer: Zhang Yiwei <alienzhangyw@live.cn>
-Installed-Size: 198277
+Installed-Size: 204423
 Depends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, python3-gpiozero, sense-hat, python3-sense-emu, sense-emu-tools, python3-picamera
 Homepage: https://github.com/alienzhangyw/BlockPi
 Priority: extra
 Section: default
-Filename: pool/main/b/blockpi/blockpi_1.1.5_arm64.deb
-Size: 49025468
-SHA256: 79b150a11e33091e410c7e1bd6eba25f59d28ecdd07014fa14b3ddc2b40a1351
-SHA1: 7346c06ff89cf1ae281c25f84476e006770d4429
-MD5sum: 9879c150b31c2a7280d242f3d29e916a
+Filename: pool/main/b/blockpi/blockpi_1.2.0_arm64.deb
+Size: 52161978
+SHA256: 18559978367758623bc56d97243bbc6ba68aafb5b31125b176f8a0ccd012950a
+SHA1: d508a6481ff373e5e17ce8a4ff9ba7d4bc21001c
+MD5sum: 9a28b5c3c444f3370f589faa291de3e3
 Description: 
   A visual programming editor for Raspberry Pi
 
