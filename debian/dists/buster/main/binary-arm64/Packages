@@ -263,24 +263,27 @@ Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
 Package: code
-Version: 1.55.2-1618306574
+Version: 1.56.0-1620166103
 Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
 Architecture: arm64
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
 Homepage: https://code.visualstudio.com/
-Installed-Size: 284766
+Installed-Size: 299097
 Provides: visual-studio-code
 Conflicts: visual-studio-code
 Replaces: visual-studio-code
 Priority: optional
 Section: devel
-Filename: pool/main/c/code/code_1.55.2-1618306574_arm64.deb
-Size: 69962978
-SHA256: d2e3fab8d4213feb583e580ab1b1022ad8a903c299ea4c03e657b0f3e55df500
-SHA1: d3a70c20868ef9c868d22b8eccee827ab9518243
-MD5sum: 948f20268e6760ff0823c1a4a39c92fb
+Filename: pool/main/c/code/code_1.56.0-1620166103_arm64.deb
+Size: 75976490
+SHA256: 7b3962464a217c96ffc0f84f91f82658e48f8271b5c565345e89e56aec96cada
+SHA1: e7e2fc72bbb3d0ad72662fa70c589b35325b215b
+MD5sum: d5b52d4501c6b04e7a26f75d32e5dc36
 Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a
+	code editor with what developers need for the core edit-build-debug cycle.
+	See https://code.visualstudio.com/docs/setup/linux for installation
+	instructions and FAQ.
 
 Package: codium
 Version: 1.55.2-1618361382
