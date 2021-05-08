@@ -389,6 +389,25 @@ SHA1: d840dc02efef6ee84780ae2b5d3947503a523528
 MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
 
+Package: figma-linux
+Version: 0.7.2
+License: MIT
+Vendor: Chugunov Roman <Zebs-BMK@yandex.ru>
+Architecture: arm64
+Maintainer: Chugunov Roman <Zebs-BMK@yandex.ru>
+Installed-Size: 450940
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://github.com/ChugunovRoman/figma-linux
+Priority: extra
+Section: Graphic
+Filename: pool/main/f/figma-linux/figma-linux_0.7.2_arm64.deb
+Size: 83904716
+SHA256: 105b795b9449366c0abff18a44200d941eb95ddee4e4667ee0ae54524805ecc5
+SHA1: e17640d64a33301074616dc85eee83ff6cfb65d5
+MD5sum: 51800f94f6b2ca637c301f5cfcfc7fb4
+Description: 
+  Unofficial desktop application for linux
+
 Package: flameshot
 Version: 0.9.0-1
 Architecture: arm64

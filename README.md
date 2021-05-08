@@ -100,3 +100,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Touchegg](https://github.com/JoseExposito/touchegg)
 - [xtensa-esp32-elf](https://github.com/koendv/xtensa-esp32-elf-raspberrypi)
 - [Prusa-Slicer](https://github.com/koendv/prusa-slicer-raspberrypi)
+- [Figma-Linux](https://github.com/Figma-Linux/figma-linux)
