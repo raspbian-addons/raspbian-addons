@@ -1377,6 +1377,197 @@ MD5sum: c1c6e2778b09dbfaa663b2acf2cb424b
 Description: Application launcher for Linux
  See https://ulauncher.io for more information
 
+Package: ungoogled-chromium-common
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 3573
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.5), libstdc++6 (>= 6), libx11-6 (>= 2:1.4.99.1), libxext6, zlib1g (>= 1:1.2.2), x11-utils, xdg-utils
+Recommends: upower, libu2f-udev, libgl1-mesa-dri, ungoogled-chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
+Conflicts: chromium-common
+Breaks: chromium, chromium-common, ungoogled-chromium (<< 60.0.3112.72-1)
+Replaces: ungoogled-chromium (<< 60.0.3112.72-1)
+Homepage: https://github.com/Eloston/ungoogled-chromium
+Priority: optional
+Section: web
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-common_90.0.4430.93-1.buster1_armhf.deb
+Size: 1188916
+SHA256: 8c0ba66993035c9f57e7a20b8b42d0ddcdea7044e4d79261fb07f70f81d22589
+SHA1: 081cf4aabc4f0a6f606ee0942748b7a28d46d8f0
+MD5sum: c1f901a039cd79a2b5624721b254ee46
+Description: web browser - common resources used by ungoogled-chromium packages
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains resources that are in common to different
+ ungoogled-chromium packages.
+
+Package: ungoogled-chromium-common-dbgsym
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 2125
+Depends: ungoogled-chromium-common (= 90.0.4430.93-1.buster1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-common-dbgsym_90.0.4430.93-1.buster1_armhf.deb
+Size: 249692
+SHA256: bfce0dacaf0de41e5dfa2edd87562dc8db71a33ca6be27a8acaad6369a758524
+SHA1: 3f1e15888d952a96483a702043390073a00702cd
+MD5sum: eea6d22f4362e20632c6d82e274cd3ad
+Description: debug symbols for ungoogled-chromium-common
+Build-Ids: 3c1f6fffa615201d f211c989b849ed45
+
+Package: ungoogled-chromium-dbgsym
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 95787
+Depends: ungoogled-chromium (= 90.0.4430.93-1.buster1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-dbgsym_90.0.4430.93-1.buster1_armhf.deb
+Size: 11972932
+SHA256: 86bfbbe855b2f526c9a5639ff1457fe67933fc7e8df8ed6c76747d9a02c46a94
+SHA1: 1604d5aa5b5f7cb068ddb8bd9efc34eb56032f12
+MD5sum: 34e7614ed2fbe26b234cf82cd6a35ef5
+Description: debug symbols for ungoogled-chromium
+Build-Ids: 0ddbfb5ca7205570
+
+Package: ungoogled-chromium-driver
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 8106
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.28), libevent-2.1-6 (>= 2.1.8-stable), libgcc1 (>= 1:4.3), libglib2.0-0 (>= 2.22.0), libicu63 (>= 63.1-1~), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libre2-5 (>= 20150701+dfsg), libstdc++6 (>= 5.2), libxcb1 (>= 1.9.2), zlib1g (>= 1:1.1.4), ungoogled-chromium (= 90.0.4430.93-1.buster1)
+Conflicts: chromium-driver
+Breaks: chromium, chromium-driver
+Replaces: chromedriver
+Homepage: https://github.com/Eloston/ungoogled-chromium
+Priority: optional
+Section: web
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-driver_90.0.4430.93-1.buster1_armhf.deb
+Size: 4034636
+SHA256: aad8a65ed32897326aac9ab3aec73068b644b3e4663ef9470760baeb2bc22ea4
+SHA1: 0834c8b4f9bbbcb16ec9c5d624a084e11c4df12f
+MD5sum: 451667825cfbba739cd4cdd518e3ea8c
+Description: web browser - WebDriver support
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package provides a bridge between the browser component and the selenium
+ automatic webdriver.
+ .
+ See http://code.google.com/p/selenium/wiki/ChromeDriver for details.
+
+Package: ungoogled-chromium-driver-dbgsym
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 4685
+Depends: ungoogled-chromium-driver (= 90.0.4430.93-1.buster1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-driver-dbgsym_90.0.4430.93-1.buster1_armhf.deb
+Size: 666176
+SHA256: 6074fcff251133d77da7a3c5fc343d0037ef9809f8085705be8c848a33cb1319
+SHA1: dcce71d7ab69054b1f3e1d4d864d7860b2de7cfe
+MD5sum: f7c6c6f25d3fab2361e2381ac1f0d04a
+Description: debug symbols for ungoogled-chromium-driver
+Build-Ids: 05dcea46ca2ef1b7
+
+Package: ungoogled-chromium-sandbox
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 310
+Depends: libc6 (>= 2.4)
+Conflicts: chromium-sandbox
+Breaks: chromium, chromium-sandbox, ungoogled-chromium (<< 90.0.4430.93-1.buster1)
+Replaces: ungoogled-chromium (<< 90.0.4430.93-1.buster1)
+Homepage: https://github.com/Eloston/ungoogled-chromium
+Priority: optional
+Section: web
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-sandbox_90.0.4430.93-1.buster1_armhf.deb
+Size: 44420
+SHA256: 42d75622d4d2d693b76c815cd80e20e045f2de6766842ecefc086c4a081f9205
+SHA1: 5407de2db8205f9d32f3a39d906dc86ac70bb3eb
+MD5sum: 81e36084473065225bd515b2e9fedac7
+Description: web browser - setuid security sandbox for ungoogled-chromium
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains the setuid chromium sandbox.
+
+Package: ungoogled-chromium-sandbox-dbgsym
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 22
+Depends: ungoogled-chromium-sandbox (= 90.0.4430.93-1.buster1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-sandbox-dbgsym_90.0.4430.93-1.buster1_armhf.deb
+Size: 3360
+SHA256: 2488216149495cb1de861d237784761e70b393769cfb0138e00d6464ebcaca7c
+SHA1: 662f435cb57015e77fbc0b1abc0b244f92f774da
+MD5sum: 8731b7096b3f6fa1a42f7adf2cd5c31c
+Description: debug symbols for ungoogled-chromium-sandbox
+Build-Ids: 4fb842229f52934b
+
+Package: ungoogled-chromium-shell
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 80044
+Depends: libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatomic1 (>= 4.8), libatspi2.0-0 (>= 2.9.90), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.38), libevent-2.1-6 (>= 2.1.8-stable), libexpat1 (>= 2.0.1), libflac8 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.3), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.19.12), libharfbuzz0b (>= 2.2.0), libicu63 (>= 63.1-1~), libjpeg62-turbo (>= 1.5.0), libjsoncpp1 (>= 1.7.4), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libre2-5 (>= 20160901), libsnappy1v5, libstdc++6 (>= 7), libvpx5 (>= 1.6.0), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2 (>= 2.7.4), libxrandr2, libxshmfence1, libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.11.dfsg), ungoogled-chromium-common (= 90.0.4430.93-1.buster1)
+Conflicts: chromium-shell
+Breaks: chromium-shell
+Homepage: https://github.com/Eloston/ungoogled-chromium
+Priority: optional
+Section: web
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-shell_90.0.4430.93-1.buster1_armhf.deb
+Size: 33860588
+SHA256: 71c63e62ee19fad5d0e1f47edcd59e3814e9d29ab8fb6c02ad0f97baab634f01
+SHA1: 16a95dca644b5d2c7f6df0b89050b9500938eff7
+MD5sum: 3af65da47a73bce0df7788da3b6e7c13
+Description: web browser - minimal shell
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package provides a minimal version of the chromium user interface
+ (the content shell).
+
+Package: ungoogled-chromium-shell-dbgsym
+Source: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 68234
+Depends: ungoogled-chromium-shell (= 90.0.4430.93-1.buster1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium-shell-dbgsym_90.0.4430.93-1.buster1_armhf.deb
+Size: 8106672
+SHA256: e3fa0e0ec5c7e04d862a2b65add4cb7534451c0e49cd47c3027e0b0d6f5a7159
+SHA1: 65303965dd638fc26473fa9fd8cb9c3bbbd2a745
+MD5sum: f49bcace984f3e82b600840a32eff93d
+Description: debug symbols for ungoogled-chromium-shell
+Build-Ids: 292bd5e870f83e50
+
 Package: usbimager
 Version: 1.0.7
 Architecture: armhf
