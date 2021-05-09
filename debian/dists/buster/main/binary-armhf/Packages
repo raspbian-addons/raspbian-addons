@@ -1377,6 +1377,32 @@ MD5sum: c1c6e2778b09dbfaa663b2acf2cb424b
 Description: Application launcher for Linux
  See https://ulauncher.io for more information
 
+Package: ungoogled-chromium
+Version: 90.0.4430.93-1.buster1
+Architecture: armhf
+Maintainer: ungoogled-chromium Maintainers <github@null.invalid>
+Installed-Size: 112999
+Depends: libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatomic1 (>= 4.8), libatspi2.0-0 (>= 2.9.90), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.38), libevent-2.1-6 (>= 2.1.8-stable), libexpat1 (>= 2.0.1), libflac8 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.9), libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.3), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.19.12), libharfbuzz0b (>= 2.2.0), libicu63 (>= 63.1-1~), libjpeg62-turbo (>= 1.5.0), libjsoncpp1 (>= 1.7.4), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libopenjp2-7 (>= 2.2.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libre2-5 (>= 20160901), libsnappy1v5, libstdc++6 (>= 7), libvpx5 (>= 1.6.0), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2 (>= 2.7.4), libxrandr2, libxshmfence1, libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.11.dfsg), ungoogled-chromium-common (= 90.0.4430.93-1.buster1)
+Recommends: ungoogled-chromium-sandbox
+Suggests: ungoogled-chromium-l10n, ungoogled-chromium-shell, ungoogled-chromium-driver
+Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
+Breaks: chromium, chromium-browser, chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
+Replaces: chromium, chromium-browser
+Provides: gnome-www-browser, www-browser
+Homepage: https://github.com/Eloston/ungoogled-chromium
+Priority: optional
+Section: web
+Filename: pool/main/u/ungoogled-chromium/ungoogled-chromium_90.0.4430.93-1.buster1_armhf.deb
+Size: 50016972
+SHA256: 5e8d5e9acd3d9de040b3c0764af300594e10cb52ebe0b764d5dede85fd6e5788
+SHA1: d9d8ce7fe391b0d55d704e60dedd2aae25434bae
+MD5sum: 9d868ece03a1e700be95913e356906b8
+Description: web browser
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains the web browser component.
+
 Package: ungoogled-chromium-common
 Source: ungoogled-chromium
 Version: 90.0.4430.93-1.buster1
