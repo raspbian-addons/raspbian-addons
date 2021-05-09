@@ -102,3 +102,5 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Prusa-Slicer](https://github.com/koendv/prusa-slicer-raspberrypi)
 - [Figma-Linux](https://github.com/Figma-Linux/figma-linux)
 - [v2rayA](https://github.com/v2rayA/v2rayA)
+- [ungoogled-chromium](http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/)
+
