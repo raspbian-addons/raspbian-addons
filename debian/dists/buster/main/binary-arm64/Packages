@@ -286,24 +286,27 @@ Description: Code editing. Redefined.
 	instructions and FAQ.
 
 Package: codium
-Version: 1.55.2-1618361382
+Version: 1.56.0-1620575706
 Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
 Architecture: arm64
 Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
 Homepage: https://vscodium.com/
-Installed-Size: 289556
+Installed-Size: 304956
 Provides: visual-studio-codium
 Conflicts: visual-studio-codium
 Replaces: visual-studio-codium
 Priority: optional
 Section: devel
-Filename: pool/main/c/codium/codium_1.55.2-1618361382_arm64.deb
-Size: 72102232
-SHA256: 1c742aa8a4e181f36f6a196e13dd567770f36921d1a006a8705ef265a66b8259
-SHA1: 3d279252b83d5a524b0f873dc6b39db984813939
-MD5sum: c6990631e63fcaea51ea226b22d6cb3b
+Filename: pool/main/c/codium/codium_1.56.0-1620575706_arm64.deb
+Size: 78624172
+SHA256: d973b756aaea360d61840dee456841bcea0a8132959fddc78187b391105e5581
+SHA1: 234717999fb64329d588fa67bb7e4a4bc250fe41
+MD5sum: 3a3ff5e91402d87b551c072866730b8d
 Description: Code editing. Redefined.
- VSCodium is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://vscodium.com/docs/setup/linux for installation instructions and FAQ.
+ VSCodium is a new choice of tool that combines the simplicity of a
+	code editor with what developers need for the core edit-build-debug cycle.
+	See https://vscodium.com/docs/setup/linux for installation
+	instructions and FAQ.
 
 Package: com.github.johnfactotum.foliate
 Version: 2.6.3
