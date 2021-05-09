@@ -101,3 +101,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [xtensa-esp32-elf](https://github.com/koendv/xtensa-esp32-elf-raspberrypi)
 - [Prusa-Slicer](https://github.com/koendv/prusa-slicer-raspberrypi)
 - [Figma-Linux](https://github.com/Figma-Linux/figma-linux)
+- [v2rayA](https://github.com/v2rayA/v2rayA)
