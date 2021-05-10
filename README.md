@@ -14,6 +14,7 @@ Here are some examples of what this repository includes:
 - RPiPlay (open source AirPlay mirror server)
 - Simplenote-electron, a note-taking application
 - Alacritty Terminal (Uses the GPU for rendering!)
+- Tor Browser
 
 And more! To see a complete list, scroll down.
 
@@ -104,3 +105,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [v2rayA](https://github.com/v2rayA/v2rayA)
 - [ungoogled-chromium](http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/)
 - [MiniGalaxy](https://github.com/sharkwouter/minigalaxy)
+- [Tor-Browser](https://sourceforge.net/projects/tor-browser-ports/)

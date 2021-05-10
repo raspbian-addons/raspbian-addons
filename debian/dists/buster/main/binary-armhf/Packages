@@ -1337,6 +1337,20 @@ Description: System restore utility
  at a later date to undo system changes. Creates incremental snapshots
  using rsync or BTRFS snapshots using BTRFS tools.
 
+Package: tor-browser
+Version: 10.0.16
+Architecture: armhf
+Maintainer: Ryan Fortner <pinetmedia@gmail.com>
+Depends: 
+Priority: optional
+Section: unknown
+Filename: pool/main/t/tor-browser/tor-browser_10.0.16_armhf.deb
+Size: 86383896
+SHA256: 729bcdcbc09e982653b688c44096ec00f4cf828d49af24a21a89c7302a7f1abe
+SHA1: 9eea171b382f2f30285ee059fc47546b373a1d51
+MD5sum: 8030d12c90615d47796a6c4b5b9f2bd2
+Description: Tor Browser is +1 for privacy and −1 for mass surveillance
+
 Package: touchegg
 Version: 2.0.9
 Architecture: armhf
