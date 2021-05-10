@@ -103,4 +103,4 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [Figma-Linux](https://github.com/Figma-Linux/figma-linux)
 - [v2rayA](https://github.com/v2rayA/v2rayA)
 - [ungoogled-chromium](http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/)
-
+- [MiniGalaxy](https://github.com/sharkwouter/minigalaxy)
