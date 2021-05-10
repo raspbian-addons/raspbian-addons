@@ -1,5 +1,7 @@
 # [Raspbian Addons](http://chunky-milk.github.io/raspbian-addons/)
 
+<a href="https://github.com/chunky-milk/raspbian-addons/"><img src="https://img.shields.io/github/repo-size/chunky-milk/raspbian-addons?color=G&style=flat-square"></a>
+
 An APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32-bit debian-based operating systems (ARM). See below for information on 64-bit support.
 
 Here are some examples of what this repository includes:
