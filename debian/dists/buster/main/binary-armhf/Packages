@@ -325,29 +325,6 @@ MD5sum: 36f0bf18b74a2a4c77a9444fb4192e6b
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
-Package: code
-Version: 1.56.0-1620166198
-Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
-Architecture: armhf
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Homepage: https://code.visualstudio.com/
-Installed-Size: 231719
-Provides: visual-studio-code
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Priority: optional
-Section: devel
-Filename: pool/main/c/code/code_1.56.0-1620166198_armhf.deb
-Size: 70215662
-SHA256: 23620f483c6b6c5f72cef6109dc0f1a990a040e984f98ee464cb4a9240859f2d
-SHA1: b32cccc5aa11b85e070436c65a1b60d0887594c2
-MD5sum: 0c1685d091e5df8eee34edddbf9e62d1
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a
-	code editor with what developers need for the core edit-build-debug cycle.
-	See https://code.visualstudio.com/docs/setup/linux for installation
-	instructions and FAQ.
-
 Package: codium
 Version: 1.56.0-1620575616
 Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
@@ -1222,23 +1199,6 @@ MD5sum: 0b5c00cc092a8f3c6b2584caf2554937
 Description: Sonic Pi - The Live Coding Music Synth for Everyone.
 Homepage: http://sonic-pi.net
 
-Package: speedtest
-Version: 1.0.0.2-1.5ae238b
-License: https://www.speedtest.net/about/eula
-Architecture: armhf
-Maintainer: support@ookla.com
-Installed-Size: 1847
-Depends: ca-certificates
-Homepage: https://www.speedtest.net/
-Priority: extra
-Section: default
-Filename: pool/main/s/speedtest/speedtest_1.0.0.2-1.5ae238b_armhf.deb
-Size: 836210
-SHA256: e435effc2e6238c1af110f3715afba4d8e694ad5b51da4fe1e3d1a7b858396b9
-SHA1: c9d3a25ffc1195d119ae87becd65cca0ad35574c
-MD5sum: 2b0aa609390fe3fe21a6ae4b0b6c83d3
-Description: Official Ookla Speedtest CLI for personal, non-commercial use
-
 Package: stacer
 Version: 1.1.0-3
 Architecture: armhf
@@ -1345,10 +1305,10 @@ Depends:
 Priority: optional
 Section: unknown
 Filename: pool/main/t/tor-browser/tor-browser_10.0.16_armhf.deb
-Size: 86383896
-SHA256: 729bcdcbc09e982653b688c44096ec00f4cf828d49af24a21a89c7302a7f1abe
-SHA1: 9eea171b382f2f30285ee059fc47546b373a1d51
-MD5sum: 8030d12c90615d47796a6c4b5b9f2bd2
+Size: 86389768
+SHA256: 5d3287bcf4072aa2eb269309c40f0948f8826d3f28efc3bc58859361fd40f5b7
+SHA1: d20b390837b82074c900a37e2c45b42f08bdfbd3
+MD5sum: e80ae20820fcb6453b069154f3703f59
 Description: Tor Browser is +1 for privacy and −1 for mass surveillance
 
 Package: touchegg

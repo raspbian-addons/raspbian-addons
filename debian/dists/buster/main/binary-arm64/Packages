@@ -262,29 +262,6 @@ MD5sum: 36f0bf18b74a2a4c77a9444fb4192e6b
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
 
-Package: code
-Version: 1.56.0-1620166103
-Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
-Architecture: arm64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Homepage: https://code.visualstudio.com/
-Installed-Size: 299097
-Provides: visual-studio-code
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Priority: optional
-Section: devel
-Filename: pool/main/c/code/code_1.56.0-1620166103_arm64.deb
-Size: 75976490
-SHA256: 7b3962464a217c96ffc0f84f91f82658e48f8271b5c565345e89e56aec96cada
-SHA1: e7e2fc72bbb3d0ad72662fa70c589b35325b215b
-MD5sum: d5b52d4501c6b04e7a26f75d32e5dc36
-Description: Code editing. Redefined.
- Visual Studio Code is a new choice of tool that combines the simplicity of a
-	code editor with what developers need for the core edit-build-debug cycle.
-	See https://code.visualstudio.com/docs/setup/linux for installation
-	instructions and FAQ.
-
 Package: codium
 Version: 1.56.0-1620575706
 Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
@@ -867,23 +844,6 @@ SHA1: 88e836518159e70415bf209576fd642634c2b5c3
 MD5sum: 6cd73aa54518e48afd3d9ef3b360c2a5
 Description: debug symbols for rpi-imager
 Build-Ids: 9a6cbd83b58a727cfff94f89eca805a6b4ad0a22
-
-Package: speedtest
-Version: 1.0.0.2-1.5ae238b
-License: https://www.speedtest.net/about/eula
-Architecture: arm64
-Maintainer: support@ookla.com
-Installed-Size: 2206
-Depends: ca-certificates
-Homepage: https://www.speedtest.net/
-Priority: extra
-Section: default
-Filename: pool/main/s/speedtest/speedtest_1.0.0.2-1.5ae238b_arm64.deb
-Size: 915352
-SHA256: 4063882774aae886f519efe070eb068b73b50be81d358e90769d6cc0cc22ed7a
-SHA1: eb2faa85f159a7924bf6473d1d7e083ea4f1ea01
-MD5sum: 31a5678c82c64e45a23daa7896e06146
-Description: Official Ookla Speedtest CLI for personal, non-commercial use
 
 Package: stackedit-nativefier
 Version: 20210412
