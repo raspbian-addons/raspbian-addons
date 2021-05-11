@@ -1684,21 +1684,21 @@ Description: Web Application Manager
  Launch websites as if they were apps.
 
 Package: webcord
-Version: 1.4.0
+Version: 1.4.1
 Architecture: armhf
 Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 132515
+Installed-Size: 132445
 Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
 Homepage: https://github.com/SpacingBat3/WebCord#readme
 Priority: optional
 Section: web
-Filename: pool/main/w/webcord/webcord_1.4.0_armhf.deb
-Size: 52578828
-SHA256: e130609774f905f162fb42e57ae92790a8beeb970cad5192245ac98db127444e
-SHA1: 91eae0e50a73af45d6d7b60ab21ca3d13fd7722a
-MD5sum: 03625cce7d64c5ee9e837b7c4d569e98
+Filename: pool/main/w/webcord/webcord_1.4.1_armhf.deb
+Size: 52443892
+SHA256: 2d2d85f9aa40ec3a48783bf40a8d923f1325106ea2cef345c4b9d90276a20a2b
+SHA1: d3f78b8834f0ebedf532e687fbd8311767bf5d90
+MD5sum: 1b594346df06040521bf29d2b926c5a2
 Description: A Discord Web App made with the Electron API.
  A Discord Web App made with the Electron API.
 
