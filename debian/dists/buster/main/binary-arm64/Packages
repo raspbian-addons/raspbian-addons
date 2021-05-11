@@ -370,21 +370,21 @@ MD5sum: 84611c8723046d395ea6eaee3e002e79
 Description: Extra cursor themes for your distro.
 
 Package: figma-linux
-Version: 0.7.2
+Version: 0.7.3
 License: MIT
 Vendor: Chugunov Roman <Zebs-BMK@yandex.ru>
 Architecture: arm64
 Maintainer: Chugunov Roman <Zebs-BMK@yandex.ru>
-Installed-Size: 450940
+Installed-Size: 451707
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
 Homepage: https://github.com/ChugunovRoman/figma-linux
 Priority: extra
 Section: Graphic
-Filename: pool/main/f/figma-linux/figma-linux_0.7.2_arm64.deb
-Size: 83904716
-SHA256: 105b795b9449366c0abff18a44200d941eb95ddee4e4667ee0ae54524805ecc5
-SHA1: e17640d64a33301074616dc85eee83ff6cfb65d5
-MD5sum: 51800f94f6b2ca637c301f5cfcfc7fb4
+Filename: pool/main/f/figma-linux/figma-linux_0.7.3_arm64.deb
+Size: 82789810
+SHA256: 2aebe1f39c7eca082fc084018ba51c76a99df538f1920665b9397cbb6515c1b6
+SHA1: 157439c362e289be88d5fa321f7ffe475019742c
+MD5sum: 74e42208412375b5899add50b172d02d
 Description: 
   Unofficial desktop application for linux
 
