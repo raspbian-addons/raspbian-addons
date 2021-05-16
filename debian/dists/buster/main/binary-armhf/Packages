@@ -198,6 +198,23 @@ MD5sum: dddc3eb1a87d2449e69eb23f6946d42b
 Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
   Flash OS images to SD cards and USB drives, safely and easily.
 
+Package: bat
+Version: 0.18.1
+Maintainer: David Peter <mail@david-peter.de>
+Homepage: https://github.com/sharkdp/bat
+Architecture: armhf
+Provides: bat
+Conflicts: bat-musl
+Priority: optional
+Section: utils
+Filename: pool/main/b/bat/bat_0.18.1_armhf.deb
+Size: 1903196
+SHA256: c9cdcebe9eb715cc733bcbc239d92806999eb77e310f1d544bcc3325ebd7c2f1
+SHA1: e6f63fa28ccba37a2ae8c304d52da7f5c077c6b4
+MD5sum: 97f443a8ebeb9ee1b4c02d08059d679d
+Description: cat(1) clone with wings.
+  A cat(1) clone with syntax highlighting and Git integration.
+
 Package: bleachbit
 Version: 4.2.0-0
 Architecture: all

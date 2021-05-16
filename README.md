@@ -105,6 +105,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [v2rayA](https://github.com/v2rayA/v2rayA)
 - [ungoogled-chromium](http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/)
 - [MiniGalaxy](https://github.com/sharkwouter/minigalaxy)
+- [bat](https://github.com/sharkdp/bat)
 
 ### ToDo List:
 - [ ] Add tor-browser builds (package into debs)
