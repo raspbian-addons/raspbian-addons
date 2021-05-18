@@ -730,6 +730,21 @@ Description: Papirus Icon Theme
   - Papirus-Dark
   - Papirus-Light
 
+Package: pbgopy
+Version: 0.3.0
+Architecture: arm64
+Maintainer: Ryo Nakao <ryo@nakao.dev>
+Installed-Size: 6528
+Homepage: https://github.com/nakabonne/pbgopy
+Priority: 
+Section: 
+Filename: pool/main/p/pbgopy/pbgopy_0.3.0_arm64.deb
+Size: 2594812
+SHA256: b5069eab859ac5f57ec78a6d6e42599dfd7cbe6cf1dbaa40918252bd99f48388
+SHA1: c3bd1bf19f7ef53332a11ff737dca2113494bf6a
+MD5sum: 8e98c24140932ccf6c15837f879a16af
+Description: Copy and paste between devices
+
 Package: prusa-slicer
 Version: 2.3.0-alpha3
 Maintainer: Koen <koen@mcvax.org>

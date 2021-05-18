@@ -916,6 +916,21 @@ Description: Papirus Icon Theme
   - Papirus-Dark
   - Papirus-Light
 
+Package: pbgopy
+Version: 0.3.0
+Architecture: armhf
+Maintainer: Ryo Nakao <ryo@nakao.dev>
+Installed-Size: 5888
+Homepage: https://github.com/nakabonne/pbgopy
+Priority: 
+Section: 
+Filename: pool/main/p/pbgopy/pbgopy_0.3.0_armhf.deb
+Size: 2641512
+SHA256: 290eb8329d75ab5aca2c61bde3a34ea5e0350fae5c829de44360ec61282afc41
+SHA1: 56566d64cbe9adb79bb6807eb611d91fd0a9c7b6
+MD5sum: 4fc9ec3546e391eb26bcb1408e82399b
+Description: Copy and paste between devices
+
 Package: piserver
 Version: 0.7
 Architecture: armhf

@@ -107,6 +107,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [MiniGalaxy](https://github.com/sharkwouter/minigalaxy)
 - [bat](https://github.com/sharkdp/bat)
 - [rclone](https://github.com/rclone/rclone/)
+- [pbgopy](https://github.com/nakabonne/pbgopy)
 
 ### ToDo List:
 - [ ] Add tor-browser builds (package into debs)
