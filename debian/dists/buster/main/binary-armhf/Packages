@@ -1062,6 +1062,26 @@ MD5sum: c7c32c91a5226a7152bdbd70d12b426b
 Description: debug symbols for razergenie
 Build-Ids: 4b9912d97f75e7930c03aad10611f76c82716e6d ee1b65227e77c39f5f799eaac7b69ba0a336d758
 
+Package: rclone
+Version: 1.55.1
+Architecture: armhf
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Vendor: rclone
+Installed-Size: 38273
+Provides: rclone
+Homepage: https://rclone.org
+Priority: extra
+Section: default
+Filename: pool/main/r/rclone/rclone_1.55.1_armhf.deb
+Size: 13743204
+SHA256: 98ff939169135f9fa2a57e48ef52a97eea050abc42a6362da8a180e56e118f54
+SHA1: fe5713f6ee201d22ac91554e2b8f4cdb749c0d43
+MD5sum: 1c1bc3eb03d895261bdafce236fe0a70
+Description: Rclone - "rsync for cloud storage"
+    is a command line program to sync files and directories to and
+    from most cloud providers. It can also mount, tree, ncdu and lots
+    of other useful things.
+
 Package: realpath
 Source: coreutils
 Version: 8.25-2ubuntu3~16.04
