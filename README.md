@@ -29,6 +29,7 @@ Installation and removal instructions are [here](https://chunky-milk.github.io/r
 Please Note that while there is a lot of software in this repository, **not all of it is available or compiled for 64-bit**. Some packages are, however.
 
 ### Mirrors
+These mirrors are not maintained by me.
 
 | Provider | URL | Location |Update frequency |
 | :----:| :----: | :----: |:----: |
