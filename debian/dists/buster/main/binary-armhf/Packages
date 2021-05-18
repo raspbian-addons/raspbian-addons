@@ -527,21 +527,21 @@ Description: Inter font family
  you need to disambiguate "0" from "o", tabular numbers, etc.
 
 Package: freetube
-Version: 0.12.0
+Version: 0.13.0
 License: AGPL-3.0-or-later
 Vendor: PrestonN <FreeTubeApp@protonmail.com>
 Architecture: armhf
 Maintainer: PrestonN <FreeTubeApp@protonmail.com>
-Installed-Size: 245793
-Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Installed-Size: 254132
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Homepage: https://github.com/FreeTubeApp/FreeTube#readme
 Priority: extra
 Section: default
-Filename: pool/main/f/freetube/freetube_0.12.0_armhf.deb
-Size: 68511486
-SHA256: 8e4b9a0fb421391f4f2e24dea9c619eb4c815040a65e9ab001df9aee66a6dc20
-SHA1: 4c87fb8b87ee1654244f2baef81cc1eb75fdfe2f
-MD5sum: 5d229276d36ab04eca642ced46cf7a9e
+Filename: pool/main/f/freetube/freetube_0.13.0_armhf.deb
+Size: 68836752
+SHA256: b1fc64e42704900a05e0896f7be746bd8f69813978daaff9c9d7702e986267a7
+SHA1: 88de644b66f71d8b815c5de0651e8770f92ed4ed
+MD5sum: 8377ce8e67d7f5ed3962a6e09a4d906c
 Description: 
   A private YouTube client
 
