@@ -28,6 +28,15 @@ Installation and removal instructions are [here](https://chunky-milk.github.io/r
 
 Please Note that while there is a lot of software in this repository, **not all of it is available or compiled for 64-bit**. Some packages are, however.
 
+### Mirrors
+These mirrors are not maintained by me.
+
+| Provider | URL | Location |Update frequency |
+| :----:| :----: | :----: |:----: |
+| OSDN | [HTTPS](https://osdn.dl.osdn.jp/storage/g/r/ra/raspbian-addons/raspbian-addons/) | Japan |24h|
+| Tsinghua University | [HTTPS](https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/r/ra/raspbian-addons/raspbian-addons/debian/) | Beijing, China |24h |
+| FastGit| [HTTPS](https://raw.fastgit.org/chunky-milk/raspbian-addons/master/debian/) | Hong Kong, China |At any time |
+
 ### Having issues?
 
 If you're having issues with this repository, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
