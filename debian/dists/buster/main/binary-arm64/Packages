@@ -976,6 +976,24 @@ Description: System restore utility
  at a later date to undo system changes. Creates incremental snapshots
  using rsync or BTRFS snapshots using BTRFS tools.
 
+Package: touche
+Version: 1.0.5
+Architecture: arm64
+Maintainer: José Expósito <jose.exposito89@gmail.com>
+Installed-Size: 1057
+Depends: dconf-gsettings-backend | gsettings-backend, gjs (>= 1.50), hicolor-icon-theme, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.26.0), libgtk-3-0 (>= 3.19.12), libstdc++6 (>= 6), libx11-6
+Homepage: https://github.com/JoseExposito/touche
+Priority: optional
+Section: misc
+Filename: pool/main/t/touche/touche_1.0.5_arm64.deb
+Size: 86692
+SHA256: 757b64abe0cc1416419fafc624799cf0eba012fd2ac9d72e5d548443958452c5
+SHA1: 7ba325348edcb7e66b356711dfc60a3322103928
+MD5sum: b829a75e53cb7d18dd268cb44b6fa4e3
+Description: The desktop application to configure Touchégg
+ Easily configure your touchpad and touchscreen multi-touch gestures
+ with this GTK graphical user interface.
+
 Package: touchegg
 Version: 2.0.9
 Architecture: arm64

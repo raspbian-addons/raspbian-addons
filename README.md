@@ -117,6 +117,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [bat](https://github.com/sharkdp/bat)
 - [rclone](https://github.com/rclone/rclone/)
 - [pbgopy](https://github.com/nakabonne/pbgopy)
+- [touche](https://github.com/JoseExposito/touche)
 
 ### ToDo List:
 - [ ] Add tor-browser builds (package into debs)
