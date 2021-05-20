@@ -1354,6 +1354,19 @@ Description: web-based administration interface for Unix systems
   https://localhost:10000/ into your browser and login as root with your root
   password.
 
+Package: whatsappweb-nativefier
+Version: 20210518
+Architecture: arm64
+Maintainer: Itai-Nelken <itainelken@gmail.com>
+Priority: optional
+Section: unknown
+Filename: pool/main/w/whatsappweb-nativefier/whatsappweb-nativefier_20210518_arm64.deb
+Size: 58990412
+SHA256: ef4ac1f63bd410856a0171891356667a648a965f8182d4c7f65589313a521353
+SHA1: 76482342152dadea0035e5a6c500d73828d8fdc8
+MD5sum: 3bb3948f456575348375fb69909ff169
+Description: WhatsappWeb webapp built with nativefier.
+
 Package: xapps-common
 Source: xapp
 Version: 2.0.7-1
