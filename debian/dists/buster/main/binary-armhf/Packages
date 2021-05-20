@@ -1271,16 +1271,16 @@ Description: Linux system optimizer and monitoring
  can show network download/upload speeds/totals.
 
 Package: stackedit-nativefier
-Version: 20210412
+Version: 20210518
 Architecture: armhf
 Maintainer: Itai-Nelken <itainelken@gmail.com>
 Priority: optional
 Section: unknown
-Filename: pool/main/s/stackedit-nativefier/stackedit-nativefier_20210412_armhf.deb
-Size: 52101592
-SHA256: d1295ef60db02b6de6772da01e934063e2c72a0e50cb651d533dc4088bc546e3
-SHA1: b4932fc52e2d85c3784bfe190fc040b48ae413a7
-MD5sum: 5282fd47552b24f316de080fb6fb00bc
+Filename: pool/main/s/stackedit-nativefier/stackedit-nativefier_20210518_armhf.deb
+Size: 52104284
+SHA256: dffe1d9759bf8361b6e90c304b171ecc850aa5135b2cf3074e31346ba6e22759
+SHA1: f7184f75b143da95ba9e2f13defa5f36b9763015
+MD5sum: cf3eaec284f58e91a4be41052e2bf875
 Description: StackEdit webapp built with nativefier.
 
 Package: sysmontask
@@ -1793,19 +1793,6 @@ Description: web-based administration interface for Unix systems
   and more using your web browser.  After installation, enter the URL
   https://localhost:10000/ into your browser and login as root with your root
   password.
-
-Package: whatsappweb-nativefier
-Version: 20210408
-Architecture: armhf
-Maintainer: Itai-Nelken <itainelken@gmail.com>
-Priority: optional
-Section: unknown
-Filename: pool/main/w/whatsappweb-nativefier/whatsappweb-nativefier_20210408_armhf.deb
-Size: 52254804
-SHA256: e23805583c0df07bc2a91f7019be8af22c76657dd019559c83992298081cb749
-SHA1: 9f5a8d9cfebf44b7ab048370e0f2cd4f76622eeb
-MD5sum: 6ccbbfc78e7fe2c9015b697ee2f5f80e
-Description: WhatsappWeb webapp built with nativefier.
 
 Package: xapps-common
 Source: xapp

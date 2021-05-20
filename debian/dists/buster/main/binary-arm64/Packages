@@ -898,16 +898,16 @@ Description: debug symbols for rpi-imager
 Build-Ids: 9a6cbd83b58a727cfff94f89eca805a6b4ad0a22
 
 Package: stackedit-nativefier
-Version: 20210412
+Version: 20210518
 Architecture: arm64
 Maintainer: Itai-Nelken <itainelken@gmail.com>
 Priority: optional
 Section: unknown
-Filename: pool/main/s/stackedit-nativefier/stackedit-nativefier_20210412_arm64.deb
-Size: 58819772
-SHA256: eb04254d2b3b188577874d4adbe497f9cc4b0cc86e72ae50c56f3c8b3e9c3ee0
-SHA1: d6da1c83848f68a0b6ad9241db7f06aab9a3f0e8
-MD5sum: 25c679e36193460160ac494bf72f11d0
+Filename: pool/main/s/stackedit-nativefier/stackedit-nativefier_20210518_arm64.deb
+Size: 58832684
+SHA256: b84da8a070624c7cfe487e66b69f199451f4f4ad69d21a570f9b3661dd4b9eff
+SHA1: 337318a207510b52f409fd42ffb65629462e63bb
+MD5sum: 4752c56f5497a9befb1d0942af5798d4
 Description: StackEdit webapp built with nativefier.
 
 Package: sysmontask
@@ -1353,19 +1353,6 @@ Description: web-based administration interface for Unix systems
   and more using your web browser.  After installation, enter the URL
   https://localhost:10000/ into your browser and login as root with your root
   password.
-
-Package: whatsappweb-nativefier
-Version: 20210408
-Architecture: arm64
-Maintainer: Itai-Nelken <itainelken@gmail.com>
-Priority: optional
-Section: unknown
-Filename: pool/main/w/whatsappweb-nativefier/whatsappweb-nativefier_20210408_arm64.deb
-Size: 58971560
-SHA256: 3ef012f06c6502e24e869568a78814fca15a4c91fb192997edebde52ea021b55
-SHA1: 9b18566c44244d5296b7acc2b4d0f8a15757ae8e
-MD5sum: b6a60f9685e99ac22e5fda455e5b4bff
-Description: WhatsappWeb webapp built with nativefier.
 
 Package: xapps-common
 Source: xapp
