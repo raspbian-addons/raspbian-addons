@@ -118,7 +118,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [rclone](https://github.com/rclone/rclone/)
 - [pbgopy](https://github.com/nakabonne/pbgopy)
 - [touche](https://github.com/JoseExposito/touche)
-- [OpenResty](https://github.com/openresty/openresty)
+- [OpenResty](https://openresty.org/package/arm64/debian/pool/openresty/o/)
 - [CherryTree](https://launchpad.net/~giuspen/+archive/ubuntu/ppa/+packages)
 - [YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 
