@@ -873,6 +873,32 @@ Description: OpenRazer peripheral drivers (metapackage)
  This package is a metapackage which depends on the OpenRazer driver and
  userspace daemon, plus a Python library and documentation.
 
+Package: openresty-resty
+Source: openresty
+Version: 1.19.3.1-1~buster1
+Architecture: all
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 71
+Depends: openresty (>= 1.19.3.1), perl, libfile-spec-perl, libfile-temp-perl, libtime-hires-perl
+Homepage: https://openresty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/o/openresty/openresty-resty_1.19.3.1-1~buster1_all.deb
+Size: 13656
+SHA256: 6d6213bf86ed6d61f3b8960a9348ec9112803a7c75ab330516cced8777ca4dc1
+SHA1: acd397a6dfccb34ae94ab4960f84a6f175b8ff2b
+MD5sum: 0863b9104d106c228c9ae317397b0aca
+Description: resty command-line utility for OpenResty
+ This package contains the "resty" command-line utility for OpenResty, which
+ runs OpenResty Lua scripts on the terminal using a headless NGINX behind the
+ scene.
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+
 Package: panther-launcher
 Installed-Size: 1656
 Maintainer: root@raspberrypi

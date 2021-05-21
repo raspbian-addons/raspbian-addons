@@ -118,6 +118,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [rclone](https://github.com/rclone/rclone/)
 - [pbgopy](https://github.com/nakabonne/pbgopy)
 - [touche](https://github.com/JoseExposito/touche)
+- [OpenResty](https://github.com/openresty/openresty)
 
 ### ToDo List:
 - [ ] Add tor-browser builds (package into debs)

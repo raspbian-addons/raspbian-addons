@@ -703,6 +703,135 @@ Description: OpenRazer peripheral drivers (metapackage)
  This package is a metapackage which depends on the OpenRazer driver and
  userspace daemon, plus a Python library and documentation.
 
+Package: openresty
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 3752
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.3), openresty-openssl111 (>= 1.1.1h), openresty-pcre (>= 8.44), openresty-zlib
+Recommends: openresty-resty, openresty-opm
+Suggests: openresty-restydoc
+Homepage: https://openresty.org/
+Priority: optional
+Section: httpd
+Filename: pool/main/o/openresty/openresty_1.19.3.1-1~buster1_arm64.deb
+Size: 994664
+SHA256: a51bcd46b512e48173741e6930533e35755603bfcf1067b5a29ae59149508d9c
+SHA1: e2ebf25bb0164a0654364f3399913f688414f805
+MD5sum: b74e32d2478bc3a862159cd16c860e0c
+Description: core server of OpenResty for production use
+ This package contains the core server for OpenResty. Built for production
+ uses.
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+ .
+ By taking advantage of various well-designed Nginx modules (most of which
+ are developed by the OpenResty team themselves), OpenResty effectively
+ turns the nginx server into a powerful web app server, in which the web
+ developers can use the Lua programming language to script various existing
+ nginx C modules and Lua modules and construct extremely high-performance
+ web applications that are capable to handle 10K ~ 1000K+ connections in
+ a single box.
+
+Package: openresty-dbgsym
+Source: openresty
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 9117
+Depends: openresty
+Homepage: https://openresty.org/
+Priority: optional
+Section: debug
+Filename: pool/main/o/openresty/openresty-dbgsym_1.19.3.1-1~buster1_arm64.deb
+Size: 8466792
+SHA256: d0e0c62d062e7fde18952abded4e003be12d7eaba2b0f897d08bf652dce72cde
+SHA1: 6e30d9f8420cd917e858066a1ffc2333dd659887
+MD5sum: 24d7a1ebc0d4476abac57cfd2b9b078b
+Description: Debug symbols of OpenResty packages
+ Debug symbols of OpenResty packages
+Build-Ids: 1fc7913cc5a9f2fdf5d903a59efae205558cc3f1 3746571e4f8cfdc2748c916bc23319ac4d0fa74a 8910e481b08c819002b59bb32e3e866caa37d0d1 ba1fc79976b4f5ad4e689943d0cd87d61ff3dcd9 beb7a9fcccfff9e0cddb4232e32dbb88c8f61aab cf58179eeba27cba6c3fc9da4845e4af41f30d91
+
+Package: openresty-opm
+Source: openresty
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 101
+Depends: openresty (>= 1.19.3.1), openresty-resty (>= 1.19.3.1), curl, tar, gzip, libdigest-md5-perl, libencode-perl, libfile-spec-perl, libfile-temp-perl
+Homepage: https://openresty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/o/openresty/openresty-opm_1.19.3.1-1~buster1_arm64.deb
+Size: 19156
+SHA256: 08905486da1f5feb6982d51693bef33cea3df4194eeda20198a541b7e433d75a
+SHA1: 2a8c372a8230a97b0efffb68f553788b8cc5d0e9
+MD5sum: f63ef3d435c908dc534dd68076c8274d
+Description: OpenResty Package Manager (OPM)
+ This package provides the client side tool, opm, for OpenResty Pakcage Manager
+ (OPM).
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+
+Package: openresty-resty
+Source: openresty
+Version: 1.19.3.1-1~buster1
+Architecture: all
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 71
+Depends: openresty (>= 1.19.3.1), perl, libfile-spec-perl, libfile-temp-perl, libtime-hires-perl
+Homepage: https://openresty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/o/openresty/openresty-resty_1.19.3.1-1~buster1_all.deb
+Size: 13656
+SHA256: 6d6213bf86ed6d61f3b8960a9348ec9112803a7c75ab330516cced8777ca4dc1
+SHA1: acd397a6dfccb34ae94ab4960f84a6f175b8ff2b
+MD5sum: 0863b9104d106c228c9ae317397b0aca
+Description: resty command-line utility for OpenResty
+ This package contains the "resty" command-line utility for OpenResty, which
+ runs OpenResty Lua scripts on the terminal using a headless NGINX behind the
+ scene.
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+
+Package: openresty-restydoc
+Source: openresty
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 2949
+Depends: perl, libfile-spec-perl, libfile-temp-perl
+Homepage: https://openresty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/o/openresty/openresty-restydoc_1.19.3.1-1~buster1_arm64.deb
+Size: 504436
+SHA256: 5dc3e2fddd102b6fe56dac1d20b660f4d536e7996210b8c597c6e1c393dba838
+SHA1: 61fcc71a9f10d471d014e1856a358d17574ce593
+MD5sum: e560a3c7d25dbecc428a7918610f6974
+Description: OpenResty documentation tool, restydoc
+ This package contains the official OpenResty documentation index and
+ the "restydoc" command-line utility for viewing it.
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+
 Package: papirus-icon-theme
 Version: 20210501-5243+pkg21~ubuntu21.04.1
 Architecture: all
