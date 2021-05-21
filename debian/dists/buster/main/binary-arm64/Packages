@@ -1753,20 +1753,20 @@ Description: debug symbols for ungoogled-chromium-shell
 Build-Ids: e584c5e56b1ac35c
 
 Package: v2raya
-Version: 1.3.2
+Version: 1.3.3
 License: unknown
-Vendor: travis@travis-job-86e79263-062d-45a5-8c5b-2c9cac1567d4
+Vendor: travis@travis-job-89e750ed-90b4-4550-8f27-45c086ee9bd4
 Architecture: arm64
 Maintainer: v2rayA
-Installed-Size: 20913
+Installed-Size: 20914
 Homepage: https://github.com/v2rayA/v2raya
 Priority: extra
 Section: default
-Filename: pool/main/v/v2raya/v2raya_1.3.2_arm64.deb
-Size: 8214502
-SHA256: d8d54c6486da51ddfd13c4fb0e881bfbe3125f9fb1c4590edc54ad90ba6237f1
-SHA1: 8ac21d931ecc8af4ff38f8cc73695f68349bed14
-MD5sum: b9e4526c3de5fed470a09b314f7b4c8e
+Filename: pool/main/v/v2raya/v2raya_1.3.3_arm64.deb
+Size: 8215898
+SHA256: aebeb2b83ead9a556ab886beee32292d46d279289be55a9e5eb8a8e6be07475e
+SHA1: cd2f348dd118a2571152138b6192ff7575ea9725
+MD5sum: d45292fad1062881ae74c87fb7ce431a
 Description: A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan and Pingtunnel protocols.
 
 Package: webapp-manager

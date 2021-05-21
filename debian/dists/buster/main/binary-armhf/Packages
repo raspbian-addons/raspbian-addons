@@ -1714,20 +1714,20 @@ Description: A very minimal GUI app to write compressed images to USB sticks and
   backup image files from USB storage devices.
 
 Package: v2raya
-Version: 1.3.2
+Version: 1.3.3
 License: unknown
-Vendor: travis@travis-job-86e79263-062d-45a5-8c5b-2c9cac1567d4
+Vendor: travis@travis-job-89e750ed-90b4-4550-8f27-45c086ee9bd4
 Architecture: armhf
 Maintainer: v2rayA
-Installed-Size: 19441
+Installed-Size: 19442
 Homepage: https://github.com/v2rayA/v2raya
 Priority: extra
 Section: default
-Filename: pool/main/v/v2raya/v2raya_1.3.2_armhf.deb
-Size: 8330218
-SHA256: 496439d27197f56b10746270652b5ff5d8a3b6b0e53312f7842aa99e3e145117
-SHA1: 186b282d1d18673b33376af6dfc36d43447d09d0
-MD5sum: ceeeb1b6b542371f599088a0dcbe0dbc
+Filename: pool/main/v/v2raya/v2raya_1.3.3_armhf.deb
+Size: 8330406
+SHA256: 3445332b6a32ad037b89d95b29549cafd85db22583fc48dcd0ee5a63b49a02bd
+SHA1: b2af4f5c08514c938114173943c3cea8abb1ab3c
+MD5sum: e96740c813ac8e60e8f005f5c5f57bf0
 Description: A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan and Pingtunnel protocols.
 
 Package: veracrypt
