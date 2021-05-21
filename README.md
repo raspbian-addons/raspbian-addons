@@ -119,6 +119,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [pbgopy](https://github.com/nakabonne/pbgopy)
 - [touche](https://github.com/JoseExposito/touche)
 - [OpenResty](https://github.com/openresty/openresty)
+- [CherryTree](https://launchpad.net/~giuspen/+archive/ubuntu/ppa/+packages)
 
 ### ToDo List:
 - [ ] Add tor-browser builds (package into debs)
