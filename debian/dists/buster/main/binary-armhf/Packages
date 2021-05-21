@@ -1879,3 +1879,22 @@ Description: Libxapp documentation
  .
  This package contains documentation for Xapp library
 
+Package: yesplaymusic
+Version: 0.3.8
+License: unknown
+Vendor: hawtim <hawtimzhang@gmail.com>
+Architecture: armhf
+Maintainer: hawtim <hawtimzhang@gmail.com>
+Installed-Size: 151418
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://github.com/qier222/YesPlayMusic
+Priority: extra
+Section: default
+Filename: pool/main/y/yesplaymusic/yesplaymusic_0.3.8_armhf.deb
+Size: 54288202
+SHA256: 4b7b3e2cddac420b1664ed7454073728090d39b2f6057acaa2f2a7be8246e772
+SHA1: c56db5ae60c42f064e26bfad0ae5be3de882c485
+MD5sum: c1220f5da5e20d84f49220faa309cd30
+Description: 
+  A third party music player for Netease Music
+

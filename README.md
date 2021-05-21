@@ -120,6 +120,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [touche](https://github.com/JoseExposito/touche)
 - [OpenResty](https://github.com/openresty/openresty)
 - [CherryTree](https://launchpad.net/~giuspen/+archive/ubuntu/ppa/+packages)
+- [YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 
 ### ToDo List:
 - [ ] Add tor-browser builds (package into debs)
