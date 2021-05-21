@@ -546,7 +546,7 @@ Description:
   A private YouTube client
 
 Package: gh
-Version: 1.10.2
+Version: 1.10.3
 Architecture: armhf
 Maintainer: GitHub
 Installed-Size: 22216
@@ -554,11 +554,11 @@ Depends: git
 Homepage: https://github.com/cli/cli
 Priority: 
 Section: 
-Filename: pool/main/g/gh/gh_1.10.2_armhf.deb
-Size: 6614736
-SHA256: a6af3892b95bf3ba7c05fb5e1018f2fb60496863d64549bf4a054665c2b41666
-SHA1: 219c5c0f7c7d24f521d23a83d5a9ef1083be64fc
-MD5sum: 8c3c4dc65186f1b0ebbcbd22d750594d
+Filename: pool/main/g/gh/gh_1.10.3_armhf.deb
+Size: 6615202
+SHA256: 607fb6e5ec13b975f67bf17c999000909919b2c2efbefba7c41f035df615cb76
+SHA1: 5b98d967a87da9c0bfb833a03e36954635d50aed
+MD5sum: 55ccfd3cee1e5cf0c3074a521ccd861b
 Description: GitHub’s official command line tool.
 
 Package: gir1.2-xapp-1.0
