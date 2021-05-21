@@ -756,6 +756,169 @@ Description: Debug symbols of OpenResty packages
  Debug symbols of OpenResty packages
 Build-Ids: 1fc7913cc5a9f2fdf5d903a59efae205558cc3f1 3746571e4f8cfdc2748c916bc23319ac4d0fa74a 8910e481b08c819002b59bb32e3e866caa37d0d1 ba1fc79976b4f5ad4e689943d0cd87d61ff3dcd9 beb7a9fcccfff9e0cddb4232e32dbb88c8f61aab cf58179eeba27cba6c3fc9da4845e4af41f30d91
 
+Package: openresty-debug
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 8956
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.3), openresty-openssl111-debug (>= 1.1.1h), openresty-pcre (>= 8.44), openresty-zlib
+Homepage: https://openresty.org/
+Priority: optional
+Section: httpd
+Filename: pool/main/o/openresty-debug/openresty-debug_1.19.3.1-1~buster1_arm64.deb
+Size: 1858152
+SHA256: 51835596195e3e04e8934d2eeefe18be2e2feec28af822c103883b836b50ec29
+SHA1: 29a713fdcccb1b62c52b493da5609997f56b9d6e
+MD5sum: 4e6db386da2cff5de6b0113d7054a0a6
+Description: debug version of OpenResty core server
+ This package contains the debug version of the core server for OpenResty.
+ Built for development purposes only.
+ .
+ DO NOT USE THIS PACKAGE IN PRODUCTION!
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+ .
+ By taking advantage of various well-designed Nginx modules (most of which
+ are developed by the OpenResty team themselves), OpenResty effectively
+ turns the nginx server into a powerful web app server, in which the web
+ developers can use the Lua programming language to script various existing
+ nginx C modules and Lua modules and construct extremely high-performance
+ web applications that are capable to handle 10K ~ 1000K+ connections in
+ a single box.
+
+Package: openresty-debug-dbgsym
+Source: openresty-debug
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 6875
+Depends: openresty-debug
+Homepage: https://openresty.org/
+Priority: optional
+Section: debug
+Filename: pool/main/o/openresty-debug/openresty-debug-dbgsym_1.19.3.1-1~buster1_arm64.deb
+Size: 6207784
+SHA256: c7424d1bea04fc3805075969c22f0b6f9e7f5276c543974a60bb3e899dfa5da9
+SHA1: 1cc6a4e43f124efa3fcac49d1a51782e1e7c855b
+MD5sum: b3cc8c8872281d335e6db541e9ad4e70
+Description: Debug symbols of OpenResty packages - debug version
+ Debug symbols of OpenResty packages
+Build-Ids: 4e9b4ef676b9b92208ff706e44a52364b1b28bd2 75aef704ee8d5bb59d21493f3dd8b6b724d1a04c
+
+Package: openresty-openssl111
+Version: 1.1.1i-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 4070
+Depends: libc6 (>= 2.25), openresty-zlib
+Homepage: https://www.openssl.org/
+Priority: optional
+Section: libs
+Filename: pool/main/o/openresty-openssl111/openresty-openssl111_1.1.1i-1~buster1_arm64.deb
+Size: 1535352
+SHA256: 1a78e655550fb7d205f1c5797301e6aa49e91c20b14bfc758e376cfc035bc827
+SHA1: 693f2407ca95fc2f5400ff5979d3d9d1172cd45e
+MD5sum: 98d57f327882853a8b945e2dde3e5ea5
+Description: OpenSSL 1.1.1 library for use by OpenResty ONLY
+ This OpenSSL 1.1.1 library build is specifically for OpenResty uses. It contains
+ custom patches from OpenResty.
+
+Package: openresty-openssl111-dbgsym
+Source: openresty-openssl111
+Version: 1.1.1i-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 6870
+Depends: openresty-openssl111 (>= 1.1.1g)
+Homepage: https://www.openssl.org/
+Priority: optional
+Section: debug
+Filename: pool/main/o/openresty-openssl111/openresty-openssl111-dbgsym_1.1.1i-1~buster1_arm64.deb
+Size: 6376300
+SHA256: 57b4e4d43b23495b52841917ca664f768f9c833d09309f53cd1c60b9bf48b69a
+SHA1: 94a235c8c41e4fd3c14deece7f253b4756fb8d84
+MD5sum: c2d912473863fb22db7af366df07b5cd
+Description: Debug symbols for OpenResty's OpenSSL 1.1.1 library
+ Debug symbols for OpenResty's OpenSSL 1.1.1 library.
+Build-Ids: 1643524650d78e6ce6ae99f0df07a299a08e4b4c 3c4c579d0c3309fa693b807dc1e5b29eac0ef68a 482ccaa3299faab4f0b3f8f806b19eae40c56899 5146f027e7c7cbdca3614804436f1abf9af771f7 d22ad8e9f368ffa2ceda466c7270bbfe7fa2da21 e088f81f70a3e80fea858c44072e82346d0b1c28
+
+Package: openresty-openssl111-debug
+Version: 1.1.1i-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 14949
+Depends: libc6 (>= 2.25), openresty-zlib
+Homepage: https://www.openssl.org/
+Priority: optional
+Section: libs
+Filename: pool/main/o/openresty-openssl111-debug/openresty-openssl111-debug_1.1.1i-1~buster1_arm64.deb
+Size: 2933368
+SHA256: a9d585a17d1fd9914bf424f3d1a7c2ef6c9bb13a7af197da34a083fc89ab6b2c
+SHA1: f64506df672d963cdafb5acac7aa39527ad68c2a
+MD5sum: 1cac01ffa1b854caef9b6b3d9404e21b
+Description: Debug version of the OpenSSL 1.1.1 library for OpenResty
+ This is the debug version of the OpenSSL 1.1.1 library build for OpenResty uses.
+
+Package: openresty-openssl111-debug-dbgsym
+Source: openresty-openssl111-debug
+Version: 1.1.1i-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 851
+Depends: openresty-openssl111-debug (>= 1.1.1g)
+Homepage: https://www.openssl.org/
+Priority: optional
+Section: debug
+Filename: pool/main/o/openresty-openssl111-debug/openresty-openssl111-debug-dbgsym_1.1.1i-1~buster1_arm64.deb
+Size: 736520
+SHA256: e48ca69307fa0975becb60f0159c23a129968aee892ec7be869b5dc84a889ca2
+SHA1: ab65184f622b22bb2202dca24459e5cfc408e178
+MD5sum: e9cb9a5ea92632be1314c3dd6093a206
+Description: Debug symbols for OpenResty's OpenSSL 1.1.1 library - debug version
+ Debug symbols for OpenResty's debug version of OpenSSL 1.1.1 library.
+Build-Ids: bac65e7a90e4a844c2fcc50f6c5c780cbedf1d49
+
+Package: openresty-openssl111-debug-dev
+Source: openresty-openssl111-debug
+Version: 1.1.1i-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 8633
+Depends: openresty-openssl111-debug (>= 1.1.1g)
+Homepage: https://www.openssl.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/openresty-openssl111-debug/openresty-openssl111-debug-dev_1.1.1i-1~buster1_arm64.deb
+Size: 1390920
+SHA256: 414d3896b79e94f29c31d19fd542ea1d7350dc8d7d737c21f6d57894d609ed41
+SHA1: 5e7ee7349170fa9289ffe559c06fb472a50b8057
+MD5sum: 82f7d36a587ae0f46c63b3ed2cfa339d
+Description: Development files for OpenResty's OpenSSL 1.1.1 library - debug version
+ Provides C header and static library for OpenResty's debug version of OpenSSL
+ library.
+
+Package: openresty-openssl111-dev
+Source: openresty-openssl111
+Version: 1.1.1i-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 7661
+Depends: openresty-openssl111 (>= 1.1.1g)
+Homepage: https://www.openssl.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/openresty-openssl111/openresty-openssl111-dev_1.1.1i-1~buster1_arm64.deb
+Size: 1669568
+SHA256: e8d79946933cce5e63e930215ce19375d132e18d111693b470056a266edad957
+SHA1: 4f44bbb62ffd1a916882120b34ec34fa0513905c
+MD5sum: f18aecde9be449380cf9d5c4c18d9333
+Description: Development files for OpenResty's OpenSSL 1.1.1 library
+ Provides C header and static library for OpenResty's OpenSSL library.
+
 Package: openresty-opm
 Source: openresty
 Version: 1.19.3.1-1~buster1
@@ -780,6 +943,60 @@ Description: OpenResty Package Manager (OPM)
  3rd-party Nginx modules, and most of their external dependencies. It is
  designed to help developers easily build scalable web applications, web
  services, and dynamic web gateways.
+
+Package: openresty-pcre
+Version: 8.44-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 528
+Depends: libc6 (>= 2.17)
+Homepage: http://www.pcre.org/
+Priority: optional
+Section: libs
+Filename: pool/main/o/openresty-pcre/openresty-pcre_8.44-1~buster1_arm64.deb
+Size: 241312
+SHA256: 55c4e51f13d7b451f01fa22090660fbd9359b05f1857ac2a43459e2a1ed842d8
+SHA1: 974e10f539229728df6068e6500d53aa0c15894d
+MD5sum: 8145ed3cd76b26fa1fa9af933fd60eea
+Description: Perl-compatible regular expression library for use by OpenResty ONLY
+ Perl-compatible regular expression library for use by OpenResty ONLY
+
+Package: openresty-pcre-dbgsym
+Source: openresty-pcre
+Version: 8.44-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 597
+Depends: openresty-pcre
+Homepage: http://www.pcre.org/
+Priority: optional
+Section: debug
+Filename: pool/main/o/openresty-pcre/openresty-pcre-dbgsym_8.44-1~buster1_arm64.deb
+Size: 575328
+SHA256: fbaec2bc0a3cec9e87a2d0ae785bb4bfb263174b2d82c9b4f1cfad5376e79dcb
+SHA1: c57fbd72d7d6f5e34e4aca0ad9b8fea576902a03
+MD5sum: bf46c93fc2ac296a02d13626c60d11ba
+Description: Debug symbols for Perl-compatible regular expression library for use by OpenResty ONLY
+ Debug symbols for Perl-compatible regular expression library for use by OpenResty ONLY
+Build-Ids: 1603a48d8bbde1ce7f458001ec5d2352b019d68b 4eaaa975fde8d53e85b5813e9dbdec2b7701f5af
+
+Package: openresty-pcre-dev
+Source: openresty-pcre
+Version: 8.44-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 624
+Depends: openresty-pcre
+Homepage: http://www.pcre.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/openresty-pcre/openresty-pcre-dev_8.44-1~buster1_arm64.deb
+Size: 253072
+SHA256: e42ef23a0f75fba8cd02f8a9799b865d2bee9ee5ab2234c983114383a8aecc94
+SHA1: c4789093b10e8613e54ca0e10250e0f99e8e7fb8
+MD5sum: 41490343c11003df9952881fe56c1e33
+Description: Development files for Perl-compatible regular expression library for use by OpenResty ONLY
+ Development files for Perl-compatible regular expression library for use by OpenResty ONLY
 
 Package: openresty-resty
 Source: openresty
@@ -831,6 +1048,113 @@ Description: OpenResty documentation tool, restydoc
  3rd-party Nginx modules, and most of their external dependencies. It is
  designed to help developers easily build scalable web applications, web
  services, and dynamic web gateways.
+
+Package: openresty-valgrind
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 5091
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.3), openresty-openssl111-debug (>= 1.1.1h), openresty-pcre (>= 8.44), openresty-zlib, valgrind
+Homepage: https://openresty.org/
+Priority: optional
+Section: httpd
+Filename: pool/main/o/openresty-valgrind/openresty-valgrind_1.19.3.1-1~buster1_arm64.deb
+Size: 967792
+SHA256: d9719b2e7d62b5134bff009edb6e7fb590906bd19e6bc323f9402cb4b1473386
+SHA1: 9d5e9e7c34795fb0716acc75275e285e8f1d209b
+MD5sum: 7b563e0913a72791c16ee597e8957f4c
+Description: valgrind debug version of OpenResty core server
+ This package contains the debug version of the core server for OpenResty.
+ Built for development purposes only.
+ .
+ DO NOT USE THIS PACKAGE IN PRODUCTION!
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+ .
+ By taking advantage of various well-designed Nginx modules (most of which
+ are developed by the OpenResty team themselves), OpenResty effectively
+ turns the nginx server into a powerful web app server, in which the web
+ developers can use the Lua programming language to script various existing
+ nginx C modules and Lua modules and construct extremely high-performance
+ web applications that are capable to handle 10K ~ 1000K+ connections in
+ a single box.
+
+Package: openresty-valgrind-dbgsym
+Source: openresty-valgrind
+Version: 1.19.3.1-1~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 8187
+Depends: openresty-valgrind
+Homepage: https://openresty.org/
+Priority: optional
+Section: debug
+Filename: pool/main/o/openresty-valgrind/openresty-valgrind-dbgsym_1.19.3.1-1~buster1_arm64.deb
+Size: 7361372
+SHA256: c435891e5828a76a9b42653cb33d9c1e4d9cc27ae1d224a17ee34bbe3bde5efc
+SHA1: 1146d15c18fb6a659333bc756838e273ff72c422
+MD5sum: d03e864a91b6ce2a1180eaeff49e9ad5
+Description: Debug symbols of OpenResty packages - valgrind debug version
+ Debug symbols of OpenResty packages
+Build-Ids: 189e4eda37530ee2e575cb391b22be22ffb16198 556d705e08a82be70cc60cef9090562211a78b40 7c5f7b9692ca20e48b8f972d6b141572e71a0d2b bdb168a3753e92fae37d77d3cb3535b27f891669 cfe9d7567eb530c0a66988d40da8d9aad725d090 d0b934333f2286941e7f4cb0573bff98d19c4beb
+
+Package: openresty-zlib
+Version: 1.2.11-3~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 148
+Depends: libc6 (>= 2.17)
+Homepage: http://zlib.net/
+Priority: optional
+Section: libs
+Filename: pool/main/o/openresty-zlib/openresty-zlib_1.2.11-3~buster1_arm64.deb
+Size: 76784
+SHA256: 397dea1afd22f947f8cd04c77626e51ea3302537e3b69f2a5aacdd559e4dae23
+SHA1: 1599c3a388453797c0aceb21fae6587303157caa
+MD5sum: 64b8a12019ceb21bc0e6670bf4a248bc
+Description: The zlib compression library for use by Openresty ONLY
+ The zlib compression library for use by Openresty ONLY
+
+Package: openresty-zlib-dbgsym
+Source: openresty-zlib
+Version: 1.2.11-3~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 173
+Depends: openresty-zlib
+Homepage: http://zlib.net/
+Priority: optional
+Section: debug
+Filename: pool/main/o/openresty-zlib/openresty-zlib-dbgsym_1.2.11-3~buster1_arm64.deb
+Size: 155384
+SHA256: 05c899ef8d170f32d6d38a11a25d3752c2841caeae0dffe920929ff59ac1f18c
+SHA1: e3ffc20c16d681f4775fee0bb08a5202bbbae06d
+MD5sum: 6a86922a20fbc836a13b1c6a7ea8c728
+Description: Debug symbols for OpenResty's zlib library
+ Debug symbols for OpenResty's zlib library
+Build-Ids: 10b8835109d8499cd546f2d8c5f030aa805bde7a
+
+Package: openresty-zlib-dev
+Source: openresty-zlib
+Version: 1.2.11-3~buster1
+Architecture: arm64
+Maintainer: OpenResty Admin <admin@openresty.com>
+Installed-Size: 289
+Depends: openresty-zlib
+Homepage: http://zlib.net/
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/openresty-zlib/openresty-zlib-dev_1.2.11-3~buster1_arm64.deb
+Size: 105404
+SHA256: 530b169e19fe1d773078151ace3021cb73c04ed018fc948e807027ca17636bf4
+SHA1: 14a07ad83a268d3a9c45fc9e389b004516cdbeed
+MD5sum: 41f8bfed92d6f782a4cab7383824511d
+Description: Provides C header and static library for OpenResty's zlib library
+ Provides C header and static library for OpenResty's zlib library.
 
 Package: papirus-icon-theme
 Version: 20210501-5243+pkg21~ubuntu21.04.1
