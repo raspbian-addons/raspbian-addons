@@ -121,6 +121,7 @@ Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai
 - [OpenResty](https://openresty.org/package/arm64/debian/pool/openresty/o/)
 - [CherryTree](https://launchpad.net/~giuspen/+archive/ubuntu/ppa/+packages)
 - [YesPlayMusic](https://github.com/qier222/YesPlayMusic)
+- [docker-ctop](http://packages.azlux.fr/debian/pool/main/d/docker-ctop/) (implementation of [ctop](https://github.com/bcicen/ctop))
 
 ### ToDo List:
 - [ ] Add tor-browser builds (package into debs)

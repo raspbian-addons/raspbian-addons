@@ -418,6 +418,21 @@ MD5sum: 5d0eafceb3b4e3e699572d967b5e7b31
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
 
+Package: docker-ctop
+Version: 0.7.5
+Architecture: armhf
+Maintainer: Azlux <github@azlux.fr>
+Priority: optional
+Section: net
+Filename: pool/main/d/docker-ctop/docker-ctop_0.7.5_armhf.deb
+Size: 3238572
+SHA256: 61dcec40b1f0b53740cc95bb2564e239b8faf257c22ddb8f95da5a1149da6794
+SHA1: 7783c223b1f78779b3ad38ff7cc64789c6ad5446
+MD5sum: 2fe920d638474cacf604ed742c9e438e
+Description:  Top-like interface for container metrics
+Homepage: https://github.com/bcicen/ctop
+Bugs: https://github.com/bcicen/ctop/issues
+
 Package: drawing
 Version: 0.8.0-0ubuntu1~hirsute
 Architecture: armhf

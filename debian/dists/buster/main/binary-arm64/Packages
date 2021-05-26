@@ -357,6 +357,21 @@ Description: Simple and modern eBook viewer
  and sdcv, or translate text with Google Translate
  Basic text-to-speech support with eSpeak NG and Festival
 
+Package: docker-ctop
+Version: 0.7.5
+Architecture: arm64
+Maintainer: Azlux <github@azlux.fr>
+Priority: optional
+Section: net
+Filename: pool/main/d/docker-ctop/docker-ctop_0.7.5_arm64.deb
+Size: 3204404
+SHA256: 55ea8c3ddffd7cd91fc724f10e4aacee66581bdfd9c4eed8b8b44cb33add0659
+SHA1: 9656387ca01d934f7504cb2b3fa702f1a8f88bff
+MD5sum: dfe333571200e964731dbb068c245840
+Description:  Top-like interface for container metrics
+Homepage: https://github.com/bcicen/ctop
+Bugs: https://github.com/bcicen/ctop/issues
+
 Package: drawing
 Version: 0.8.0-0ubuntu1~hirsute
 Architecture: arm64
