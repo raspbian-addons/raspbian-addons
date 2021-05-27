@@ -1349,40 +1349,40 @@ Description: A free fully featured markdown editor.
  how you like.
 
 Package: rpi-imager
-Version: 1.6.1
+Version: 1.6.2
 Architecture: arm64
 Maintainer: Floris Bos <bos@je-eigen-domein.nl>
-Installed-Size: 1060
-Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Installed-Size: 1084
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
 Recommends: udisks2
 Homepage: https://www.raspberrypi.org/
 Priority: optional
 Section: admin
-Filename: pool/main/r/rpi-imager/rpi-imager_1.6.1_arm64.deb
-Size: 399744
-SHA256: 5c436f40b0a5b4902fbfb013c46bb5eae12112ae8c4a74e8353a78ceafa8c9d8
-SHA1: 33e492d27cb0176a567ecd91cb27f8407255d35c
-MD5sum: 93e2af8bc05521baaf62582ac47c5997
+Filename: pool/main/r/rpi-imager/rpi-imager_1.6.2_arm64.deb
+Size: 406688
+SHA256: 0cc3100dfa4f5b9b10ba8f718b9121501e1ab45bc0e475add4c9b98d0121e178
+SHA1: b78e12ea69bbb3fff059f2e19b9d8afca29a28cd
+MD5sum: c2e8b4875ec298733f3efd6a4f5311f4
 Description: Raspberry Pi imaging utility
  Graphical user-interface to write disk images and format SD cards.
 
 Package: rpi-imager-dbgsym
 Source: rpi-imager
-Version: 1.6.1
+Version: 1.6.2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Floris Bos <bos@je-eigen-domein.nl>
-Installed-Size: 2861
-Depends: rpi-imager (= 1.6.1)
+Installed-Size: 3062
+Depends: rpi-imager (= 1.6.2)
 Priority: optional
 Section: debug
-Filename: pool/main/r/rpi-imager/rpi-imager-dbgsym_1.6.1_arm64.deb
-Size: 2832840
-SHA256: acfbb27514a7eeb9fcddd6b07d15911bf7e1e081dee08fb955f9e0315c7f1aa5
-SHA1: 88e836518159e70415bf209576fd642634c2b5c3
-MD5sum: 6cd73aa54518e48afd3d9ef3b360c2a5
+Filename: pool/main/r/rpi-imager/rpi-imager-dbgsym_1.6.2_arm64.deb
+Size: 3031760
+SHA256: 2862023deda6338e441c5c793292ab985a42b97a2d0402beba540d1907c3efeb
+SHA1: b13d45dea852ba3750f04be01d7bbc1f0d435099
+MD5sum: 6050286661cd7fb49555d9283623dcbb
 Description: debug symbols for rpi-imager
-Build-Ids: 9a6cbd83b58a727cfff94f89eca805a6b4ad0a22
+Build-Ids: ff08a58f6f36d22ced49eba554ab07ab86cb7d0c
 
 Package: stackedit-nativefier
 Version: 20210518
