@@ -26,6 +26,10 @@ Installation and removal instructions are [here](https://chunky-milk.github.io/r
 
 I'll be switching to a new repo host very soon. This way, I can keep uploading larger size debs also.
 
+The new mirror is located on [OSDN](http://osdn.net) servers. Many mirrors are available.
+
+[This](http://plug-mirror.rcac.purdue.edu/osdn/storage/g/r/ra/raspbian-addons/raspbian-addons/) is the mirror I found to be fastest for me. Might be different for you, depending on where you live. Check out the mirror list [here](https://osdn.net/docs/Mirrors).
+
 ### A Note on 64-bit support
 
 Please Note that while there is a lot of software in this repository, **not all of it is available or compiled for 64-bit**. Some packages are, however.
