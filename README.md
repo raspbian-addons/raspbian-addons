@@ -2,7 +2,7 @@
 
 <a href="https://github.com/chunky-milk/raspbian-addons/"><img src="https://img.shields.io/github/repo-size/chunky-milk/raspbian-addons?color=G&style=flat-square"></a>
 
-An APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32-bit debian-based operating systems (ARM). See below for information on 64-bit support.
+An APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
 
 Here are some examples of what this repository includes:
 
@@ -24,17 +24,11 @@ And more! To see a complete list, scroll down.
 
 Installation and removal instructions are [here](https://chunky-milk.github.io/raspbian-addons/).
 
+I'll be switching to a new repo host very soon. This way, I can keep uploading larger size debs also.
+
 ### A Note on 64-bit support
 
 Please Note that while there is a lot of software in this repository, **not all of it is available or compiled for 64-bit**. Some packages are, however.
-
-### Mirrors
-These mirrors are not maintained by me.
-
-| Provider | URL | Location |Update frequency |
-| :----:| :----: | :----: |:----: |
-| Tsinghua University | [HTTPS](https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/r/ra/raspbian-addons/raspbian-addons/debian/) | Beijing, China |24h |
-| FastGit| [HTTPS](https://raw.fastgit.org/chunky-milk/raspbian-addons/master/debian/) | Hong Kong, China |At any time |
 
 ### Having issues?
 
