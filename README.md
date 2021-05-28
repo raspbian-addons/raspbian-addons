@@ -33,7 +33,6 @@ These mirrors are not maintained by me.
 
 | Provider | URL | Location |Update frequency |
 | :----:| :----: | :----: |:----: |
-| OSDN | [HTTPS](https://osdn.dl.osdn.jp/storage/g/r/ra/raspbian-addons/raspbian-addons/) | Japan |24h|
 | Tsinghua University | [HTTPS](https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/r/ra/raspbian-addons/raspbian-addons/debian/) | Beijing, China |24h |
 | FastGit| [HTTPS](https://raw.fastgit.org/chunky-milk/raspbian-addons/master/debian/) | Hong Kong, China |At any time |
 
