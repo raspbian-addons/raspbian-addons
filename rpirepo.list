@@ -1,2 +1,1 @@
-deb http://chunky-milk.github.io/raspbian-addons/debian buster main
-deb http://download.tuxfamily.org/rpiaddons/debian buster main
+deb http://storage.osdn.net/storage/g/r/ra/raspbian-addons/
