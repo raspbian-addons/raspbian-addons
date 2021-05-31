@@ -21,7 +21,7 @@ And more! To see a complete list, click [here](https://osdn.mirror.constant.com/
 
 Installation and removal instructions are [here](http://storage.osdn.net/storage/g/r/ra/raspbian-addons/).
 
-Many mirrors of the repository are available. The install script will ask you which mirror to install.
+Many mirrors of the repository are available. The install script will soon ask which mirror you would like to use.
 
 ### Having issues?
 
