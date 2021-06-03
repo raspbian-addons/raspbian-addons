@@ -2,7 +2,7 @@
 name: Package submission
 about: Submit a package to possibly be added to the repository.
 title: ''
-labels: Package Submission
+labels: package submission
 assignees: ''
 
 ---
