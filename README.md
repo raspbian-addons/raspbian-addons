@@ -19,7 +19,7 @@ And more! To see a complete list, click [here](https://osdn.mirror.constant.com/
 
 # ***Installation:***
 
-Installation and removal instructions are [here](http://storage.osdn.net/storage/g/r/ra/raspbian-addons/).
+Installation and removal instructions are [here](http://chunky-milk.github.io/raspbian-addons/).
 
 Many mirrors of the repository are available. The install script will soon ask which mirror you would like to use.
 
@@ -36,7 +36,3 @@ The Raspberry Pi is a great and capable little computer. But what frustrates me 
 If you'd like to help me with this, **please** contact me! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you.
 
 Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/)
-
-### ToDo List:
-- [ ] Add tor-browser builds (package into debs)
-- [ ] Update ungoogled-chromium
