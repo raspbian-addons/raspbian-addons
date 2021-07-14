@@ -5,7 +5,8 @@ An APT repository for packages/software that can't be found in the RPi repositor
 Here are some examples of what this repository includes:
 
 - BalenaEtcher
-- the famous Box86!
+- Box64
+- Box86
 - Conky Manager (to manage your Conky themes)
 - StackEdit-nativefier
 - DuckStation emulator (fast PS1 emulator)
