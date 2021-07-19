@@ -1,5 +1,0 @@
-Component: main
-Origin: raspbian-addons
-Label: apt repository
-Architecture: armhf
-Description: Addon packages not found in the RPi repos

@@ -1,8 +1,0 @@
-Origin: raspbian-addons
-Label: apt repository
-Codename: buster
-Architectures: armhf arm64
-Components: main
-Description: Addon packages not found in the RPi repos
-SignWith: yes
-Pull: buster
