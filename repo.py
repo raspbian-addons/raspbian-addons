@@ -15,7 +15,7 @@ def logo():
     print("               |_|                                                              ")
 
     copyright_title = 'ICAgICAgICAgICAgICAgICAgIEFQVCByZXBvc2l0b3J5IGZvciBleHRyYSBSUGkgc29mdHdhcmU='
-    copyright_url = 'aHR0cHM6Ly9naXRodWIuY29tL2NodW5reS1taWxrL3Jhc3BiaWFuLWFkZG9ucz09'
+    copyright_url = 'aHR0cHM6Ly9naXRodWIuY29tL2NodW5reS1taWxrL3Jhc3BiaWFuLWFkZG9ucw=='
     print('')
     print(base64.b64decode(copyright_title).decode('utf-8'))
     print(base64.b64decode(copyright_url).decode('utf-8'))
@@ -55,7 +55,7 @@ if __name__ == "__main__":
         print('Verification failed! Exit.')
         os._exit(0)
 
-    if arch != 'aarch64' or arch != 'armv7l':
+    if arch != 'aarch64' and arch != 'armv7l':
         print('This script is only intended to run on ARM devices.\n')
         os._exit(0)
 
