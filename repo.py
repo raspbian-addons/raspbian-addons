@@ -44,7 +44,7 @@ def add_gpg_key():
 
 def update():
     print('Updating APT lists...')
-    os.system('sudo apt update || error "Failed to update APT lists!"')
+    os.system('sudo apt update || echo -e "\e[1;31mFailed to update APT lists!\e[0m" && exit 1')
     print('Done!')
 
 
