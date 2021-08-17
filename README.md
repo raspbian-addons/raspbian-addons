@@ -22,7 +22,7 @@ And more! To see a complete list, click [here](https://osdn.mirror.constant.com/
 
 Installation and removal instructions are [here](http://chunky-milk.github.io/raspbian-addons/).
 
-Many mirrors of the repository are available. The install script will soon ask which mirror you would like to use.
+Many mirrors of the repository are now available. Thanks to [**hmsjy2017**](https://github.com/hmsjy2017), the install script will ask you which mirror you would like to use.
 
 ### Having issues?
 
@@ -36,6 +36,6 @@ The Raspberry Pi is a great and capable little computer. But what frustrates me 
 
 If you'd like to help me with this, **please** contact me! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you.
 
-Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/)
+Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/) [**hmsjy2017**](https://github.com/hmsjy2017)
 
 Old repository archive: An older backup of the repository is [here](https://archive.org/download/old-repo-archive/old-repo-archive.zip). It is fully functional and is there in case the existing repository becomes broken and unusable.
