@@ -31,7 +31,7 @@ To install the repository, make sure you have an Internet connection. Install Py
 wget -q https://cdn.jsdelivr.net/gh/chunky-milk/raspbian-addons@master/repo.py -O repo.py; python3 repo.py; rm repo.py
 ```
 
-To ***uninstall*** the repository, execute this command, and when asked, answer 'r'
+To ***uninstall*** the repository, execute this command, and when asked, answer '**R**'
 ```bash
 wget -q https://cdn.jsdelivr.net/gh/chunky-milk/raspbian-addons@master/repo.sh -O repo.sh; bash repo.sh; rm repo.sh
 ```
