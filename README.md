@@ -4,6 +4,11 @@ An APT repository for packages/software that can't be found in the RPi repositor
 
 Here are some examples of what this repository includes:
 
+- AdoptOpenJDK 16
+- VSCodium
+- FreeCAD (fully working!)
+- SoftEtherVPN
+- ungoogled-chromium
 - BalenaEtcher
 - Box64
 - Box86
@@ -11,22 +16,35 @@ Here are some examples of what this repository includes:
 - StackEdit-nativefier
 - DuckStation emulator (fast PS1 emulator)
 - ClamTk
-- qemu2deb
+- qemu and qemu2deb (compile/package qemu into a deb!)
 - RPiPlay (open source AirPlay mirror server)
-- Simplenote-electron, a note-taking application
+- Simplenote, a note-taking application
 - Alacritty Terminal (Uses the GPU for rendering!)
 
-And more! To see a complete list, click [here](https://osdn.mirror.constant.com/storage/g/r/ra/raspbian-addons/debian/pool/main/).
+And more! To see a complete list, click [here](https://osdn.mirror.constant.com/storage/g/r/ra/raspbian-addons/debian/pool/).
 
-# ***Installation:***
+# ***Installation/Uninstallation:***
 
-Installation and removal instructions are [here](http://chunky-milk.github.io/raspbian-addons/).
+To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run this command:
+
+```bash
+wget -q https://cdn.jsdelivr.net/gh/chunky-milk/raspbian-addons@master/repo.py -O repo.py; python3 repo.py; rm repo.py
+```
+
+To ***uninstall*** the repository, execute this command, and when asked, answer 'r'
+```bash
+wget -q https://cdn.jsdelivr.net/gh/chunky-milk/raspbian-addons@master/repo.sh -O repo.sh; bash repo.sh; rm repo.sh
+```
 
 Many mirrors of the repository are now available. Thanks to [**hmsjy2017**](https://github.com/hmsjy2017), the install script will ask you which mirror you would like to use.
 
-### Having issues?
+### Common Issues
 
-If you're having issues with this repository, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
+- "This repository does not have a Release or InRelease file."
+	To fix, just uninstall the repository and then re-install it using the instructions above. The format of the repository was changed on 8/22/21, due to which this error is caused.
+		(Or, if you're feeling adventurous, edit the `rpirepo.list` file in /etc/apt/sources.list.d/, and ***change the ending from `raspbian-addons/debian buster main` to `raspbian-addons/debian/ /`***)
+
+If you're having any other issues or the methods to fix an issue listed here aren't working, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
 
 ### What is the goal of this project?
 
