@@ -25,6 +25,8 @@ And more! To see a complete list, click [here](https://osdn.mirror.constant.com/
 
 # ***Installation/Uninstallation:***
 
+Many mirrors of the repository are now available. Thanks to [**hmsjy2017**](https://github.com/hmsjy2017), the install script will ask you which mirror you would like to use.
+
 To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run this command:
 
 ```bash
@@ -36,12 +38,12 @@ To ***uninstall*** the repository, execute this command, and when asked, answer 
 wget -q https://cdn.jsdelivr.net/gh/chunky-milk/raspbian-addons@master/repo.sh -O repo.sh; bash repo.sh; rm repo.sh
 ```
 
-Many mirrors of the repository are now available. Thanks to [**hmsjy2017**](https://github.com/hmsjy2017), the install script will ask you which mirror you would like to use.
-
 ### Common Issues
 
 - "This repository does not have a Release or InRelease file."
+
 	To fix, just uninstall the repository and then re-install it using the instructions above. The format of the repository was changed on 8/22/21, due to which this error is caused.
+
 		(Or, if you're feeling adventurous, edit the `rpirepo.list` file in /etc/apt/sources.list.d/, and ***change the ending from `raspbian-addons/debian buster main` to `raspbian-addons/debian/ /`***)
 
 If you're having any other issues or the methods to fix an issue listed here aren't working, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
