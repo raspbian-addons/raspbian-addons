@@ -1,1 +1,1 @@
-deb https://mirror.xtom.com.hk/osdn/storage/g/r/ra/raspbian-addons/debian buster main
+deb https://mirror.xtom.com.hk/osdn/storage/g/r/ra/raspbian-addons/debian/ /

@@ -1,1 +1,1 @@
-deb http://mirror.liquidtelecom.com/osdn/storage/g/r/ra/raspbian-addons/debian buster main
+deb http://mirror.liquidtelecom.com/osdn/storage/g/r/ra/raspbian-addons/debian/ /

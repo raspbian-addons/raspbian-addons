@@ -1,1 +1,1 @@
-deb https://mirrors.nju.edu.cn/osdn/storage/g/r/ra/raspbian-addons/debian buster main
+deb https://mirrors.nju.edu.cn/osdn/storage/g/r/ra/raspbian-addons/debian/ /
