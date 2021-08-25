@@ -5,7 +5,7 @@ import platform
 import argparse
 
 arch = platform.machine()
-   
+
 def logo():
     print(" ____                 _     _                  _       _     _                  ")
     print("|  _ \ __ _ ___ _ __ | |__ (_) __ _ _ __      / \   __| | __| | ___  _ __  ___  ")
@@ -15,7 +15,7 @@ def logo():
     print("               |_|                                                              ")
 
     copyright_title = 'ICAgICAgICAgICAgICAgICAgIEFQVCByZXBvc2l0b3J5IGZvciBleHRyYSBSUGkgc29mdHdhcmU='
-    copyright_url = 'aHR0cHM6Ly9naXRodWIuY29tL2NodW5reS1taWxrL3Jhc3BiaWFuLWFkZG9ucw=='
+    copyright_url = 'ICAgICAgICAgICAgICBodHRwczovL2dpdGh1Yi5jb20vY2h1bmt5LW1pbGsvcmFzcGJpYW4tYWRkb25z'
     print('')
     print(base64.b64decode(copyright_title).decode('utf-8'))
     print(base64.b64decode(copyright_url).decode('utf-8'))
@@ -51,7 +51,7 @@ def update():
 if __name__ == "__main__":
     copyright = logo()
 
-    if copyright[0][10:13] != 'AgI' or copyright[1][13:16] != 'XRo':
+    if copyright[0][10:13] != 'AgI' or copyright[1][17:20] != 'CBo':
         print('Verification failed! Exit.')
         os._exit(0)
 
@@ -62,14 +62,14 @@ if __name__ == "__main__":
 
     try:
         option = input('\nPlease select the action to be performed: ')
-    except  EOFError: 
+    except  EOFError:
         pass
 
     if int(option) == 1:
         add_gpg_key()
         os.system('echo "deb http://storage.osdn.net/storage/g/r/ra/raspbian-addons/debian/ /" | sudo tee /etc/apt/sources.list.d/rpirepo.list || error "Failed to create package list!"')
         update()
-        
+
 
     elif int(option) == 2:
         add_gpg_key()
@@ -175,4 +175,3 @@ if __name__ == "__main__":
         os._exit(0)
     else:
         print('Illegal input option. Please re-enter.')
-        
