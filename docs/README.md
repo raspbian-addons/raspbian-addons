@@ -6,7 +6,7 @@ Here are some examples of what this repository includes:
 
 - AdoptOpenJDK 16
 - VSCodium
-- FreeCAD (fully working!)
+- FreeCAD
 - SoftEtherVPN
 - ungoogled-chromium
 - BalenaEtcher
