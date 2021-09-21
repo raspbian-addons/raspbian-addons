@@ -27,7 +27,7 @@ def logo():
     print(' 9. SJTU (Shanghai, China)          10. NJU (Nanjing, China)')
     print('11. xTom (Hong Kong, China)         12. NCHC (Taiwan, China) ')
     print('13. IIJ (Osaka, Japan)              14. JAIST (Nomi, Japan)')
-    print('15. YMU (Yamagata, Japan)           16. UME (Umeå, Sweden)')
+    print('15. YMU (Yamagata, Japan)           16. UME (Ume\u00e5, Sweden)')
     print('17. RWTH Aachen (NRW, Germany)      18. Dotsrc (Aalborg, Denmark)')
     print('19. Onet (Krakow, Poland)           20. Liquid Telecom (Nairobi, Kenya)\n')
     print('Other options: ')
@@ -39,7 +39,7 @@ def add_gpg_key():
     print('Installing GnuPG...')
     os.system('sudo apt update && sudo apt install -y gnupg || error "Failed to install GnuPG!" ')
     print('Adding GPG key...')
-    os.system('wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"')
+    os.system('wget -qO- https://raw.githubusercontent.com/raspbian-addons/raspbian-addons/main/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"')
     print('Creating package list... || error "Failed to create package list!"')
 
 def update():
