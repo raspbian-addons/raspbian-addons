@@ -1,0 +1,44 @@
+name: Package submission
+description: Submit a package to possibly be added to the repository.
+title: "[Package submission]: "
+labels: ["package submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submiss packages!
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Package description
+      description: Describe what the software is here. Will many people use it? What is its main purpose?
+      placeholder: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: licensing
+    attributes:
+      label: Licensing
+      description: What license does the software have? Is it free software? Is it allowed to be distributed?
+      placeholder: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: packages
+    attributes:
+      label: Packages
+      description: If you have a .deb file, upload it here. If not, please provide a link to the software or its distrubutables (packages).
+      placeholder: 
+    validations:
+      required: true    
+      
+  - type: checkboxes
+    id: notice
+    attributes:
+      label: Notice
+      options:
+        - label: I have confirmed that this package has never been discussed in https://github.com/chunky-milk/raspbian-addons/issues, nor in the package list.
+          required: true
