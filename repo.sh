@@ -39,11 +39,11 @@ function addrepo() {
   echo "You chose to add the repository. To cancel click ctrl+c in the next 5 seconds."
   sleep 5
   printf "Downloading package list..."
-  sudo wget -q https://chunky-milk.github.io/raspbian-addons/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list || error "Failed to download rpirepo.list!"
+  sudo wget -q https://raw.githubusercontent.com/raspbian-addons/raspbian-addons/main/rpirepo.list -O /etc/apt/sources.list.d/rpirepo.list || error "Failed to download rpirepo.list!"
   #sudo wget -q http://download.tuxfamily.org/rpiaddons/rpi_addons.list -O /etc/apt/sources.list.d/rpi_addons.list || error "Failed to download rpi_addons.list!"
   echo "done"
   printf "Adding GPG key..."
-  wget -qO- https://chunky-milk.github.io/raspbian-addons/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"
+  wget -qO- https://raw.githubusercontent.com/raspbian-addons/raspbian-addons/main/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"
   echo "done"
   echo "Updating APT lists..."
   sudo apt update || error "Failed to update APT lists!"
