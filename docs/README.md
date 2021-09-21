@@ -1,6 +1,6 @@
-# [Raspbian Addons](http://chunky-milk.github.io/raspbian-addons/)
+# [Raspbian Addons](http://raspbian-addons.github.io/)
 
-An APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
+Legendary APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
 
 Here are some examples of what this repository includes:
 
@@ -12,14 +12,14 @@ Here are some examples of what this repository includes:
 - BalenaEtcher
 - Box64
 - Box86
-- Conky Manager (to manage your Conky themes)
+- Conky Manager
 - StackEdit-nativefier
-- DuckStation emulator (fast PS1 emulator)
+- DuckStation emulator
 - ClamTk
-- qemu and qemu2deb (compile/package qemu into a deb!)
-- RPiPlay (open source AirPlay mirror server)
-- Simplenote, a note-taking application
-- Alacritty Terminal (Uses the GPU for rendering!)
+- qemu and qemu2deb
+- RPiPlay 
+- Simplenote
+- Alacritty Terminal
 
 And more! To see a complete list, click [here](https://osdn.mirror.constant.com/storage/g/r/ra/raspbian-addons/debian/pool/).
 
