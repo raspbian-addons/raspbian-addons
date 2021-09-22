@@ -30,12 +30,12 @@ Many mirrors of the repository are now available. Thanks to [**hmsjy2017**](http
 To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run this command:
 
 ```bash
-wget -q https://cdn.jsdelivr.net/gh/chunky-milk/raspbian-addons@master/repo.py -O repo.py; python3 repo.py; rm repo.py
+wget -q https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.py -O repo.py; python3 repo.py; rm repo.py
 ```
 
 To ***uninstall*** the repository, execute this command, and when asked, answer '**R**'
 ```bash
-wget -q https://cdn.jsdelivr.net/gh/chunky-milk/raspbian-addons@master/repo.sh -O repo.sh; bash repo.sh; rm repo.sh
+wget -q https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.sh -O repo.sh; bash repo.sh; rm repo.sh
 ```
 
 ### Common Issues
@@ -56,6 +56,6 @@ The Raspberry Pi is a great and capable little computer. But what frustrates me 
 
 If you'd like to help me with this, **please** contact me! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you.
 
-Current Maintainers: [**@chunky-milk**](https://github.com/chunky-milk) [**@Itai-Nelken**](https://github.com/Itai-Nelken/) [**@hmsjy2017**](https://github.com/hmsjy2017)
+Current Maintainers: [**@ryanfortner**](https://github.com/ryanfortner) [**@Itai-Nelken**](https://github.com/Itai-Nelken/) [**@hmsjy2017**](https://github.com/hmsjy2017)
 
 Old repository archive: An older backup of the repository is [here](https://archive.org/download/old-repo-archive/old-repo-archive.zip). It is fully functional and is there in case the existing repository becomes broken and unusable.
