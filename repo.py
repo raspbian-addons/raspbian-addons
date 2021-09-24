@@ -39,7 +39,7 @@ def add_gpg_key():
     print('Installing GnuPG...')
     os.system('sudo apt update && sudo apt install -y gnupg || error "Failed to install GnuPG!" ')
     print('Adding GPG key...')
-    os.system('wget -qO- https://raw.githubusercontent.com/raspbian-addons/raspbian-addons/main/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"')
+    os.system('wget -qO- https://raw.githubusercontent.com/raspbian-addons/raspbian-addons/master/KEY.gpg | sudo apt-key add - || error "Failed to add GPG key!"')
     print('Creating package list... || error "Failed to create package list!"')
 
 def update():
