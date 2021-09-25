@@ -40,5 +40,5 @@ body:
     attributes:
       label: Notice
       options:
-        - label: I have confirmed that this package has never been discussed in https://github.com/chunky-milk/raspbian-addons/issues, nor in the package list.
+        - label: I have confirmed that this package has never been discussed in https://github.com/raspbian-addons/raspbian-addons/issues, nor in the package list.
           required: true
