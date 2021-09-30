@@ -1,4 +1,9 @@
 # [Raspbian Addons](http://raspbian-addons.github.io/)
+![GitHub issues](https://img.shields.io/github/issues/raspbian-addons/raspbian-addons)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/raspbian-addons/raspbian-addons)
+![GitHub contributors](https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons)
+![GitHub Repo stars](https://img.shields.io/github/stars/raspbian-addons/raspbian-addons?style=social)
+![GitHub Repo forks](https://img.shields.io/github/forks/raspbian-addons/raspbian-addons?style=social)
 
 Legendary APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
 
