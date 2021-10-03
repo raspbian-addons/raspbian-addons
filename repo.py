@@ -57,7 +57,7 @@ def update():
 if __name__ == "__main__":
     copyright = logo()
 
-    if copyright[0][10:13] != 'AgI' or copyright[1][17:20] != 'Bod':
+    if copyright[0][10:13] != 'AgI' or copyright[1][17:20] != 'CBo':
         print('Verification failed! Exiting.')
         os._exit(0)
 
