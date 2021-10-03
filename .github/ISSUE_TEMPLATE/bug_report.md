@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Is something not installing? Mirrors not syncing? Let me know!
-title: ''
+title: '[bug]: '
 labels: 'bug'
 assignees: ''
 
