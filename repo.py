@@ -22,7 +22,7 @@ def logo():
     print("               |_|                                                              ")
 
     copyright_title = 'ICAgICAgICAgICAgICAgICAgIEFQVCByZXBvc2l0b3J5IGZvciBleHRyYSBSUGkgc29mdHdhcmU='
-    copyright_url = 'ICAgICAgICAgICAgICBodHRwczovL2dpdGh1Yi5jb20vY2h1bmt5LW1pbGsvcmFzcGJpYW4tYWRkb25z'
+    copyright_url = 'ICAgICAgICAgICAgICBodHRwczovL2dpdGh1Yi5jb20vcmFzcGJpYW4tYWRkb25zL3Jhc3BiaWFuLWFkZG9ucw=='
     print('')
     print(base64.b64decode(copyright_title).decode('utf-8'))
     print(base64.b64decode(copyright_url).decode('utf-8'))
@@ -57,7 +57,7 @@ def update():
 if __name__ == "__main__":
     copyright = logo()
 
-    if copyright[0][10:13] != 'AgI' or copyright[1][17:20] != 'CBo':
+    if copyright[0][10:13] != 'AgI' or copyright[1][17:20] != 'Bod':
         print('Verification failed! Exiting.')
         os._exit(0)
 
