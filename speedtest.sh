@@ -118,7 +118,7 @@ case "$os" in
 #    file="/debian/ls-lR.gz"
 #    ;;
   *)
-    file="debian/Packages"
+    file="raspbian-addons/debian/Packages"
     ;;
 esac
 
