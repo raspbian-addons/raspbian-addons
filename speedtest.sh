@@ -25,16 +25,16 @@ mirrors=(
   [BFSU]="https://mirrors.bfsu.edu.cn/osdn/storage/g/r/ra/"
   [SJTU]="https://mirror.sjtu.edu.cn/"
   [NJU]="https://mirrors.nju.edu.cn/osdn/storage/g/r/ra/"
-  [xTom(HK)]="https://mirror.xtom.com.hk/osdn/storage/g/r/ra/"
+  [xTom_HK]="https://mirror.xtom.com.hk/osdn/storage/g/r/ra/"
   [NCHC]="https://free.nchc.org.tw/osdn/storage/g/r/ra/"
   [IIJ]="https://ftp.iij.ad.jp/pub/osdn.jp/storage/g/r/ra/"
   [JAIST]="https://ftp.jaist.ac.jp/pub/storage/g/r/ra/"
   [YMU]="https://ymu.dl.osdn.jp/storage/g/r/ra/"
   [UME]="https://ftp.acc.umu.se/mirror/osdn.net/storage/g/r/ra/"
-  [RWTH Aachen]="http://ftp.halifax.rwth-aachen.de/osdn/storage/g/r/ra/"
+  [RWTH_Aachen]="http://ftp.halifax.rwth-aachen.de/osdn/storage/g/r/ra/"
   [Dotsrc]="http://mirrors.dotsrc.org/osdn/storage/g/r/ra/"
   [Onet]="http://ftp.onet.pl/pub/mirrors/sourceforge.jp/storage/g/r/ra/"
-  [Liquid Telecom]="http://mirror.liquidtelecom.com/osdn/storage/g/r/ra/"
+  [Liquid_Telecom]="http://mirror.liquidtelecom.com/osdn/storage/g/r/ra/"
 )
 
 ######################################################################################################
@@ -110,17 +110,17 @@ os=`cat /etc/*-release | grep '^ID=' | \
   tr '[:upper:]' '[:lower:]'`
 
 #os=${os:-centos}
-#case "$os" in
+case "$os" in
 #  centos)
 #    file="centos/filelist.gz"
 #    ;;
 #  debian)
 #    file="/debian/ls-lR.gz"
 #    ;;
-#  *)
-#    file="centos/filelist.gz"
-#    ;;
-#esac
+  *)
+    file="debian/Packages"
+    ;;
+esac
 
 echo -e "\n[Mirror Sites]"
 for mirror in ${!mirrors[*]}; do
