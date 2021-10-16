@@ -16,7 +16,7 @@ PLAIN='\033[0m'
 declare -A mirrors
 mirrors=(
   [OSDN]="http://storage.osdn.net/storage/g/r/ra/"
-  [xTom]="https://mirrors.xtom.com/osdn/storage/g/r/ra/"
+#   [xTom]="https://mirrors.xtom.com/osdn/storage/g/r/ra/" （unavailable）
   [GigeNET]="https://mirrors.gigenet.com/OSDN/storage/g/r/ra/"
   [Constant]="https://osdn.mirror.constant.com/storage/g/r/ra/"
   [Purdue]="https://plug-mirror.rcac.purdue.edu/osdn/storage/g/r/ra/"
