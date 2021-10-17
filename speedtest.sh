@@ -81,7 +81,7 @@ function spinner() {
 }
 
 speed_test() {
-    local output=$(LANG=C wget ${3:+"--header="}"$3" -4O /dev/null -T300 "$1" 2>&1)
+    local output=$(LANG=C wget ${3:+"--header="}"$3" -4O /dev/null -t10 -T20 "$1" 2>&1)
     local speed=$(printf '%s' "$output" | awk '/\/dev\/null/ {speed=$3 $4} END {gsub(/\(|\)/,"",speed); print speed}')
     local ipaddress=$(printf '%s' "$output" | awk -F'|' '/Connecting to .*\|([^\|]+)\|/ {print $2}'| tail -1)
     local time=$(printf '%s' "$output" | awk -F= '/100% / {print $2}')
