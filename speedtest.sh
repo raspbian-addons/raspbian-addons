@@ -1,5 +1,5 @@
 #!/bin/env bash
-# A script to test the download speed of the mirrors.
+# A script to test the download speed of the mirrors of Raspbian Addons.
 
 
 ######################################################################################################
@@ -16,13 +16,15 @@ PLAIN='\033[0m'
 declare -A mirrors
 mirrors=(
   [OSDN]="http://storage.osdn.net/storage/g/r/ra/"
-#   [xTom]="https://mirrors.xtom.com/osdn/storage/g/r/ra/" （unavailable）
+  [OSDN_DL]="https://osdn.dl.osdn.net/storage/g/r/ra/"
+  [xTom]="https://mirrors.xtom.com/osdn/storage/g/r/ra/"
   [GigeNET]="https://mirrors.gigenet.com/OSDN/storage/g/r/ra/"
   [Constant]="https://osdn.mirror.constant.com/storage/g/r/ra/"
   [Purdue]="https://plug-mirror.rcac.purdue.edu/osdn/storage/g/r/ra/"
   [Princeton]="https://mirror.math.princeton.edu/pub/osdn/storage/g/r/ra/"
   [Tsinghua]="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/r/ra/"
   [BFSU]="https://mirrors.bfsu.edu.cn/osdn/storage/g/r/ra/"
+  [ISCAS]="https://mirror.iscas.ac.cn/osdn/storage/g/r/ra/"
   [SJTU]="https://mirror.sjtu.edu.cn/"
   [NJU]="https://mirrors.nju.edu.cn/osdn/storage/g/r/ra/"
   [xTom_HK]="https://mirror.xtom.com.hk/osdn/storage/g/r/ra/"
