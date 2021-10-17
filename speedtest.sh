@@ -105,7 +105,7 @@ if  [ ! -e '/usr/bin/curl' ]; then
 fi
 
 clear
-echo -e "\n\nA script to test the download speed of the mirrors."
+echo -e "\n\nA script to test the download speed of the mirrors of Raspbian Addons."
 
 os=`cat /etc/*-release | grep '^ID=' | \
   sed 's/^ID=["]*\([a-zA-Z]*\).*$/\1/' | \
