@@ -56,13 +56,13 @@ trap shutdown EXIT
 trap error ERR 2 3
 
 function spinner() {
-  # make sure we use non-unicode character type locale 
+  # make sure we use non-unicode character type locale
   # (that way it works for any locale as long as the font supports the characters)
   local LC_CTYPE=C
   speed_test "$@" &
   sleep 1
 
-  local pid=$(ps -ef | grep -E '[w]get.*-4O /dev/null -T300' | awk '{print $2}') # Process Id of the previous running command
+  local pid=$(ps -ef | grep -E '[w]get.*-4O /dev/null -T10' | awk '{print $2}') # Process Id of the previous running command
 
   local spin='-\|/'
   local charwidth=1
@@ -81,17 +81,17 @@ function spinner() {
 }
 
 speed_test() {
-    local output=$(LANG=C wget ${3:+"--header="}"$3" -4O /dev/null -t10 -T20 "$1" 2>&1)
+    local output=$(LANG=C wget ${3:+"--header="}"$3" -4O /dev/null -t0 -T10 "$1" 2>&1)
     local speed=$(printf '%s' "$output" | awk '/\/dev\/null/ {speed=$3 $4} END {gsub(/\(|\)/,"",speed); print speed}')
     local ipaddress=$(printf '%s' "$output" | awk -F'|' '/Connecting to .*\|([^\|]+)\|/ {print $2}'| tail -1)
     local time=$(printf '%s' "$output" | awk -F= '/100% / {print $2}')
     local size=$(printf '%s' "$output" | awk '/Length:/ {s=$3} END {gsub(/\(|\)/,"",s); print s}')
-    printf "${YELLOW}%-14s${GREEN}%-20s${BLUE}%-14s${PLAIN}%-20s${RED}%-14s${PLAIN}\n" "$2" "${ipaddress}" "${size}" "${time}" "${speed}" 
+    printf "${YELLOW}%-14s${GREEN}%-20s${BLUE}%-14s${PLAIN}%-20s${RED}%-14s${PLAIN}\n" "$2" "${ipaddress}" "${size}" "${time}" "${speed}"
 }
 
 
 ######################################################################################################
-# main 
+# main
 ######################################################################################################
 
 if  [ ! -e '/usr/bin/wget' ]; then
