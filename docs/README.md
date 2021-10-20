@@ -64,3 +64,8 @@ If you'd like to help me with this, **please** contact me! Maintaining a Debian 
 Current Maintainers: [**@ryanfortner**](https://github.com/ryanfortner) [**@Itai-Nelken**](https://github.com/Itai-Nelken/) [**@hmsjy2017**](https://github.com/hmsjy2017)
 
 Old repository archive: An older backup of the repository is [here](https://archive.org/download/old-repo-archive/old-repo-archive.zip). It is fully functional and is there in case the existing repository becomes broken and unusable.
+
+
+### Special Thanks
+
+Thanks to [fosshost](https://fosshost.org/) for providing a VPS for the repository, and to OSDN for the many [mirrors](https://github.com/raspbian-addons/mirrors)! 
