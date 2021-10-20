@@ -1,6 +1,6 @@
 #!/bin/env bash
 # A script to test the download speed of the mirrors of Raspbian Addons.
-
+# script modified by hmsjy2017, from https://github.com/lework/script/blob/master/shell/test/os_repo_speed_test.sh
 
 ######################################################################################################
 # environment configuration
