@@ -19,7 +19,6 @@ Here are some examples of what this repository includes:
 - Box86
 - Conky Manager
 - StackEdit-nativefier
-- DuckStation emulator
 - ClamTk
 - qemu and qemu2deb
 - RPiPlay 
@@ -43,6 +42,10 @@ To ***uninstall*** the repository, execute this command, and when asked, answer 
 wget -q https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.sh -O repo.sh; bash repo.sh; rm repo.sh
 ```
 
+### What is the goal of this project?
+
+The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that, or to the best of my ability.
+
 ### Common Issues
 
 - "This repository does not have a Release or InRelease file."
@@ -52,10 +55,6 @@ wget -q https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.
 	(Or, if you're feeling adventurous, edit the `rpirepo.list` file in /etc/apt/sources.list.d/, and ***change the ending from `raspbian-addons/debian buster main` to `raspbian-addons/debian/ /`***)
 
 If you're having any other issues or the methods to fix an issue listed here aren't working, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
-
-### What is the goal of this project?
-
-The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that, or to the best of my ability.
 
 ### Would you like to help?
 
