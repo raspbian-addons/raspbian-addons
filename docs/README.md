@@ -34,12 +34,12 @@ Many mirrors of the repository are now available. Thanks to [**hmsjy2017**](http
 To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run this command:
 
 ```bash
-wget -q https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.py -O repo.py; python3 repo.py; rm repo.py
+python3 <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.py)
 ```
 
 To ***uninstall*** the repository, execute this command, and when asked, answer '**R**'
 ```bash
-wget -q https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.sh -O repo.sh; bash repo.sh; rm repo.sh
+bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.sh)
 ```
 
 ### What is the goal of this project?
