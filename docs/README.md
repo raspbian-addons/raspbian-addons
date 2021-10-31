@@ -27,20 +27,22 @@ Here are some examples of what this repository includes:
 
 And more! To see a complete list, click [here](https://osdn.mirror.constant.com/storage/g/r/ra/raspbian-addons/debian/pool/).
 
-# ***Installation/Uninstallation:***
+# **Installation/Uninstallation:**
 
-Many mirrors of the repository are now available. Thanks to [**hmsjy2017**](https://github.com/hmsjy2017), the install script will ask you which mirror you would like to use.
-
-To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run this command:
+To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run the following command:
 
 ```bash
 python3 <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.py)
 ```
+The install script will ask you which mirror you would like to use. Pick the mirror that's closest to you for the most reliable speeds.
 
-To ***uninstall*** the repository, execute this command, and when asked, answer '**R**'
+<details>
+<summary> Uninstalling the repository </summary>
+To ***uninstall***, execute this command, and when asked, answer '**R**'
 ```bash
 bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.sh)
 ```
+</details>
 
 ### What is the goal of this project?
 
@@ -50,7 +52,7 @@ The Raspberry Pi is a great and capable little computer. But what frustrates me 
 
 - "This repository does not have a Release or InRelease file."
 
-	To fix, just uninstall the repository and then re-install it using the instructions above. The format of the repository was changed on 8/22/21, due to which this error is caused.
+	To fix, just uninstall the repository and then re-install it using the instructions above. The format of the repository was changed on 8/22/21, due to which this error is caused. If you're interested, read more about how the repository is structured [here](https://github.com/raspbian-addons/raspbian-addons/tree/master/docs/DOCUMENTATION.md).
 
 	(Or, if you're feeling adventurous, edit the `rpirepo.list` file in /etc/apt/sources.list.d/, and ***change the ending from `raspbian-addons/debian buster main` to `raspbian-addons/debian/ /`***)
 
