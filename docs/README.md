@@ -7,27 +7,11 @@
 
 Legendary APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
 
-Here are some examples of what this repository includes:
+The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that!
 
-- AdoptOpenJDK 16
-- VSCodium
-- FreeCAD
-- SoftEtherVPN
-- ungoogled-chromium
-- BalenaEtcher
-- Box64
-- Box86
-- Conky Manager
-- StackEdit-nativefier
-- ClamTk
-- qemu and qemu2deb
-- RPiPlay 
-- Simplenote
-- Alacritty Terminal
+To see a complete list of included software, click [here](https://osdn.mirror.constant.com/storage/g/r/ra/raspbian-addons/debian/pool/).
 
-And more! To see a complete list, click [here](https://osdn.mirror.constant.com/storage/g/r/ra/raspbian-addons/debian/pool/).
-
-# **Installation/Uninstallation:**
+### **Installation/Uninstallation:**
 
 To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run the following command:
 
@@ -46,9 +30,9 @@ bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@ma
 
 </details>
 
-### What is the goal of this project?
+### Want to learn more about Debian repositories and how they work?
 
-The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that, or to the best of my ability.
+You're in luck! I've written a document on how the repository is structured. Check it out [here](https://github.com/raspbian-addons/raspbian-addons/tree/master/docs/DOCUMENTATION.md)!
 
 ### Common Issues
 
