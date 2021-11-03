@@ -1,4 +1,5 @@
 #!/bin/bash
+# Written by Ryan Fortner, with assistance from Itai Nelken
 
 function error {
   echo -e "\e[91m$1\e[39m"

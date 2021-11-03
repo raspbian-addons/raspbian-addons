@@ -16,7 +16,7 @@ To see a complete list of included software, click [here](https://osdn.mirror.co
 To install the repository, make sure you have an Internet connection. Install Python with `sudo apt install python3`, then run the following command:
 
 ```
-python3 <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.py)
+python3 <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/utils/install.py)
 ```
 The install script will ask you which mirror you would like to use. Pick the mirror that's closest to you for the most reliable speeds.
 
@@ -25,7 +25,7 @@ The install script will ask you which mirror you would like to use. Pick the mir
 
 To ***uninstall***, execute this command, and when asked, answer '**R**'
 ```
-bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/repo.sh)
+bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/utils/uninstall.sh)
 ```
 
 </details>
