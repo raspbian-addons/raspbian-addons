@@ -21,6 +21,17 @@ python3 <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/
 The install script will ask you which mirror you would like to use. Pick the mirror that's closest to you for the most reliable speeds.
 
 <details>
+<summary> Run a repository speed test </summary>
+
+Testing the speed of each of the mirrors to see which one is best for you can be done with this script.
+
+```
+bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/utils/speedtest.sh)
+```
+
+</details>
+
+<details>
 <summary> Uninstalling the repository </summary>
 
 To ***uninstall***, execute this command, and when asked, answer '**R**'
