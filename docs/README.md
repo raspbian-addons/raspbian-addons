@@ -4,6 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons)
 ![GitHub Repo stars](https://img.shields.io/github/stars/raspbian-addons/raspbian-addons?style=social)
 ![GitHub Repo forks](https://img.shields.io/github/forks/raspbian-addons/raspbian-addons?style=social)
+[Docs](https://docs.raspbian-addons.org)
 
 Legendary APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
 
@@ -21,17 +22,6 @@ python3 <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/
 The install script will ask you which mirror you would like to use. Pick the mirror that's closest to you for the most reliable speeds.
 
 <details>
-<summary> Run a repository speed test </summary>
-
-Testing the speed of each of the mirrors to see which one is best for you can be done with this script.
-
-```
-bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/utils/speedtest.sh)
-```
-
-</details>
-
-<details>
 <summary> Uninstalling the repository </summary>
 
 To ***uninstall***, execute this command, and when asked, answer '**R**'
@@ -41,19 +31,15 @@ bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/uti
 
 </details>
 
-### Want to learn more about Debian repositories and how they work?
+[Running a repository speed test](http://docs.raspbian-addons.org/#running-a-repository-speed-test)
 
-You're in luck! I've written a document on how the repository is structured. Check it out [here](https://github.com/raspbian-addons/raspbian-addons/tree/master/docs/DOCUMENTATION.md)!
+### Want to learn more about Debian repositories?
 
-### Common Issues
+Click [here](https://docs.raspbian-addons.org#how-do-apt-repositories-work).
 
-- "This repository does not have a Release or InRelease file."
+### Troubleshooting
 
-	To fix, just uninstall the repository and then re-install it using the instructions above. The format of the repository was changed on 8/22/21, due to which this error is caused. If you're interested, read more about how the repository is structured [here](https://github.com/raspbian-addons/raspbian-addons/tree/master/docs/DOCUMENTATION.md).
-
-	(Or, if you're feeling adventurous, edit the `rpirepo.list` file in /etc/apt/sources.list.d/, and ***change the ending from `raspbian-addons/debian buster main` to `raspbian-addons/debian/ /`***)
-
-If you're having any other issues or the methods to fix an issue listed here aren't working, be sure to open an issue report on ***this*** github repo and not on the creators of the app's repo (unless you're having an issue with a specific app).
+See the [docs](http://docs.raspbian-addons.org/#common-issues). If necessary, open an issue on the main repository.
 
 ### Would you like to help?
 
