@@ -1,4 +1,4 @@
-# [Raspbian Addons](http://raspbian-addons.github.io/)
+# [Raspbian Addons](http://raspbian-addons.org/)
 ![GitHub issues](https://img.shields.io/github/issues/raspbian-addons/raspbian-addons)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/raspbian-addons/raspbian-addons)
 ![GitHub contributors](https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons)
