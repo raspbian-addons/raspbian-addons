@@ -24,7 +24,7 @@ The install script will ask you which mirror you would like to use. Pick the mir
 <details>
 <summary> Uninstalling the repository </summary>
 
-To ***uninstall***, execute this command, and when asked, answer '**R**'
+To ***uninstall***, execute this command. 
 ```
 bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/utils/uninstall.sh)
 ```
