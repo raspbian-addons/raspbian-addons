@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/ryanfortner/ryanfortner@main/logo-20211116.png" alt="Raspbian-Addons logo">
+    <img src="https://cdn.jsdelivr.net/gh/ryanfortner/ryanfortner@main/tes4.png" alt="Raspbian-Addons logo">
 </p>
 
 ![GitHub issues](https://img.shields.io/github/issues/raspbian-addons/raspbian-addons)
