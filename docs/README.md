@@ -1,4 +1,6 @@
-# [Raspbian Addons](http://raspbian-addons.org/)
+<p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/ryanfortner/ryanfortner@main/preview2.png" alt="Raspbian-Addons logo">
+</p>
 ![GitHub issues](https://img.shields.io/github/issues/raspbian-addons/raspbian-addons)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/raspbian-addons/raspbian-addons)
 ![GitHub contributors](https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons)
