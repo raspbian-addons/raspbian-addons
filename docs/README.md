@@ -1,13 +1,12 @@
 <p align="center">
     <img src="https://cdn.jsdelivr.net/gh/ryanfortner/ryanfortner@main/test5.png" alt="Raspbian-Addons logo">
+    ![GitHub issues](https://img.shields.io/github/issues/raspbian-addons/raspbian-addons)
+    ![GitHub pull requests](https://img.shields.io/github/issues-pr/raspbian-addons/raspbian-addons)
+    ![GitHub contributors](https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/raspbian-addons/raspbian-addons?style=social)
+    ![GitHub Repo forks](https://img.shields.io/github/forks/raspbian-addons/raspbian-addons?style=social)
+    [Docs](https://docs.raspbian-addons.org)
 </p>
-
-![GitHub issues](https://img.shields.io/github/issues/raspbian-addons/raspbian-addons)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/raspbian-addons/raspbian-addons)
-![GitHub contributors](https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons)
-![GitHub Repo stars](https://img.shields.io/github/stars/raspbian-addons/raspbian-addons?style=social)
-![GitHub Repo forks](https://img.shields.io/github/forks/raspbian-addons/raspbian-addons?style=social)
-[Docs](https://docs.raspbian-addons.org)
 
 Legendary APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
 
