@@ -12,7 +12,7 @@ body:
     id: description
     attributes:
       label: Package description
-      description: Describe what the software is here. Will many people use it? What is its main purpose?
+      description: Describe what the software is here. Will many people use it? What is its main purpose? Is it open-source?
       placeholder: 
     validations:
       required: true
