@@ -55,4 +55,4 @@ Old repository archive: An older backup of the repository is [here](https://arch
 
 ### Special Thanks
 
-Thanks to [fosshost](https://fosshost.org/) for providing a VPS for the repository, and to OSDN for the many [mirrors](https://github.com/raspbian-addons/mirrors)! 
+Thanks to [Fosshost](https://fosshost.org/) for providing VPS services for the repository, and to OSDN and SourceForge for the [mirrors](https://github.com/raspbian-addons/mirrors)! Raspbian Addons would not be possible without these services.
