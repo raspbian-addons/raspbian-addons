@@ -2,14 +2,27 @@
     <img src="https://cdn.jsdelivr.net/gh/ryanfortner/ryanfortner@main/test5.png" alt="Raspbian-Addons logo">
 </p>
 
-![GitHub issues](https://img.shields.io/github/issues/raspbian-addons/raspbian-addons)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/raspbian-addons/raspbian-addons)
-![GitHub contributors](https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons)
-![GitHub Repo stars](https://img.shields.io/github/stars/raspbian-addons/raspbian-addons?style=social)
-![GitHub Repo forks](https://img.shields.io/github/forks/raspbian-addons/raspbian-addons?style=social)
-[Docs](https://docs.raspbian-addons.org)
+<p align="center">Legendary extra APT repository for Raspberry Pies, containing open-source ARM software. Supports both 32 and 64 bit Debian-based operating systems.
+<p align="center">
+  <a href="https://pkglist.raspbian-addons.org">
+    View package list</a>
+  |
+  <a href="https://docs.raspbian-addons.org">
+    View docs</a>
+  |
+  <a href="https://github.com/raspbian-addons/raspbian-addons/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D%3A+">
+    Report an error</a>
+  |
+  <a href="https://github.com/raspbian-addons/raspbian-addons/issues/new?assignees=&labels=package+submission&template=package_submission.yaml&title=%5BPackage+submission%5D%3A+">
+    Submit a package</a>
 
-Legendary APT repository for packages/software that can't be found in the RPi repositories. Fully supports 32/64bit Debian Based ARM Operating Systems.
+<p align="center">
+    <img src="https://img.shields.io/github/stars/raspbian-addons/raspbian-addons" alt="stars">
+    <img src="https://img.shields.io/github/forks/raspbian-addons/raspbian-addons" alt="forks">
+    <img src="https://img.shields.io/github/contributors/raspbian-addons/raspbian-addons" alt="contributors">
+    <img src="https://img.shields.io/github/issues-pr/raspbian-addons/raspbian-addons" alt="prs">
+    <img src="https://img.shields.io/github/issues/raspbian-addons/raspbian-addons" alt="issues">
+    <img src="https://img.shields.io/github/license/raspbian-addons/raspbian-addons" alt="license">
 
 The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that!
 
