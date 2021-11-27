@@ -4,7 +4,7 @@
 
 <p align="center">Legendary extra APT repository for Raspberry Pies, containing open-source ARM software. Supports both 32 and 64 bit Debian-based operating systems.
 <p align="center">
-  <a href="https://pkglist.raspbian-addons.org">
+  <a href="https://docs.raspbian-addons.org/package-list">
     View package list</a>
   |
   <a href="https://docs.raspbian-addons.org">
