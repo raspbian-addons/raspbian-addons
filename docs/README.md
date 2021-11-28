@@ -26,7 +26,7 @@
 
 The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that!
 
-To see a complete list of included software, click [here](https://osdn.mirror.constant.com/storage/g/r/ra/raspbian-addons/debian/pool/).
+To see a complete list of included software, click [here](https://apt.raspbian-addons.org/debian/pool/).
 
 ### **Installation/Uninstallation:**
 
@@ -47,24 +47,23 @@ bash <(curl -fSsL https://cdn.jsdelivr.net/gh/raspbian-addons/scripts@master/uti
 
 </details>
 
-[Running a repository speed test](http://docs.raspbian-addons.org/#running-a-repository-speed-test)
+[Running a repository speed test](https://docs.raspbian-addons.org/extras/speed-test/)
 
 ### Want to learn more about Debian repositories?
 
-Click [here](https://docs.raspbian-addons.org#how-do-apt-repositories-work).
+Click [here](https://docs.raspbian-addons.org/about/how-does-it-work/).
 
 ### Troubleshooting
 
-See the [docs](http://docs.raspbian-addons.org/#common-issues). If necessary, open an issue on the main repository.
+See the [docs](https://docs.raspbian-addons.org/troubleshooting/common-issues/). If necessary, open an issue on the main repository.
 
 ### Would you like to help?
 
-If you'd like to help me with this, **please** contact me! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you.
+If you'd like to help me with this, contact me! Maintaining a Debian repository isn't easy work! Send me an issue report with your software request, and I can add it for you.
 
-Current Maintainers: [**@ryanfortner**](https://github.com/ryanfortner) [**@Itai-Nelken**](https://github.com/Itai-Nelken/) [**@hmsjy2017**](https://github.com/hmsjy2017)
+Current Maintainers: [**@ryanfortner**](https://github.com/ryanfortner) [**@hmsjy2017**](https://github.com/hmsjy2017) [**@Itai-Nelken**](https://github.com/Itai-Nelken/)
 
 Old repository archive: An older backup of the repository is [here](https://archive.org/download/old-repo-archive/old-repo-archive.zip). It is fully functional and is there in case the existing repository becomes broken and unusable.
-
 
 ### Special Thanks
 
