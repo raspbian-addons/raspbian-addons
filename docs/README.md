@@ -2,10 +2,11 @@
     <img src="https://cdn.jsdelivr.net/gh/ryanfortner/ryanfortner@main/test5.png" alt="Raspbian-Addons logo">
 </p>
 
+<p align="center">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" href="https://ko-fi.com/D1D476WQM" alt="ko-fi">
+
 <p align="center">Legendary extra APT repository for Raspberry Pies, containing open-source ARM software. Supports both 32 and 64 bit Debian-based operating systems.
 <p align="center">
-  <img src="https://ko-fi.com/img/githubbutton_sm.svg" href="https://ko-fi.com/D1D476WQM" alt="ko-fi">
-  |
   <a href="https://docs.raspbian-addons.org/package-list">
     View package list</a>
   |
