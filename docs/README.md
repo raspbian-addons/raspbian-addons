@@ -34,9 +34,10 @@ Raspbian Addons includes:
 - ExaGear Desktop, for running x86 software on your Pi!
 - VSCodium, privacy-based Visual Studio Code
 - XSnow and XPenguins, to animate penguins flying around your desktop!
+- Several unique emoji fonts
 - And more!
     
-To see a complete list of included software, click [here](https://apt.raspbian-addons.org/debian/pool/).
+To see a complete list of included software, click [here](https://docs.raspbian-addons.org/package-list).
 
 ### **Installation/Uninstallation:**
 
