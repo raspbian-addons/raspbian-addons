@@ -27,8 +27,15 @@
     <img src="https://img.shields.io/github/issues/raspbian-addons/raspbian-addons" alt="issues">
     <img src="https://img.shields.io/github/license/raspbian-addons/raspbian-addons" alt="license">
 
-The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort the Raspberry Pi Foundation puts into their Debian package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that!
+The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort Debian puts into their package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that!
 
+Raspbian Addons includes:
+- WebCord, an open-source Discord client
+- ExaGear Desktop, for running x86 software on your Pi!
+- VSCodium, privacy-based Visual Studio Code
+- XSnow and XPenguins, to animate penguins flying around your desktop!
+- And more!
+    
 To see a complete list of included software, click [here](https://apt.raspbian-addons.org/debian/pool/).
 
 ### **Installation/Uninstallation:**
