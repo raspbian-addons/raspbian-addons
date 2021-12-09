@@ -10,6 +10,9 @@
   <a href="https://docs.raspbian-addons.org/package-list">
     View package list</a>
   |
+  <a href="https://status.raspbian-addons.org">
+    Repository status</a>
+  |
   <a href="https://docs.raspbian-addons.org">
     View docs</a>
   |
