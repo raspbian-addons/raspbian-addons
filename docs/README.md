@@ -36,6 +36,7 @@ Raspbian Addons includes:
 - WebCord, an open-source Discord client
 - ExaGear Desktop, for running x86 software on your Pi!
 - VSCodium, privacy-based Visual Studio Code
+- The latest version of Java (currently temurin-17-hotspot)
 - XSnow and XPenguins, to animate penguins flying around your desktop!
 - Several unique emoji fonts
 - And more!
