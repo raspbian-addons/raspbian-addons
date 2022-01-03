@@ -39,6 +39,7 @@ Raspbian Addons includes:
 - The latest version of Java (currently temurin-17-hotspot)
 - XSnow and XPenguins, to animate penguins flying around your desktop!
 - Several unique emoji fonts
+- Microsoft .NET 6.0 (`dotnet-sdk-6.0`)
 - And more!
     
 To see a complete list of included software, click [here](https://docs.raspbian-addons.org/package-list).
