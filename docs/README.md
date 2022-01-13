@@ -31,9 +31,9 @@
     <img src="https://img.shields.io/github/license/raspbian-addons/raspbian-addons" alt="license">
     <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fraspbian-addons%2Fraspbian-addons&count_bg=%2379C83D&title_bg=%23555555&icon=debian.svg&icon_color=%23E7E7E7&title=views&edge_flat=false"/></a>
 
-The Raspberry Pi is a great and capable little computer. But what frustrates me is how little effort Debian puts into their package repositories. While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that!
+The Raspberry Pi is a great and capable little computer. But what frustrates me is how limited and outdated the Debian repositories are! While some software does work, other software either is extremely outdated or just may not work at all. This repository aims to fix that!
 
-Raspbian Addons includes:
+Raspbian Addons includes several useful software packages, including but not limited to:
 - WebCord, an open-source Discord client
 - VSCodium, privacy-based Visual Studio Code
 - The latest version of Java (currently temurin-17-hotspot)
