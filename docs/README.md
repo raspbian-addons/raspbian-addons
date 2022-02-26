@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/raspbian-addons/raspbian-addons/master/icons/logo-square.png" alt="Raspbian-Addons logo">
+    <img src="https://raspbian-addons.org/raspbian-addons/icons/logo-square.png" alt="Raspbian-Addons logo">
 </p>
 
 <p align="center">
