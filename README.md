@@ -37,6 +37,7 @@ The Raspberry Pi is a great and capable little computer, but it's frustrating ho
 
 Raspbian Addons includes several useful software packages, including but not limited to:
 - WebCord, an open-source Discord client
+- GitHub Desktop
 - VSCodium, privacy-based Visual Studio Code
 - The latest version of Java (currently temurin-17-hotspot)
 - XSnow and XPenguins, to animate penguins flying around your desktop!
