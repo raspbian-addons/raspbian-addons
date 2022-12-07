@@ -1,3 +1,5 @@
+# [Raspbian Addons is no longer maintained.](https://github.com/raspbian-addons/raspbian-addons/issues/251)
+
 <p align="center">
     <a href="https://raspbian-addons.org">
         <img src="https://raspbian-addons.org/raspbian-addons/icons/logo-square.png" alt="Raspbian-Addons logo">
